@@ -14,7 +14,7 @@
    <methodparam><type>string</type><parameter>nombre_de_archivo</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Obtiene el grupo del archivo. El ID del grupo es devuelto en formato numérico, use
+   Obtiene el grupo del archivo. El ID de grupo es devuelto en formato numérico, use
    <function>posix_getgrgid</function> para resolverlo a un nombre de grupo.
   </para>
  </refsect1>
@@ -38,8 +38,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Devuelve el ID del grupo del archivo, o &false; en caso
-   de que se produzca un error. El ID del grupo es devuelto en formato numérico, use
+   Devuelve el ID de grupo del archivo, o &false; en caso
+   de que se produzca un error. El ID de grupo es devuelto en formato numérico, use
    <function>posix_getgrgid</function> para resolverlo a un nombre de grupo.
    Si falla, se devuelve &false;
   </para>
