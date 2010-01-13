@@ -41,7 +41,7 @@
   &reftitle.returnvalues;
   <para>
    Devuelve la posición del puntero al archivo referenciado por
-   <parameter>handle</parameter> como un integer; esto es, su índice dentro del flujo de archivo.
+   <parameter>handle</parameter> como un entero; esto es, su índice dentro del flujo de archivo.
   </para>
   <para>
    Si se produjo un error, devuelve &false;.
