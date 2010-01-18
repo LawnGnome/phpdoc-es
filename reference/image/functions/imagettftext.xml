@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 289104 $ -->
-<!-- EN-Revision: 289104 Maintainer: seros Status: ready -->
+<!-- $Revision: 293274 $ -->
+<!-- EN-Revision: 293274 Maintainer: seros Status: ready -->
 <refentry xml:id="function.imagettftext" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>imagettftext</refname>
@@ -224,6 +224,7 @@ imagedestroy($im);
     &example.outputs.similar;
     <mediaobject>
      <imageobject>
+      <alt>Salida del ejemplo : imagettftext()</alt>
       <imagedata fileref="en/reference/image/figures/imagettftext.png"/>
      </imageobject>
     </mediaobject>
