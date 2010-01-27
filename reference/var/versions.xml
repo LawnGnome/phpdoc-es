@@ -3,6 +3,7 @@
 <!--
   Do NOT translate this file
 -->
+<!-- EN-Revision: 288721 Maintainer: jesusruiz Status: ready -->
 
 <versions>
  <function name='debug_zval_dump' from='PHP 4 &gt;= 4.2.0, PHP 5'/>
