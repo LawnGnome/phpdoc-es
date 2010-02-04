@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 293498 $ -->
-<!-- EN-Revision: 293498 Maintainer: seros Status: ready -->
+<!-- $Revision: 294383 $ -->
+<!-- EN-Revision: 294383 Maintainer: seros Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.parse-ini-file">
  <refnamediv>
   <refname>parse_ini_file</refname>
