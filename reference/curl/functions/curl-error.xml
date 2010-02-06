@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Revision: 288721 $ -->
-<!-- EN-Revision: 288721 Maintainer: yago Status: ready -->
+<!-- $Revision: 294379 $ -->
+<!-- EN-Revision: 294379 Maintainer: yago Status: ready -->
 <refentry xml:id='function.curl-error' xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>curl_error</refname>
@@ -49,11 +49,11 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 if(curl_exec($ch) === false)
 {
-	echo 'Curl error: ' . curl_error($ch);
+    echo 'Curl error: ' . curl_error($ch);
 }
 else
 {
-	echo 'Operación completada sin errores';
+    echo 'Operación completada sin errores';
 }
 
 // Cerrar recurso
