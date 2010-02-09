@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 288721 $ -->
-<!-- EN-Revision: 288721 Maintainer: jesusruiz Status: ready -->
+<!-- $Revision: 292619 $ -->
+<!-- EN-Revision: 292619 Maintainer: jesusruiz Status: ready -->
 <refentry xml:id="function.unserialize" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>unserialize</refname>
@@ -88,15 +88,6 @@
        <entry>4.2.0</entry>
        <entry>
         La directiva unserialize_callback_func se encuentra disponible.
-       </entry>
-      </row>
-      <row>
-       <entry>4.0.0</entry>
-       <entry>
-        Cuando se serializa un objeto, los métodos ya no se pierden. 
-        Por favor vea la 
-        <link linkend="language.oop5.serialization">Seriación de Objetos</link>
-        para más información.
        </entry>
       </row>
      </tbody>
