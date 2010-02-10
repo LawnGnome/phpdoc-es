@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 288721 $ -->
-<!-- EN-Revision: 288721 Maintainer: seros Status: ready -->
+<!-- $Revision: 294841 $ -->
+<!-- EN-Revision: 294841 Maintainer: seros Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimagetype">
  <refnamediv>
   <refname>Imagick::getImageType</refname>
@@ -22,7 +22,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Retruns el tipo de imagen potencial.
+   Devuelve el tipo de imagen potencial.
    &imagick.imagickexception.throw;
   </para>
  </refsect1>
