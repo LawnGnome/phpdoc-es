@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 294706 $ -->
-<!-- EN-Revision: 294706 Maintainer: yago Status: ready -->
+<!-- $Revision: 288721 $ -->
+<!-- EN-Revision: 288721 Maintainer: yago Status: ready -->
 <refentry xml:id="function.memcache-pconnect" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::pconnect</refname>
