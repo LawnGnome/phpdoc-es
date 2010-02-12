@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 291313 $ -->
-<!-- EN-Revision: 291313 Maintainer: seros Status: ready -->
+<!-- $Revision: 294898 $ -->
+<!-- EN-Revision: 294898 Maintainer: seros Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openssl-pkcs7-sign">
  <refnamediv>
   <refname>openssl_pkcs7_sign</refname>
@@ -67,7 +67,7 @@
        <parameter>headers</parameter> es una matriz de cabeceras que
        serán añadidas delante de la información después de que se haya firmado (véase
        <function>openssl_pkcs7_encrypt</function> para más información acerca
-       del formato de este parámetro.
+       del formato de este parámetro).
       </para>
      </listitem>
     </varlistentry>
