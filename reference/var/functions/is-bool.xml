@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 288721 $ -->
-<!-- EN-Revision: 288721 Maintainer: jesusruiz Status: ready -->
+<!-- $Revision: 293064 $ -->
+<!-- EN-Revision: 293064 Maintainer: jesusruiz Status: ready -->
 <refentry xml:id="function.is-bool" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>is_bool</refname>
