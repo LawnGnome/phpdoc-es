@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 288721 $ -->
-<!-- EN-Revision: 288721 Maintainer: yago Status: ready -->
+<!-- $Revision: 296054 $ -->
+<!-- EN-Revision: 296054 Maintainer: yago Status: ready -->
 <refentry xml:id="soapclient.setlocation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SoapClient::__setLocation</refname>
-  <refpurpose>Define la localización del servicio Web a utilizar.</refpurpose>
+  <refpurpose>Define la localización del servicio Web a utilizar</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">

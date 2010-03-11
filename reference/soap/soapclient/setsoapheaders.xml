@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 291207 $ -->
-<!-- EN-Revision: 291207 Maintainer: yago Status: ready -->
+<!-- $Revision: 296056 $ -->
+<!-- EN-Revision: 296056 Maintainer: yago Status: ready -->
 <refentry xml:id="soapclient.setsoapheaders" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SoapClient::__setSoapHeaders</refname>
-  <refpurpose>Define los encabezados SOAP para las subsiguentes llamadas.</refpurpose>
+  <refpurpose>Define los encabezados SOAP para las subsiguentes llamadas</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
