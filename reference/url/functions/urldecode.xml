@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 288721 $ -->
 <!-- EN-Revision: 288721 Maintainer: yago Status: ready -->
+<!-- just a try from phD OE -->
 <refentry xml:id="function.urldecode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>urldecode</refname>
