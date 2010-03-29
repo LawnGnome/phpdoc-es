@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 292619 $ -->
-<!-- EN-Revision: 292619 Maintainer: jesusruiz Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: jesusruiz Status: ready -->
 <refentry xml:id="function.serialize" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>serialize</refname>

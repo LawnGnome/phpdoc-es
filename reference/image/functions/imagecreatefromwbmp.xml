@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 293682 $ -->
-<!-- EN-Revision: 293682 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
 <refentry xml:id="function.imagecreatefromwbmp" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagecreatefromwbmp</refname>

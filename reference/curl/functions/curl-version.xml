@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 294379 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: yago Status: ready -->
 <refentry xml:id="function.curl-version" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>curl_version</refname>

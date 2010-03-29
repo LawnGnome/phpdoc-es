@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 293356 $ -->
-<!-- EN-Revision: 293356 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="function.override-function" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>override_function</refname>

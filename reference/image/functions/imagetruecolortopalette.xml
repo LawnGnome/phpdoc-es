@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 293683 $ -->
-<!-- EN-Revision: 293683 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
 <refentry xml:id="function.imagetruecolortopalette" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagetruecolortopalette</refname>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 294415 $ -->
-<!-- EN-Revision: 294415 Maintainer: jesusruiz Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: jesusruiz Status: ready -->
 <refentry xml:id="function.strval" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>strval</refname>

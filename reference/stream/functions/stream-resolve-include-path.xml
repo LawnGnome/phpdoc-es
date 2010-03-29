@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 292610 $ -->
-<!-- EN-Revision: 292610 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
 <refentry xml:id="function.stream-resolve-include-path" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>stream_resolve_include_path</refname>

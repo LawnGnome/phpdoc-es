@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 290410 $ -->
-<!-- EN-Revision: 290410 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: yago Status: ready -->
 <refentry xml:id="function.memcache-getversion" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>Memcache::getVersion</refname>

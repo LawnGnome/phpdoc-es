@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 294200 $ -->
-<!-- EN-Revision: 294200 Maintainer: tatai Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: tatai Status: ready -->
 <refentry xml:id='simplexmlelement.attributes' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::attributes</refname>
