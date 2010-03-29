@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision: 291313 $ -->
-<!-- EN-Revision: 291313 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: seros Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fputcsv">
  <refnamediv>
   <refname>fputcsv</refname>
