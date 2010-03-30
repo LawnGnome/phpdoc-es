@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: yago Status: ready -->
 
 <refentry xml:id="function.urldecode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -17,6 +17,8 @@
   <para>
    Decodifica cualquier cifrado tipo
    <literal>%<replaceable>##</replaceable></literal> en la cadena dada.
+    Los símbolos ('<literal>+</literal>') son
+    decodificados como el caracter espacio.
   </para>
  </refsect1>
 
