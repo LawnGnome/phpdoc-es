@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 296457 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 297557 Maintainer: yago Status: ready -->
 
  <chapter xml:id="language.variables" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Variables</title>
@@ -832,8 +832,7 @@ I am bar.
    echo $p_username;
 
 // Desde PHP 5.0.0, las variables predefinidas largas se pueden
-// desactivar con la directiva register_long_arrays. Desde
-// PHP 6, no están completamente no disponibles.
+// desactivar con la directiva register_long_arrays.
    echo $HTTP_POST_VARS['username'];
 
 // Disponible si la directiva de PHP register_globals = on. A partir de
