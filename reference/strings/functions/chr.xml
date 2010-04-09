@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: benjamin Status: ready -->
+<!-- EN-Revision: 297626 Maintainer: benjamin Status: ready -->
 <!-- Reviewed: not --> 
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook"
  xml:id="function.chr">
@@ -36,10 +36,12 @@
   </para>
  </refsect1>
 
- <refsect1 role="returnvalues"> &reftitle.returnvalues; <para> Devuelve el carácter
-   especificado.</para>
+ <refsect1 role="returnvalues"> &reftitle.returnvalues; 
+  <para>
+   Devuelve el carácter especificado.
+  </para>
  </refsect1>
-
+ <!-- FIXME PHP_6
  <refsect1 role="changelog"> &reftitle.changelog; <para>
    <informaltable>
     <tgroup cols="2">
@@ -59,8 +61,10 @@
    </informaltable>
   </para>
  </refsect1>
-
- <refsect1 role="examples"> &reftitle.examples; <para>
+ -->
+ <refsect1 role="examples">
+  &reftitle.examples;
+  <para>
    <example>
     <title><function>chr</function> Ejemplo</title>
     <programlisting role="php">
