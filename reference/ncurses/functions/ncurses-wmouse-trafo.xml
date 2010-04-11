@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 288876 $ -->
-<!-- EN-Revision: 288721 Maintainer: lboshell Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 297078 Maintainer: lboshell Status: ready -->
 <refentry xml:id="function.ncurses-wmouse-trafo" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ncurses_wmouse_trafo</refname>
@@ -10,10 +10,10 @@
   &reftitle.description;
   <methodsynopsis>
    <type>bool</type><methodname>ncurses_wmouse_trafo</methodname>
-   <methodparam><type>resource</type><parameter>ventana</parameter></methodparam>
+   <methodparam><type>resource</type><parameter>window</parameter></methodparam>
    <methodparam><type>int</type><parameter role="reference">y</parameter></methodparam>
    <methodparam><type>int</type><parameter role="reference">x</parameter></methodparam>
-   <methodparam><type>bool</type><parameter>a_pantalla</parameter></methodparam>
+   <methodparam><type>bool</type><parameter>toscreen</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
  </refsect1>
@@ -22,7 +22,7 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>ventana</parameter></term>
+     <term><parameter>window</parameter></term>
      <listitem>
       <para>
       </para>
@@ -43,7 +43,7 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>a_pantalla</parameter></term>
+     <term><parameter>toscreen</parameter></term>
      <listitem>
       <para>
       </para>

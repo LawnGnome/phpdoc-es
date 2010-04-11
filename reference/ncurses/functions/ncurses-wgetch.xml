@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 288876 $ -->
-<!-- EN-Revision: 288721 Maintainer: lboshell Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 297078 Maintainer: lboshell Status: ready -->
 <refentry xml:id="function.ncurses-wgetch" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ncurses_wgetch</refname>
@@ -10,7 +10,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>int</type><methodname>ncurses_wgetch</methodname>
-   <methodparam><type>resource</type><parameter>ventana</parameter></methodparam>
+   <methodparam><type>resource</type><parameter>window</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
  </refsect1>
@@ -19,7 +19,7 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>ventana</parameter></term>
+     <term><parameter>window</parameter></term>
      <listitem>
       <para>
       </para>

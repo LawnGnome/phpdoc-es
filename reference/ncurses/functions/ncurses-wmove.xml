@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 288876 $ -->
-<!-- EN-Revision: 288721 Maintainer: lboshell Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 297078 Maintainer: lboshell Status: ready -->
 <refentry xml:id="function.ncurses-wmove" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ncurses_wmove</refname>
@@ -10,7 +10,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>int</type><methodname>ncurses_wmove</methodname>
-   <methodparam><type>resource</type><parameter>ventana</parameter></methodparam>
+   <methodparam><type>resource</type><parameter>window</parameter></methodparam>
    <methodparam><type>int</type><parameter>y</parameter></methodparam>
    <methodparam><type>int</type><parameter>x</parameter></methodparam>
   </methodsynopsis>
@@ -21,7 +21,7 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>ventana</parameter></term>
+     <term><parameter>window</parameter></term>
      <listitem>
       <para>
       </para>
