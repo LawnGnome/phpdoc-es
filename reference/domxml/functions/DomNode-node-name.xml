@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: lboshell Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: lboshell Status: ready -->
 <refentry xml:id='function.domnode-node-name' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DomNode->node_name</refname>
@@ -38,7 +38,7 @@
       </row>
       <row>
        <entry>DomCDataSection</entry>
-       <entry>secci&oacute;n-#cdata</entry>
+       <entry>sección-#cdata</entry>
       </row>
       <row>
        <entry>DomComment</entry>
@@ -66,7 +66,7 @@
       </row>
       <row>
        <entry>DomNotation</entry>
-       <entry>nombre de notaci&oacute;n</entry>
+       <entry>nombre de notación</entry>
       </row>
       <row>
        <entry>DomProcessingInstruction</entry>
