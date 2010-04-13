@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 289252 $ -->
-<!-- EN-Revision: 289252 Maintainer: argosback Status: ready -->
+<!-- $Revision: 297929 $ -->
+<!-- EN-Revision: 297929 Maintainer: argosback Status: ready -->
 <chapter xml:id="mysqli.summary" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
 
  <title>Resumen de las funciones de la extensión MySQLi</title>
@@ -212,7 +212,7 @@
      <entry>NO DOCUMENTADA</entry>
     </row>
     <row>
-     <entry><methodname>mysqli_init</methodname></entry>
+     <entry><methodname>mysqli::init</methodname></entry>
      <entry><function>mysqli_init</function></entry>
      <entry>N/A</entry>
      <entry>Inicializa MySQLi y devuelve un recurso para su uso con
