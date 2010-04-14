@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: lboshell Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: lboshell Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ibase-free-query">
  <refnamediv>
   <refname>ibase_free_query</refname>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>bool</type><methodname>ibase_free_query</methodname>
-   <methodparam><type>resource</type><parameter>consulta</parameter></methodparam>
+   <methodparam><type>resource</type><parameter>query</parameter></methodparam>
   </methodsynopsis>
   <para>
    Libera una consulta preparada.
@@ -24,7 +24,7 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>consulta</parameter></term>
+     <term><parameter>query</parameter></term>
      <listitem>
       <para>
        Una consulta preparada con <function>ibase_prepare</function>.
