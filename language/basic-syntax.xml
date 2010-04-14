@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 297962 Maintainer: yago Status: ready -->
  <chapter xml:id="language.basic-syntax" xmlns="http://docbook.org/ns/docbook">
   <title>Sintaxis básica</title>
   <sect1 xml:id="language.basic-syntax.phpmode">
@@ -118,6 +118,13 @@ if ($expression) {
       asegúrese no usar etiquetas cortas.
      </para>
     </note>
+    <note>
+     <para>
+      En PHP 5.2 y anteriores, no se permite que un fichero contenga únicamente
+      la etiqueta de inicio de bloque <literal>&lt;?php</literal>.
+      En PHP 5.3 si se permite.      
+     </para>
+    </note>    
    </para>
   </sect1>
   <sect1 xml:id="language.basic-syntax.instruction-separation">
