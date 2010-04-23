@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: lboshell Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: lboshell Status: ready -->
 <refentry xml:id="function.php-strip-whitespace" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>php_strip_whitespace</refname>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>string</type><methodname>php_strip_whitespace</methodname>
-   <methodparam><type>string</type><parameter>nombre_archivo</parameter></methodparam>
+   <methodparam><type>string</type><parameter>filename</parameter></methodparam>
   </methodsynopsis>
   <para>
    Devuelve el código fuente PHP en <parameter>nombre_archivo</parameter>,
@@ -29,7 +29,7 @@
    <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>nombre_archivo</parameter></term>
+     <term><parameter>filename</parameter></term>
      <listitem>
       <para>
        Ruta al archivo PHP.

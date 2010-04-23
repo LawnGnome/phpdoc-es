@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: lboshell Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: lboshell Status: ready -->
 <refentry xml:id="function.connection-timeout" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>connection_timeout</refname>
-  <refpurpose>Verificar si el script ha alcanzado su tiempo de espera
-  máximo</refpurpose>
+  <refpurpose>Verificar si el script ha alcanzado su tiempo de espera máximo</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -30,7 +29,7 @@
  <refsect1 role="notes">
   &reftitle.notes;
   <warning>
-   <title>Obsoleta</title>
+   <title>Deprecated</title>
    <simpara>
     Esta función se considera obsoleta, y no existe siquiera a partir de
     4.0.5.
