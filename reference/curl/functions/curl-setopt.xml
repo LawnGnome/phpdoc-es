@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 298382 Maintainer: yago Status: ready -->
 <refentry xml:id="function.curl-setopt" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>curl_setopt</refname>
@@ -1060,7 +1060,10 @@
           <row>
            <entry valign="top"><constant>CURLOPT_HTTPHEADER</constant></entry>
            <entry valign="top">
-            Un array de campos a configurar para el header HTTP.
+            Un array de campos a configurar para el header HTTP, en el formato:
+            <code>
+             array('Content-type: text/plain', 'Content-length: 100')
+            </code>
            </entry>
            <entry valign="top">
            </entry>
