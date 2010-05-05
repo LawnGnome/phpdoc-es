@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 293517 $ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 298488 Maintainer: seros Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fopen">
  <refnamediv>
   <refname>fopen</refname>
@@ -72,7 +72,7 @@
         <programlisting role="php">
 <![CDATA[
 <?php
-$gestor = fopen("c:\\data\\info.txt", "r");
+$gestor = fopen("c:\\folder\\resource.txt", "r");
 ?>
 ]]>
         </programlisting>
