@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 288721 $ -->
-<!-- EN-Revision: 297028 Maintainer: argosback Status: ready -->
+<!-- $Revision: 299158 $ -->
+<!-- EN-Revision: 299158 Maintainer: argosback Status: ready -->
 
 <refentry xml:id="mysqli-stmt.attr-get" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -11,12 +11,12 @@
 
  <refsect1 role="description">
   &reftitle.description;
-  <para>Estilo orientado a objetos (método):</para>
+  <para>&style.oop;</para>
   <methodsynopsis>
    <type>int</type><methodname>mysqli_stmt::attr_get</methodname>
    <methodparam><type>int</type><parameter>attr</parameter></methodparam>
   </methodsynopsis>
-  <para>Estilo por procedimientos:</para>
+  <para>&style.procedural;</para>
   <methodsynopsis>
    <type>int</type><methodname>mysqli_stmt_attr_get</methodname>
    <methodparam><type>mysqli_stmt</type><parameter>stmt</parameter></methodparam>

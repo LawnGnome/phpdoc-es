@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 288721 $ -->
-<!-- EN-Revision: 297028 Maintainer: argosback Status: ready -->
+<!-- $Revision: 299161 $ -->
+<!-- EN-Revision: 299161 Maintainer: argosback Status: ready -->
 <refentry xml:id="mysqli-stmt.affected-rows" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli_stmt->affected_rows</refname>
@@ -11,12 +11,12 @@
 
  <refsect1 role="description">
   &reftitle.description;
-  <para>Estilo orientado a objetos (propiedad):</para>
+  <para>&style.oop;</para>
   <classsynopsis>
    <ooclass><classname>mysqli_stmt</classname></ooclass>
    <fieldsynopsis><type>int</type><varname>affected_rows</varname></fieldsynopsis>
   </classsynopsis>
-  <para>Estilo por procedimientos:</para>
+  <para>&style.procedural;</para>
   <methodsynopsis>
    <type>int</type><methodname>mysqli_stmt_affected_rows</methodname>
    <methodparam><type>mysqli_stmt</type><parameter>stmt</parameter></methodparam>
