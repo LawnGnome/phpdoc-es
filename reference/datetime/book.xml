@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 296162 $ -->
-<!-- EN-Revision: 296162 Maintainer: seros Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 299403 Maintainer: seros Status: ready -->
 <!-- Purpose: calendar -->
 <!-- Membership: core -->
- 
+
 <book xml:id="book.datetime" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Fecha y Hora</title>
  <titleabbrev>Fecha/Hora</titleabbrev>
@@ -43,6 +43,7 @@
  &reference.datetime.setup;
  &reference.datetime.constants;
  &reference.datetime.timezones;
+ &reference.datetime.formats;
  
  &reference.datetime.datetime;
  &reference.datetime.datetimezone;
@@ -50,7 +51,7 @@
  &reference.datetime.dateperiod;
  
  &reference.datetime.reference;
-
+ 
 </book>
 
 <!-- Keep this comment at the end of the file
