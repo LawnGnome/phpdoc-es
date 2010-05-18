@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299015 Maintainer: yago Status: working -->
+<!-- EN-Revision: 299241 Maintainer: yago Status: working -->
 <!-- Keep 'em sorted -->
 
 <!ENTITY changelog.randomseed '<row xmlns="http://docbook.org/ns/docbook"><entry>4.2.0</entry><entry>El generador de 
@@ -301,8 +301,15 @@ linkend="language.types.boolean">Booleans</link> para más información. Use
 <link linkend="language.operators.comparison">el operador ===</link> para testear el valor devuelto por esta
 función.</simpara></warning>'>
 
-
-
+<!-- OpenSSL -->
+<!ENTITY openssl.param.x509 '<varlistentry xmlns="http://docbook.org/ns/docbook">
+ <term><parameter>x509</parameter></term>
+ <listitem>
+  <para>
+   Ver <link linkend="openssl.certparams">parámetros Key/Certificate</link> para un listado de valores válidos.
+  </para>
+ </listitem>
+</varlistentry>'>
 
 <!-- Image (GD) Notes -->
 <!ENTITY note.config.t1lib '<note xmlns="http://docbook.org/ns/docbook"><simpara>Esta función solo está disponible
