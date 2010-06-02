@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: dulasoft Status: ready -->
+<!-- EN-Revision: 299728 Maintainer: dulasoft Status: ready -->
 <!-- Purpose: basic.php -->
 <!-- Membership: pecl -->
 
@@ -19,7 +19,8 @@
  &reference.apc.setup;
  &reference.apc.constants;
  &reference.apc.reference;
-
+ &reference.apc.apciterator;
+ 
 </book>
 
 <!-- Keep this comment at the end of the file
