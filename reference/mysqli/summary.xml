@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 297929 $ -->
-<!-- EN-Revision: 297929 Maintainer: argosback Status: ready -->
+<!-- $Revision: 300101 $ -->
+<!-- EN-Revision: 300101 Maintainer: argosback Status: ready -->
 <chapter xml:id="mysqli.summary" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
 
  <title>Resumen de las funciones de la extensión MySQLi</title>
