@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 289097 $ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 300271 Maintainer: seros Status: ready -->
 <refentry xml:id="function.preg-replace-callback" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>preg_replace_callback</refname>
@@ -231,6 +231,7 @@ echo $salida;
   <para>
    <simplelist>
     <member><function>preg_replace</function></member>
+    <member><function>preg_last_error</function></member>
     <member><function>create_function</function></member>
     <member>&seealso.callback;</member>
    </simplelist>
