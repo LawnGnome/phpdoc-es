@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297518 Maintainer: sabathorn Status: ready -->
+<!-- EN-Revision: 300172 Maintainer: sabathorn Status: ready -->
 <refentry xml:id="domdocument.createelement" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMDocument::createElement</refname>
@@ -99,7 +99,7 @@ echo $dom->saveXML();
   <note>
    <para>
     El parámetro <parameter>value</parameter> <emphasis>no</emphasis> será escapado.
-    Utilice <methodname>DOMDocument::createTextElement</methodname> para crear un
+    Utilice <methodname>DOMDocument::createTextNode</methodname> para crear un
     nodo de texto con <literal>soporte para escape de carácteres</literal>.
    </para>
   </note>
