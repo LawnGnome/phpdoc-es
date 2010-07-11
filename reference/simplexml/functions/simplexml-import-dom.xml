@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: tatai Status: ready -->
+<!-- EN-Revision: 301048 Maintainer: tatai Status: ready -->
 <refentry xml:id='function.simplexml-import-dom' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>simplexml_import_dom</refname>
@@ -71,10 +71,17 @@ if (!$dom) {
 
 $s = simplexml_import_dom($dom);
 
-echo $s->libro[0]->titulo; // blah
+echo $s->libro[0]->titulo;
 ?>
 ]]>
     </programlisting>
+    &example.outputs;
+    <screen>
+<![CDATA[
+blah
+]]>
+    </screen>
+
    </example>
   </para>
  </refsect1>

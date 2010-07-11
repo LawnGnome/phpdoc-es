@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: tatai Status: ready -->
+<!-- EN-Revision: 301048 Maintainer: tatai Status: ready -->
 <refentry xml:id='simplexmlelement.registerXPathNamespace' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::registerXPathNamespace</refname>
@@ -104,6 +104,13 @@ foreach ($resultado as $titulo) {
 ?>
 ]]>
     </programlisting>
+    +    &example.outputs;
+    <screen>
+<![CDATA[
+Chapter 1
+Chapter 2
+]]>
+    </screen>
     <para>
      Notar como el documento XML mostrado en el ejemplo establece un namespace
      con un prefijo de <literal>cap</literal>. En el caso de que este

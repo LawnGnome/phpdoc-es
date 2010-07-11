@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 288721 $ -->
-<!-- EN-Revision: 288721 Maintainer: tatai Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 300860 Maintainer: tatai Status: ready -->
 
 <chapter xml:id="simplexml.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
@@ -8,6 +8,7 @@
  <!-- {{{ Requirements -->
  <section xml:id="simplexml.requirements">
   &reftitle.required;
+  &libxml.required;
   <para>
    La extensión SimpleXML requiere PHP 5.
   </para>
