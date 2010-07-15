@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: lboshell Status: ready -->
+<!-- EN-Revision: 300785 Maintainer: yago Status: ready -->
 <!-- splitted from ./en/functions/ctype.xml, last change in rev 1.1 -->
 <refentry xml:id="function.ctype-print" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -15,7 +15,7 @@
    <methodparam><type>string</type><parameter>text</parameter></methodparam>
   </methodsynopsis>
   <para>
-   verifica si todos los caracteres en la cadena entregada,
+   verifica si todos los caracteres en la <type>string</type> entregada,
    <parameter>text</parameter>, son imprimibles.
   </para>
  </refsect1>
