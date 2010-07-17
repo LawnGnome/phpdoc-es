@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300736 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 301310 Maintainer: yago Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.implode">
  <refnamediv>
   <refname>implode</refname>
@@ -124,7 +124,7 @@ var_dump(implode('hola', array())); // string(0) ""
   <para>
    <simplelist>
     <member><function>explode</function></member>
-    <member><function>split</function></member>
+    <member><function>preg_split</function></member>
    </simplelist>
   </para>
  </refsect1>
