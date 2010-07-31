@@ -2,7 +2,7 @@
 <!-- $Revision$ -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external -->
-<!-- EN-Revision: 290722 Maintainer: argosback Status: ready --> 
+<!-- EN-Revision: 301724 Maintainer: argosback Status: ready --> 
 <book xml:id="book.mysqli" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
 
  <title>Extensión mejorada MySQL</title>
