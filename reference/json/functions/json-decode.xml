@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299628 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 302383 Maintainer: yago Status: ready -->
 <refentry xml:id="function.json-decode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>json_decode</refname>
@@ -31,6 +31,9 @@
       <para>
        El <type>string</type> <parameter>json</parameter> a ser decodificado.
       </para>
+      <para>
+       Esta función sólo funciona con datos codificados en UTF-8.
+      </para>      
      </listitem>
     </varlistentry>
     <varlistentry>
