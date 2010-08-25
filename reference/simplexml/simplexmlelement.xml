@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 292734 $ -->
-<!-- EN-Revision: 292734 Maintainer: tatai Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 302718 Maintainer: yago Status: ready -->
 <phpdoc:classref xmlns:phpdoc="http://php.net/ns/phpdoc" xml:id="class.simplexmlelement" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
  <title>Clase SimpleXMLElement</title>
  <titleabbrev>SimpleXMLElement</titleabbrev>
  
  <partintro>
  
-<!-- {{{ ClassName intro -->
+<!-- {{{ SimpleXMLElement intro -->
   <section xml:id="simplexmlelement.intro">
    &reftitle.intro;
    <para>
-    Representa un elemento en el documento XML.
+    Representa un elemento en un documento XML.
    </para>
   </section>
 <!-- }}} -->
