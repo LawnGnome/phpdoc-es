@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 302723 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 302844 Maintainer: seros Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fputcsv">
  <refnamediv>
   <refname>fputcsv</refname>
@@ -95,7 +95,7 @@ fclose($fp);
 ?>
 ]]>
     </programlisting>
-    &example.outputs.similar;
+    <para>El ejemplo de arriba escribirá lo siguiente en <literal>archivo.csv</literal>:</para>
     <screen>
 <![CDATA[
 aaa,bbb,ccc,dddd
