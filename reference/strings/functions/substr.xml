@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301608 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 302968 Maintainer: yago Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.substr">
  <refnamediv>
   <refname>substr</refname>
@@ -88,7 +88,7 @@ $rest = substr("abcdef", -3, 1); // devuelve "d"
       </para>
       <para>
        Si se omite el <parameter>length</parameter>, la subcadena empezará por
-       <function>start</function> hasta el final de la cadena donde será
+       <parameter>start</parameter> hasta el final de la cadena donde será
        devuelta.
       </para>      
       <para>
