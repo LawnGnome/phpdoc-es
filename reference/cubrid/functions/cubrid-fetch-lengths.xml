@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303119 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 303158 Maintainer: seros Status: ready -->
 
 <refentry xml:id="function.cubrid-fetch-lengths" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -37,7 +37,7 @@
    Una matriz numérica, cuando el proceso tuvo éxito.
   </para>
   <para>
-   &false; en caso de fallo.
+   &false; en caso de error.
   </para>
  </refsect1>
  
