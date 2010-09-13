@@ -39,17 +39,17 @@
    <example>
     <title><function>functionname</function> example</title>
     <para>
-      Any text that describes the purpose of the example, or what
-      goes on in the example should be here. (Inside the tag, not out).
+      Cualquier texto describe el proposito del ejemplo, o que
+      seguimiento en el ejemplo debería ir aquí. (Dentro de la etiqueta, o fuera).
     </para>
     <programlisting role="php">
 <![CDATA[
 <?php
 if ($anexample === true) {
-    echo 'Use the PEAR Coding standards';
+    echo 'Use las codificaciones estandar PEAR';
 }
-if ($thereisoutput === 'and it is multiple lines') {
-    echo 'Use a screen like we did below';
+if ($thereisoutput === 'y es multilínea') {
+    echo 'Use una pantalla como lo hacemos a continuación';
 }
 ?>
 ]]>
@@ -57,8 +57,8 @@ if ($thereisoutput === 'and it is multiple lines') {
     &example.outputs.similar;
     <screen>
 <![CDATA[
-Use the PEAR Coding standards
-Use a screen like we did below
+Use la codifcaciones estandar PEAR
+Use una pantalla como lo hacemos a continuación
 ]]>
     </screen>
    </example>
