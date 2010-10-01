@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299350 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 303920 Maintainer: seros Status: ready -->
 
 <refentry xml:id="dateinterval.format" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -31,7 +31,7 @@
         <title>
          Los siguietes caracteres están reconocidos en el
          parámetro de cadena <parameter>format</parameter>.
-         Cada carácter de formato debe ser precedido por un signo
+         Cada carácter de formato debe ser prefijado con un signo
          (<literal>%</literal>).
         </title>
         <tgroup cols="3">
