@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299461 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 303959 Maintainer: seros Status: ready -->
 
 <refentry xml:id="datetime.getoffset" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -60,8 +60,8 @@ echo $verano->getOffset() . "\n";
    <programlisting role="php">
 <![CDATA[
 <?php
-$invierno  = new date_create('2010-12-21', timezone_open('America/New_York'));
-$verano = new date_create('2008-06-21', timezone_open('America/New_York'));
+$invierno = date_create('2010-12-21', timezone_open('America/New_York'));
+$verano   = date_create('2008-06-21', timezone_open('America/New_York'));
 
 echo $invierno ->getOffset() . "\n";
 echo $verano->getOffset() . "\n";
