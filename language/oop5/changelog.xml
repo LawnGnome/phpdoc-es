@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301474 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 304554 Maintainer: chuso Status: ready -->
 <sect1 xml:id="language.oop5.changelog" xmlns="http://docbook.org/ns/docbook">
  <title>Registro de cambios de POO</title>
  <para>
@@ -26,6 +26,14 @@
        <link linkend="language.namespaces">espacio de nombres</link>como a un
        <link linkend="language.oop5.decon">constructor</link>.
        Este cambio no afecta a las clases que no pertenecen a un espacio de nombres.
+      </entry>
+     </row>
+     <row>
+      <entry>5.3.0</entry>
+      <entry>
+       Cambiado: Ya no es necesario que los valores por omisión
+       de los métodos de una clase que implemente un interfaz coincidan con
+       los valores por omisión de los prototipos de la interfaz.
       </entry>
      </row>
      <row>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301848 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 304494 Maintainer: chuso Status: ready -->
 
 <appendix xml:id="tokens" xmlns="http://docbook.org/ns/docbook">
  <title>Lista de Símbolos de Análises</title>
@@ -658,9 +658,12 @@
     </row>
     <row>
      <entry><constant>T_STRING</constant></entry>
-     <entry>"$a['a']"</entry>
-     <entry><link linkend="language.types.string.parsing">Array indexado por strings
-     dentro de un string</link></entry>
+     <entry>"parent"</entry>
+     <entry>
+      identificadores, p.ej. <link linkend="language.types.string.parsing">strings</link>, 
+      palabras clave de orientación a objetos como <literal>parent</literal> o
+      <literal>self</literal>, funciones, clases y más.
+     </entry>
     </row>
     <row>
      <entry><constant>T_STRING_CAST</constant></entry>
