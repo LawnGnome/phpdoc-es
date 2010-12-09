@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 297028 Mantainer: yago Status:ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 297028 Maintainer: yago Status: ready -->
+
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mysql-set-charset" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>mysql_set_charset</refname>
