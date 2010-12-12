@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304519 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 306284 Maintainer: seros Status: ready -->
 <chapter xml:id="datetime.formats" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Formatos de Fecha y Hora</title>
+ <title>Formatos de Fecha y Hora soportados</title>
  
  <para>
-  Este capítulo describe todos los diferentes formatos que entiende el analizador de
+  Esta sección describe todos los diferentes formatos que entiende el analizador de
   <function>strtotime</function>, <classname>DateTime</classname>
   y <function>date_create</function>. Los formatos
   están agrupados por secciones. En la mayoría de los casos los formatos de diferentes
