@@ -3,7 +3,7 @@
 <!-- EN-Revision: 294364 Maintainer: seros Status: ready -->
 
 <reference xml:id="ref.cairo" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>&Functions; Cairo</title>
+ <title>&Functions; de Cairo</title>
 
  &reference.cairo.entities.functions;
 

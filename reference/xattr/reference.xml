@@ -3,7 +3,7 @@
 <!-- EN-Revision: 297078 Maintainer: jorgeolaya Status: ready --> 
 
 <reference xml:id="ref.xattr" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>xattr &Functions;</title>
+ <title>&Functions; de xattr</title>
 
  &reference.xattr.entities.functions;
 

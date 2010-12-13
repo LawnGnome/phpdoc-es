@@ -3,7 +3,7 @@
 <!-- EN-Revision: 297028 Maintainer: agarzon Status: ready -->
 
 <reference xml:id="ref.fam" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>FAM &Functions;</title>
+ <title>&Functions; de FAM</title>
  
  &reference.fam.entities.functions;
  
