@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: carlos Status: ready -->
+<!-- EN-Revision: 306351 Maintainer: carlos Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.xml-set-external-entity-ref-handler">
  <refnamediv>
   <refname>xml_set_external_entity_ref_handler</refname>
@@ -27,7 +27,7 @@
      <term><parameter>parser</parameter></term>
      <listitem>
       <para>
-Identificador del recurso del intérprete XML para el que se va a configurar la función del manejador de referencia a entidades externas 
+       Identificador del recurso del intérprete XML para el que se va a configurar la función del manejador de referencia a entidades externas 
       </para>
      </listitem>
     </varlistentry>
