@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306200 Maintainer: jesus_cova Status: ready -->
+<!-- EN-Revision: 306441 Maintainer: jesus_cova Status: ready -->
 
 <refentry xml:id="amqpqueue.consume" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -58,6 +58,7 @@
 
 /* Crea una conección utilizando todas als credenciales por defecto: */
 $connection = new AMQPConnection();
+$connection->connect();
 
 /* Crea un objeto de la cola */
 $queue = new AMQPQueue($connection);
