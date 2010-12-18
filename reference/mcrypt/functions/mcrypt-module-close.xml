@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: x1v4nx Status: ready -->
+<!-- EN-Revision: 306414 Maintainer: x1v4nx Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id='function.mcrypt-module-close' xmlns="http://docbook.org/ns/docbook">
@@ -15,7 +15,7 @@
    <methodparam><type>resource</type><parameter>td</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Cierra el identificador de cifrado especificado.
+   Cierra el gestor de cifrado especificado.
   </para>
  </refsect1>
  <refsect1 role="parameters">

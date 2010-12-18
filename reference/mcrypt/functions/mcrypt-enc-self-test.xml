@@ -15,7 +15,7 @@
    <methodparam><type>resource</type><parameter>td</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Esta función ejecuta una prueba automática sobre el algoritmo
+   Esta función ejecuta la prueba automática sobre el algoritmo
    especificado a través del descriptor <parameter>td</parameter>.
   </para>
  </refsect1>
