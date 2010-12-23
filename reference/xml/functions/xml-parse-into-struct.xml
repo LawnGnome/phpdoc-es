@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306351 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 306474 Maintainer: yago Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.xml-parse-into-struct">
  <refnamediv>
   <refname>xml_parse_into_struct</refname>
@@ -17,7 +17,7 @@
    <methodparam choice="opt"><type>array</type><parameter role="reference">index</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Esta función interpreta un archivo XML en dos estructuras paralelas de array, una
+   Esta función interpreta una cadena XML en dos estructuras paralelas de array, una
    (<parameter>index</parameter>) que contiene punteros a la ubicación de los
    valores adecuados en el array <parameter>values</parameter>. Estos dos últimos
    parámetros deben ser pasados por referencia.
@@ -40,7 +40,7 @@
      <term><parameter>data</parameter></term>
      <listitem>
       <para>
-       Un string que contiene los datos XML.
+       Una cadena que contiene los datos XML.
       </para>
      </listitem>
     </varlistentry>
