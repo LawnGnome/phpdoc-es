@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305305 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 306587 Maintainer: yago Status: ready -->
 <refentry xml:id='function.curl-getinfo' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>curl_getinfo</refname>
@@ -103,8 +103,8 @@
         <listitem>
          <simpara>
           <constant>CURLINFO_HEADER_OUT</constant> - La cadena de la petición enviada. Para que
-         funcione, la constante <constant>CURLINFO_HEADER_OUT</constant> al controlador llamando
-         <function>curl_setopt</function>
+         funcione, agregue la opción <constant>CURLINFO_HEADER_OUT</constant> al controlador llamando
+         a <function>curl_setopt</function>
          </simpara>
         </listitem>
         <listitem>
