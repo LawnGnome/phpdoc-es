@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303158 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 306724 Maintainer: seros Status: ready -->
 
 <appendix xml:id="cubrid.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
@@ -306,7 +306,7 @@
    </varlistentry>
    <varlistentry>
     <term>
-     <constant>CUBRID_SCH_ATTR_PRIMARY_KEY</constant>
+     <constant>CUBRID_SCH_PRIMARY_KEY</constant>
      (<type>integer</type>)
     </term>
     <listitem>
