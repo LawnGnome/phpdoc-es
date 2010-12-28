@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 297028 $ -->
-<!-- EN-Revision: 297028 Maintainer: lboshell Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 306780 Maintainer: lboshell Status: ready -->
  <chapter xml:id="faq.html" xmlns="http://docbook.org/ns/docbook">
   <title>PHP y HTML</title>
   <titleabbrev>PHP y HTML</titleabbrev>
@@ -118,7 +118,7 @@
         completa, ya que la URL ocurre como el valor de un atributo HTML. En
         este caso, el navegador primero reemplazará las entidades HTML
         especiales por los caracteres correctos en el valor, y luego pasa la
-        URL. PHP entenderá la URL correctamente, ya que ya usado
+        URL. PHP entenderá la URL correctamente, ya que ya se utilizó
         <function>urlencode</function> sobre los datos.
        </simpara>
        <simpara>
