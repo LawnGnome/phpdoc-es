@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303158 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 307049 Maintainer: seros Status: ready -->
 
 <refentry xml:id="function.cubrid-close-prepare" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -60,7 +60,7 @@ if ($con) {
       } 
       cubrid_close_prepare($req);
    }
-   cubrid_discommect($con);
+   cubrid_disconnect($con);
 }
 ?>
 ]]>
