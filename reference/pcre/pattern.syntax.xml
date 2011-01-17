@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 302431 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 307521 Maintainer: seros Status: ready -->
 <!-- splitted from ./en/functions/pcre.xml, last change in rev 1.2 -->
 <chapter xml:id="reference.pcre.pattern.syntax" xmlns="http://docbook.org/ns/docbook">
  <title>Sintaxis de Patrón</title>
@@ -2050,7 +2050,7 @@
   
  </section>
  
- <section xml:id="regexp.reference.performances">
+ <section xml:id="regexp.reference.performance">
   <title>Rendimiento</title>
   <para>
    Ciertos elementos que pueden aparecer en patrones son más eficientes
