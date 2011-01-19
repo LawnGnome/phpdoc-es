@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303158 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 307530 Maintainer: seros Status: ready -->
 
 <refentry xml:id="function.cubrid-list-dbs" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -25,7 +25,7 @@
    <variablelist>
     <varlistentry>
      <term><parameter>conn_identifier</parameter></term>
-     <listitem><para>La conexión CUBRID. Si el identificador de conexión no se especifica, se asume el último enlace abierto por <function>cubrid_connect</function>.</para></listitem>
+     <listitem><para>La conexión CUBRID.</para></listitem>
     </varlistentry>
    </variablelist>
   </para>
