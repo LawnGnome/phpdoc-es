@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: jesusruiz Status: ready -->
+<!-- EN-Revision: 307734 Maintainer: jesusruiz Status: ready -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: pecl, external -->
 <!-- State: experimental -->
@@ -21,8 +21,8 @@
   </para>
   <note>
    <para>
-   Este módulo también está en desarrollo y pueden ser modificado, aunque no se espera que
-   haya grandes cambios en la API.
+   Este módulo también está en desarrollo y puede cambiar, aunque no se espera que
+   haya cambios importantes en la API.
    </para>
   </note>
   &warn.experimental;
