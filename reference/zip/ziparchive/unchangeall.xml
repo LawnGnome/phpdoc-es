@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297230 Maintainer: edwincartagenah Status: ready -->
+<!-- EN-Revision: 307780 Maintainer: edwincartagenah Status: ready -->
 <refentry xml:id="function.ziparchive-unchangeall" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::unchangeAll</refname>
@@ -10,7 +10,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>mixed</type><methodname>ZipArchive::unchangeAll</methodname>
-    <void/>
+   <void/>
   </methodsynopsis>
   <para>
    Deshacer todos los cambios hechos en el archivo.
