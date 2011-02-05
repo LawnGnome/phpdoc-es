@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305689 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 308017 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="function.parse-url" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>parse_url</refname>
