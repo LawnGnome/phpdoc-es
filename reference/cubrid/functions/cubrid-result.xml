@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307573 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 308222 Maintainer: seros Status: ready -->
 
 <refentry xml:id="function.cubrid-result" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -14,7 +14,7 @@
    <type>string</type><methodname>cubrid_result</methodname>
    <methodparam><type>resource</type><parameter>result</parameter></methodparam>
    <methodparam><type>int</type><parameter>row</parameter></methodparam>
-   <methodparam choice="opt"><type>mixed</type><parameter>field = 0</parameter></methodparam>
+   <methodparam choice="opt"><type>mixed</type><parameter>field</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
   <para>
    Esta función devuelve el valor de un campo específico de una fila específica de un conjunto de resultados. 

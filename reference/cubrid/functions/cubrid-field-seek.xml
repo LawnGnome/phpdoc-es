@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307573 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 308222 Maintainer: seros Status: ready -->
 
 <refentry xml:id="function.cubrid-field-seek" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>bool</type><methodname>cubrid_field_seek</methodname>
    <methodparam><type>resource</type><parameter>result</parameter></methodparam>
-   <methodparam><type>int</type><parameter>field_offset</parameter></methodparam>
+   <methodparam choice="opt"><type>int</type><parameter>field_offset</parameter><initializer>0</initializer></methodparam>
   </methodsynopsis>
   <para>
    Esta función mueve el cursor del conjunto de resultados al índece del campo especificado. Este índice es usado por <function>cubrid_fetch_field</function> si no se incluye un índice de campo. Devuelve TRUE en caso de éxito o FALSE en caso de fallo.

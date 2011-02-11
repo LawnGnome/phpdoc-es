@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 288721 $ -->
-<!-- EN-Revision: 288721 Maintainer: seros Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 308223 Maintainer: seros Status: ready -->
 
 <refentry xml:id="gmagickdraw.getfontweight" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>GmagickDraw::getfontweight</refname>
   <refpurpose>Devuelve el peso de la fuente</refpurpose>
  </refnamediv>
-
+ 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>void</type><methodname>GmagickDraw::getfontweight</methodname>
+   <modifier>public</modifier> <type>int</type><methodname>GmagickDraw::getfontweight</methodname>
    <void />
   </methodsynopsis>
   <para>
    Devuelve el peso de la fuente usada cuando se anota texto.
   </para>
-
-   
-
+  
+  
+  
  </refsect1>
-
+ 
  <refsect1 role="parameters">
   &reftitle.parameters;
   &no.function.parameters;
  </refsect1>
-
+ 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
    Devuelve un valor de tipo int si se tuvo éxito y 0 si no está establecido el peso.
   </para>
  </refsect1>
-
+ 
 </refentry>
 
 <!-- Keep this comment at the end of the file
