@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 308159 Maintainer: yago Status: ready -->
 <sect1 xml:id="language.types.array">
  <title>Arrays</title>
 
@@ -719,7 +719,7 @@ foreach ($colors as $color) {
   </para>
 
   <example xml:id="language.types.array.examples.changeloop">
-   <title>Colección</title>
+   <title>Cambiando elemento en el bucle</title>
    <programlisting role="php">
 <![CDATA[
 <?php
