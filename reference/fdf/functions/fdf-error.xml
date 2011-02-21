@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 308224 Maintainer: agarzon Status: ready -->
 <refentry xml:id="function.fdf-error" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fdf_error</refname>
@@ -11,14 +11,14 @@
   &reftitle.description;
   <methodsynopsis>
    <type>string</type><methodname>fdf_error</methodname>
-   <methodparam choice='opt'><type>int</type><parameter>error_code</parameter></methodparam>
+   <methodparam choice='opt'><type>int</type><parameter>error_code</parameter><initializer>-1</initializer></methodparam>
   </methodsynopsis>
   <para>
    Devuelve una descripción textual del código de error FDF de
    <parameter>error_code</parameter>.
   </para>
  </refsect1>
-
+ 
  <refsect1 role="parameters">
   &reftitle.parameters;
   <para>
@@ -36,7 +36,7 @@
    </variablelist>
   </para>
  </refsect1>
-
+ 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
@@ -44,7 +44,7 @@
    <literal>no error</literal> si no hubo ningún error.
   </para>
  </refsect1>
-
+ 
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
@@ -53,7 +53,7 @@
    </simplelist>
   </para>
  </refsect1>
-
+ 
 </refentry>
 
 <!-- Keep this comment at the end of the file
