@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: XX Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 308213 Maintainer: jpberdejo Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strip-tags">
  <refnamediv>
   <refname>strip_tags</refname>
