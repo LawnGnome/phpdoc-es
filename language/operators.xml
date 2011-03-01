@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308186 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 308825 Maintainer: jpberdejo Status: ready -->
  <chapter xml:id="language.operators" xmlns="http://docbook.org/ns/docbook">
   <title>Operadores</title>
   <simpara>
@@ -1141,7 +1141,7 @@ Expression: 0 = -4 << 62
       <row>
        <entry>$a &lt;&gt; $b</entry>
        <entry>Diferente</entry>
-       <entry>&true; si <varname>$a</varname> no es igual a <varname>$b</varname>.</entry>
+       <entry>&true; si <varname>$a</varname> no es igual a <varname>$b</varname> después de la manipulación de tipos.</entry>
       </row>
       <row>
        <entry>$a !== $b</entry>
