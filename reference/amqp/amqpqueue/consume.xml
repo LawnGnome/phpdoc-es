@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306441 Maintainer: jesus_cova Status: ready -->
+<!-- EN-Revision: 308218 Maintainer: yago Status: ready -->
 
 <refentry xml:id="amqpqueue.consume" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,8 +11,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>void</type><methodname>AMQPQueue::consume</methodname>
-   <methodparam><type>array</type><parameter>options</parameter></methodparam>
+   <modifier>public</modifier> <type>array</type><methodname>AMQPQueue::consume</methodname>
+   <methodparam choice="opt"><type>array</type><parameter>options</parameter><initializer>array()</initializer></methodparam>
   </methodsynopsis>
   <para>
 
@@ -44,7 +44,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un array que contiene los mensajes consumidos. El número de mensajes devueltos será al menos el número dado por <parameter>min</parameter> en el array <parameter>options</parameter>. Pero no mayor al número dado por <parameter>max</parameter>.
+   Un array que contiene los mensajes utilizados. El número de mensajes devueltos será almentos el número especificado en <parameter>min</parameter> en el array <parameter>options</parameter>. Pero no mayor que el número especificado en <parameter>max</parameter>. 
   </para>
  </refsect1>
  <refsect1 role="examples">
