@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 288721 $ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 309492 Maintainer: agarzon Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openssl-csr-sign">
  <refnamediv>
   <refname>openssl_csr_sign</refname>
@@ -144,7 +144,7 @@ $csrdata = $_POST["CSR"];
 $cacert = "file://ruta/a/ca.crt";
 $privkey = array("file://ruta/a/ca.key", "su_frase_de_contraseña");
 
-$userscert = openssl_csr_sign($csrdata, $cacert, $privkey, 365);
+$usercert = openssl_csr_sign($csrdata, $cacert, $privkey, 365);
 
 // Ahora mostramos el certificado generado por lo que el ususario puede
 // copiarlo y pegarlo a su configuración local (tal como un archivo
