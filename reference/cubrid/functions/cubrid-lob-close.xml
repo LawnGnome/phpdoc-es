@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307472 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 308986 Maintainer: seros Status: ready -->
 
 <refentry xml:id="function.cubrid-lob-close" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>cubrid_lob_close</refname>
-  <refpurpose>Se usa para cerrar BLOB/CLOB</refpurpose>
+  <refpurpose>Cerrar información BLOB/CLOB</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
@@ -15,7 +15,8 @@
    <methodparam><type>array</type><parameter>lob_identifier_array</parameter></methodparam>  
   </methodsynopsis>
   <para>
-   <function>cubrid_lob_close</function> se usa para cerrar todos los BLOB/CLOB devueltos desde <function>cubrid_lob_get</function>. 
+   <function>cubrid_lob_close</function> se usa para cerrar todos los BLOB/CLOB
+   devueltos desde <function>cubrid_lob_get</function>. 
   </para>
  </refsect1>
  
