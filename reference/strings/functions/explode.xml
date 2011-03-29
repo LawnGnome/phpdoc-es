@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299897 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 309685 Maintainer: jpberdejo Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.explode">
  <refnamediv>
   <refname>explode</refname>
@@ -82,7 +82,7 @@
    <function>explode</function> devolverá &false;.
    Si <parameter>delimiter</parameter> contiene un valor que no 
    forma parte del parámetro <parameter>string</parameter> y se utiliza un
-   <parameter>limit</parameter> negativo, entonces se devolverá un <type>array</type>,
+   <parameter>limit</parameter> negativo, entonces se devolverá un <type>array</type> vacío,
    en caso contrario se devolverá un <type>array</type> conteniendo el
    <parameter>string</parameter>.
   </para>
