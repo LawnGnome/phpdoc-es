@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding="utf-8"?>
-<!-- $Revision: 288721 $ -->
-<!-- EN-Revision: 297078 Maintainer: seros Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 309972 Maintainer: seros Status: ready -->
 <refentry xml:id="function.imagexbm" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagexbm</refname>
@@ -27,10 +27,7 @@
     <varlistentry>
      <term><parameter>filename</parameter></term>
      <listitem>
-      <para>
-       La ruta donde guardar el archivo. Si no está establecido o es &null;, el flujo de
-       imagen en bruto será impreso directamente.
-      </para>
+      <para>&gd.image.path;</para>
      </listitem>
     </varlistentry>
     <varlistentry>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 288721 $ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- $Revision$ -->
+<!-- EN-Revision: 309972 Maintainer: seros Status: ready -->
 <refentry xml:id="function.image2wbmp" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>image2wbmp</refname>
-  <refpurpose>Imprime una imagen a un explorador o archivo</refpurpose>
+  <refpurpose>&gd.image.output;</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
@@ -61,7 +61,7 @@
 $archivo = 'php.png';
 $imagen = imagecreatefrompng($archivo);
 
-header('Content-type: ' . image_type_to_mime_type(IMAGETYPE_WBMP));
+header('Content-Type: ' . image_type_to_mime_type(IMAGETYPE_WBMP));
 image2wbmp($imagen); // imprime el flujo directamete
 imagedestroy($imagen);
 ?>
