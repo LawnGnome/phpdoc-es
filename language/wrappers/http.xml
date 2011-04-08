@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306260 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 309893 Maintainer: yago Status: ready -->
 
 <refentry xml:id="wrappers.http" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
  <refnamediv>
@@ -174,8 +174,8 @@ foreach($meta_data['wrapper_data'] as $response) {
   <example xml:id="wrappers.http.example.custom.headers"> <!-- {{{ -->
    <title>Enviando cabeceras personalizadas en una petición HTTP</title>
    <para>
-   Si se usa una versión anterior a la 5, pueden enviarse las cabeceras deseadas
-   en una petición HTTP aprovechando un efecto colateral de la
+   Pueden enviarse cabeceras personalizadas en una petición HTTP
+   aprovechando un efecto colateral de la
    directiva INI <literal>user_agent</literal>. Establezca un string
    válido en <literal>user_agent</literal> (como el valor por omisión de
    <literal>PHP/versión</literal>) seguido de un par
