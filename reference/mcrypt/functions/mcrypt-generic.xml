@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: x1v4nx Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 310373 Maintainer: lehmer Status: ready -->
 
 <refentry xml:id="function.mcrypt-generic" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
