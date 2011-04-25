@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jorgeolaya Status: ready --> 
+<!-- EN-Revision: 309893 Maintainer: jorgeolaya Status: ready --> 
     <chapter xml:id="install.windows" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
      <title>Instalación en sistemas Windows</title>
      <para>
@@ -11,7 +11,7 @@
      </para>
      <note>
       <para>
-       Windows 98/ME/NT4 ya no se admite a partir de PHP 5.3.0.
+       Windows 98/Me/NT4 ya no se admite a partir de PHP 5.3.0.
       </para>
      </note>
      <note>
