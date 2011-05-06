@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 310528 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 310796 Maintainer: jpberdejo Status: ready -->
  <chapter xml:id="language.operators" xmlns="http://docbook.org/ns/docbook">
   <title>Operadores</title>
   <simpara>
@@ -304,7 +304,7 @@ echo ++$a + $a++; // puede mostrar 4 o 5
    </simpara>
    <para>
     El resultado del operador módulo <literal>%</literal> tiene el mismo signo
-    que el dividendo &mdash; es decir, el resultado de <literal>$a % $b</literal>
+    que el dividendo — es decir, el resultado de <literal>$a % $b</literal>
     tendrá el mismo signo que <varname>$a</varname>. Por ejemplo:
     <informalexample>
      <programlisting role="php">

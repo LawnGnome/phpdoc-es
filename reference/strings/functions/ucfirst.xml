@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 310796 Maintainer: jpberdejo Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ucfirst">
  <refnamediv>
   <refname>ucfirst</refname>
@@ -21,7 +21,7 @@
   <para>
    Nótese que 'alfabético' se determina por la localización actual. Por
    ejemplo, los carácteres de localización "C" como umlaut-a
-   (&auml;) no serán convertidos.
+   (ä) no serán convertidos.
   </para>
  </refsect1>
 
