@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision: 300268 $ -->
+<!-- $Revision$ -->
 <!-- EN-Revision: 300268 Maintainer: seros Status: ready -->
 
 <refentry xml:id="function.apc-inc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
