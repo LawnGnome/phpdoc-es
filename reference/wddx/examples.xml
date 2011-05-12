@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: agarzon Status: ready -->
+<!-- EN-Revision: 310851 Maintainer: agarzon Status: ready -->
 
 <chapter xml:id="wddx.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.examples;
  <section xml:id="wddx.examples-serialize">
+  <title>Ejemplos de wddx</title>
   <para>
    Todas las funciones que serializan variables utilizan el primer 
    elemento de un array para determinar si el array ha sido serializado 

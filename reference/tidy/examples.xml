@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: agarzon Status: ready -->
+<!-- EN-Revision: 310851 Maintainer: agarzon Status: ready -->
 
 <appendix xml:id="tidy.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.examples;
  <section xml:id="tidy.examples.basic">
-  &reftitle.examples;
+  <title>Ejemplos de Tidy</title>
   <para>
    Este simple ejemplo muestra el uso básico de Tidy.
    <example>

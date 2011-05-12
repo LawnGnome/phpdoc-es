@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 310851 Maintainer: yago Status: ready -->
 
 <chapter xml:id="memcache.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.examples;
  <section xml:id="memcache.examples-overview">
+  <title>Uso básico</title>
   <para>
    <example>
     <title>Ejemplos de la extensión memcache extension</title>
