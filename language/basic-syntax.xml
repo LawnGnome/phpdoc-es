@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297962 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 310698 Maintainer: yago Status: ready -->
  <chapter xml:id="language.basic-syntax" xmlns="http://docbook.org/ns/docbook">
   <title>Sintaxis básica</title>
   <sect1 xml:id="language.basic-syntax.phpmode">
@@ -32,11 +32,11 @@
 <?php
 if ($expression) {
     ?>
-    <strong>This is true.</strong>
+    <strong>Esto es verdadero.</strong>
     <?php
 } else {
     ?>
-    <strong>This is false.</strong>
+    <strong>Esto es falso.</strong>
     <?php
 }
 ?>
@@ -197,8 +197,8 @@ if ($expression) {
     <informalexample>
      <programlisting role="php">
 <![CDATA[
-<h1>This is an <?php # echo 'simple';?> example.</h1>
-<p>The header above will say 'This is an  example'.</p>
+<h1>Esto es un <?php # echo 'simple';?> ejemplo</h1>
+<p>El encabezado anterior dirá 'Esto es un  ejemplo'.</p>
 ]]>
      </programlisting>
     </informalexample>
