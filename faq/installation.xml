@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306787 Maintainer: x1v4nx Status: ready -->
+<!-- EN-Revision: 311461 Maintainer: x1v4nx Status: ready -->
 <!-- Reviewed: no -->
 
  <chapter xml:id="faq.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -38,13 +38,8 @@
       apareceran deficiencias en el sistema de PHP.
      </para>
      <para>
-      Si cree que debe usar un MPM, considere una configuración de FastCGI donde PHP
+      Si desea utilizar un MPM por hilos, considere una configuración de FastCGI donde PHP
       este corriendo en su propio espacio de memoria.
-     </para>
-     <para>
-      Y finalmente, esta advertencia sobre utilizar un MPM no es tan fuerte para
-      sistemas Windows porque la mayoría de las bibliotecas para dicha plataforma
-      tienden a ser multi-hilo.
      </para>
     </answer>
    </qandaentry>
