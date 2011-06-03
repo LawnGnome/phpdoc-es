@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308991 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 310962 Maintainer: seros Status: ready -->
 
 <refentry xml:id="function.cubrid-data-seek" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>int</type><methodname>cubrid_data_seek</methodname>
-   <methodparam><type>resource</type><parameter>req_identifier</parameter></methodparam>
+   <methodparam><type>resource</type><parameter>result</parameter></methodparam>
    <methodparam><type>int</type><parameter>row_number</parameter></methodparam>
   </methodsynopsis>
   <para>
@@ -29,8 +29,8 @@
   <para>
    <variablelist>
     <varlistentry>
-     <term><parameter>req_identifier</parameter></term>
-     <listitem><para>Éste es el identificador de solicitud.</para></listitem>
+     <term><parameter>result</parameter></term>
+     <listitem><para>El resultado.</para></listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>row_number</parameter></term>
