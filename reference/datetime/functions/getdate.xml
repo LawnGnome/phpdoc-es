@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 311354 Maintainer: seros Status: ready -->
 <refentry xml:id="function.getdate" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>getdate</refname>
   <refpurpose>Obtener información de la fecha/hora</refpurpose>
  </refnamediv>
-
+ 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -19,18 +19,18 @@
    local actual si no se da <parameter>timestamp</parameter>.
   </para>
  </refsect1>
-
+ 
  <refsect1 role="parameters">
   &reftitle.parameters;
   <para>
    <variablelist>
     
     &date.timestamp.description;
-   
+    
    </variablelist>
   </para>
  </refsect1>
-
+ 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
@@ -116,7 +116,7 @@
    </table>
   </para>
  </refsect1>
-
+ 
  <refsect1 role="examples">
   &reftitle.examples;
   <para>
@@ -152,13 +152,14 @@ Array
    </example>
   </para>
  </refsect1>
-
+ 
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
    <simplelist>
     <member><function>date</function></member>
     <member><function>idate</function></member>
+    <member><function>localtime</function></member>
     <member><function>time</function></member>
     <member><function>setlocale</function></member>
    </simplelist>
