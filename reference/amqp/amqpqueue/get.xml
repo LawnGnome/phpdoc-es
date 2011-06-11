@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308218 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 311298 Maintainer: yago Status: ready -->
 
 <refentry xml:id="amqpqueue.get" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -15,7 +15,7 @@
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter><initializer><constant>AMQP_NOACK</constant></initializer></methodparam>
   </methodsynopsis>
   <para>
-    Recupera el mensaje siguiente de la cola.
+    Recupera el mensaje siguiente de la cola. Es un tipo de operación de no bloqueo, lo que significa que si no hay mensaje en la cola, la función volverá inmediatamente sin mensaje.
   </para>
  </refsect1>
 
