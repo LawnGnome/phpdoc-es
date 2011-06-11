@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308184 Maintainer: agarzon  Status: ready -->
+<!-- EN-Revision: 310996 Maintainer: yago Status: ready -->
 
 <phpdoc:exceptionref xml:id="class.logicexception"
 xmlns:phpdoc="http://php.net/ns/phpdoc"
@@ -16,7 +16,7 @@ xmlns="http://docbook.org/ns/docbook">
   <section xml:id="logicexception.intro">
    &reftitle.intro;
    <para>
-    Exception que representa error en la lógica del programa. Este tipo de excepciones 
+    Excepción que representa error en la lógica del programa. Este tipo de excepciones 
     debería directamente conducir a una solución en su código.  
    </para>
   </section>

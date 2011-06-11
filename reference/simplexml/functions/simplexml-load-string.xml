@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301048 Maintainer: tatai Status: ready -->
+<!-- EN-Revision: 311775 Maintainer: yago Status: ready -->
 <refentry xml:id='function.simplexml-load-string' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>simplexml_load_string</refname>
@@ -151,6 +151,7 @@ SimpleXMLElement Object
     <member><methodname>SimpleXMLElement::__construct</methodname></member>
     <member><xref linkend="simplexml.examples-errors" /></member>
     <member><function>libxml_use_internal_errors</function></member>
+    <member><xref linkend="simplexml.examples-basic"/></member>
    </simplelist>
   </para>
  </refsect1>

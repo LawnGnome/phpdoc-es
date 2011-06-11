@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307081 Maintainer: agarzon Status: ready -->
+<!-- EN-Revision: 311775 Maintainer: yago Status: ready -->
 <refentry xml:id="simplexmlelement.attributes" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::attributes</refname>
@@ -88,6 +88,15 @@ juego="solitario"
    </example>
   </para>
  </refsect1>
+ 
+ <refsect1 role="seealso">
+  &reftitle.seealso;
+  <para>
+   <simplelist>
+    <member><xref linkend="simplexml.examples-basic"/></member>
+   </simplelist>
+  </para>
+ </refsect1> 
  
 </refentry>
 
