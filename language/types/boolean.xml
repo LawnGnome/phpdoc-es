@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: lboshell Status: ready -->
+<!-- EN-Revision: 312534 Maintainer: lboshell Status: ready -->
 <sect1 xml:id="language.types.boolean">
  <title>Booleanos</title>
 
@@ -34,10 +34,9 @@ $foo = True; // asigna el valor TRUE a $foo
   </informalexample>
 
   <para>
-   Usualmente se usa algún tipo de <link
-   linkend="language.operators">operador</link> que devuelve un valor
-   <type>boolean</type>, y luego éste es pasado a una <link
-   linkend="language.control-structures">estructura de control</link>.
+   Usualmente, el resultado de un<link linkend="language.operators">operador</link> que devuelve un valor
+   <type>boolean</type> es pasado a una 
+   <link linkend="language.control-structures">estructura de control</link>.
   </para>
 
   <informalexample>

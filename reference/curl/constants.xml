@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 312675 Maintainer: yago Status: ready -->
 <appendix xml:id="curl.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
@@ -1465,6 +1465,32 @@
    <listitem>
     <simpara>
      
+    </simpara>
+   </listitem>
+  </varlistentry>
+ </variablelist>
+  <variablelist>
+  <varlistentry>
+   <term>
+    <constant>CURLOPT_MAX_RECV_SPEED_LARGE</constant>
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     Disponible desde PHP 5.4.0 y cURL 7.15.5
+    </simpara>
+   </listitem>
+  </varlistentry>
+ </variablelist>
+ <variablelist>
+  <varlistentry>
+   <term>
+    <constant>CURLOPT_MAX_SEND_SPEED_LARGE</constant>
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     Disponible desde PHP 5.4.0 y cURL 7.15.5
     </simpara>
    </listitem>
   </varlistentry>
