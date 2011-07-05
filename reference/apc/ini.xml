@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 310516 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 312491 Maintainer: chuso Status: ready -->
 <section xml:id="apc.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -817,7 +817,9 @@ Array
     </term>
     <listitem>
      <para>
-      Si está activado, las rutas relativas son canonizadas al modo sin estadísticas.
+      Si está activado, las rutas relativas son canonizadas al modo sin estadísticas. En
+      tal caso, los ficheros importados a partir de envolturas de flujos, no se almacerán
+      dado que <function>realpath</function> no soporta las envolutras de flujos.
      </para>
     </listitem>
    </varlistentry>
