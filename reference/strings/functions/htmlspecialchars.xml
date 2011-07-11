@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309322 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 313119 Maintainer: jpberdejo Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.htmlspecialchars" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>htmlspecialchars</refname>
@@ -46,7 +46,7 @@
     </listitem>
     <listitem>
      <simpara>
-      '&#039;' (comilla simple) se convierte en '&amp;#039;' sólo cuando
+      &quot;&#039;&quot; (comilla simple) se convierte en '&amp;#039;' sólo cuando
       <constant>ENT_QUOTES</constant> se ha establecido.
      </simpara>
     </listitem>
