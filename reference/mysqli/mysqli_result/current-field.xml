@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299161 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 313115 Maintainer: chuso Status: ready -->
 <refentry xml:id="mysqli-result.current-field" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>mysqli_result->current_field</refname>
+  <refname>mysqli_result::current_field</refname>
   <refname>mysqli_field_tell</refname>
   <refpurpose>Obtener posición del campo actual de un puntero a un resultado</refpurpose>
  </refnamediv>
