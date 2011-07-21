@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307521 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 312148 Maintainer: chuso Status: ready -->
 <!-- splitted from ./en/functions/pcre.xml, last change in rev 1.2 -->
 <chapter xml:id="reference.pcre.pattern.syntax" xmlns="http://docbook.org/ns/docbook">
  <title>Sintaxis de Patrón</title>
@@ -307,8 +307,6 @@
      <listitem>
       <simpara>
        carácter con el código hexadecimal hh
-       <link linkend="regexp.reference.unicode">propiedades unicode</link>
-       para más información
       </simpara>
      </listitem>
     </varlistentry>

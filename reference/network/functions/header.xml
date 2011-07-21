@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304887 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 312832 Maintainer: chuso Status: ready -->
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="function.header">
  <refnamediv>
   <refname>header</refname>
@@ -258,6 +258,7 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Fecha en el pasado
 
  <refsect1 role="notes">
   &reftitle.notes;
+  &note.network.header.sapi;
   <note>
    <para>
     Se puede usar búfer de salida para evitar este problema,

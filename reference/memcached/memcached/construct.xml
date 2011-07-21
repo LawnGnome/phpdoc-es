@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 312537 Maintainer: chuso Status: ready -->
 
 <refentry xml:id="memcached.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -56,7 +56,7 @@
 <![CDATA[
 <?php
 /* Crea una instancia normal */
-$m1 = new Memcached();
+$m = new Memcached();
 echo get_class($m);
 
 /* Crea una instancia persistente */

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 312693 Maintainer: chuso Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.openssl-pkcs7-encrypt">
  <refnamediv>
   <refname>openssl_pkcs7_encrypt</refname>
@@ -80,7 +80,7 @@
      <term><parameter>cipherid</parameter></term>
      <listitem>
       <para>
-       El cifrado se puede seleccionar con <parameter>cipherid</parameter>.
+       Una de las <link linkend="openssl.ciphers">constants de cipher</link>.
       </para>
      </listitem>
     </varlistentry>

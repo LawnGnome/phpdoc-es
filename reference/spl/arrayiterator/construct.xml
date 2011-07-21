@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290998 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 312851 Maintainer: chuso Status: ready -->
 
 <refentry xml:id="arrayiterator.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -49,7 +49,7 @@
   &reftitle.errors;
   <para>
    <function>ArrayIterator::__construct</function> lanza una 
-   InvalidArgumentException si es dado cualquier otra cosa a parte de un array o un objeto.
+   <classname>InvalidArgumentException</classname> si es dado cualquier otra cosa a parte de un array o un objeto.
   </para>
  </refsect1>
 
