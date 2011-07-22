@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: jorgeeolayap Status: ready -->
+<!-- EN-Revision: 297078 Maintainer: jorgeolaya Status: ready -->
 <refentry xml:id="splpriorityqueue.valid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SplPriorityQueue::valid</refname>
