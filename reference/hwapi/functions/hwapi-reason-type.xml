@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 315005 Maintainer: seros Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.hwapi-reason-type">
  <refnamediv>
   <refname>hw_api_reason->type</refname>
@@ -20,14 +20,14 @@
    Devuelve el tipo de una razón.
   </para>
  </refsect1>
-
+ 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
    Devuelve una instancia de <classname>HW_API_Reason</classname>.
   </para>
  </refsect1>
-
+ 
 </refentry>
 
 <!-- Keep this comment at the end of the file
