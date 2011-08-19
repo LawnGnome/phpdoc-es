@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 315005 Maintainer: seros Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.hwapi-insertdocument">
  <refnamediv>
   <refname>hw_api->insertdocument</refname>
@@ -22,7 +22,7 @@
    por el documento.
   </para>
  </refsect1>
-
+ 
  <refsect1 role="parameters">
   &reftitle.parameters;
   <para>
@@ -43,14 +43,14 @@
    </variablelist>
   </para>
  </refsect1>
-
+ 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
    
   </para>
  </refsect1>
-
+ 
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
@@ -61,7 +61,7 @@
    </simplelist>
   </para>
  </refsect1>
-
+ 
 </refentry>
 
 <!-- Keep this comment at the end of the file
