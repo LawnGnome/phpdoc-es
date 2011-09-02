@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306404 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 316016 Maintainer: jpberdejo Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.htmlentities">
  <refnamediv>
   <refname>htmlentities</refname>
@@ -93,6 +93,8 @@
        <parameter>charset</parameter> el cual define el conjunto de caracteres
        a ser utilizado para la conversión.
        En la actualidad, el juego de caracteres ISO-8859-1 se utiliza como valor por defecto.
+       Sin embargo, este valor por defecto es muy probable que cambie en futuras versiones de
+       PHP; es muy recomendable para el programador que especifique un valor.
       </para>
       &reference.strings.charsets;
      </listitem>

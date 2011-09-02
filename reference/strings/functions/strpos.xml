@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 315994 Maintainer: jpberdejo Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strpos">
  <refnamediv>
   <refname>strpos</refname>
@@ -17,10 +17,8 @@
   </methodsynopsis>
   <para>
    Devuelve la posición numérica de la primera ocurrencia de la cadena 
-   <parameter>needle</parameter> (aguja) en el <parameter>haystack</parameter> (pajar).
-   A diferencia de <function>strrpos</function> antes de PHP 5, esta
-   función puede tomar una cadena entera como parámetro <parameter>needle</parameter>
-   y será usada la cadena entera.
+   <parameter>needle</parameter> (aguja) en el string <parameter>haystack</parameter>
+   (pajar).
   </para>
  </refsect1>
 
@@ -32,7 +30,7 @@
      <term><parameter>haystack</parameter></term>
      <listitem>
       <para>
-       La cadena a buscar en
+       El string en donde buscar.
       </para>
      </listitem>
     </varlistentry>
