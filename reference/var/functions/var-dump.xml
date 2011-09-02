@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- splitted from ./en/functions/var.xml, last change in rev 1.84 -->
-<!-- EN-Revision: 311886 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 315550 Maintainer: yago Status: ready -->
 <refentry xml:id="function.var-dump" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>var_dump</refname>
@@ -35,7 +35,7 @@
      <term><parameter>expresion</parameter></term>
      <listitem>
       <para>
-       La variable que desea exportar.
+       La variable que desea volcar la información.
       </para>
      </listitem>
     </varlistentry>

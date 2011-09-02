@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jorgeolaya Status: ready --> 
+<!-- EN-Revision: 315183 Maintainer: yago Status: ready --> 
 
 <reference xml:id="ref.xslt" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>&Functions; de XSLT (PHP4)</title>
+ <title>&Functions; de XSLT (PHP 4)</title>
 
  &reference.xslt.entities.functions;
 
