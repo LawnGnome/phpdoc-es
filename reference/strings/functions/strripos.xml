@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 315994 Maintainer: jpberdejo Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strripos">
  <refnamediv>
   <refname>strripos</refname>
-  <refpurpose>?????????
-   Encuentra la posición de la última aparición de un string insensible a mayúsculas y minúsculas en un string</refpurpose>
+  <refpurpose>Encuentra la posición de la última aparición de un string insensible a mayúsculas y minúsculas en un string</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
