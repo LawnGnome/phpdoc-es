@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 315772 Maintainer: andresdzphp Status: ready -->
 
 <refentry xml:id="streamwrapper.stream-tell" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -15,7 +15,8 @@
    <void />
   </methodsynopsis>
   <para>
-   Este método es llamado en respuesta a <function>ftell</function>.
+   Este método es llamado en respuesta a <function>fseek</function> 
+   para determinar la posición actual.
   </para>
  </refsect1>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308218 Maintainer: edwincartagenah Status: ready -->
+<!-- EN-Revision: 315621 Maintainer: andresdzphp Status: ready -->
 
 <refentry xml:id="amqpconnection.setvhost" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -54,7 +54,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Ejemplo de <function>AMQPConnection::setVhost</function></title>
+    <title>Ejemplo de <methodname>AMQPConnection::setVhost</methodname></title>
     <programlisting role="php">
 <![CDATA[
 <?php

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309972 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 315183 Maintainer: seros Status: ready -->
 <refentry xml:id='function.imagecreatefromgd2part' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagecreatefromgd2part</refname>
@@ -84,7 +84,7 @@ $imagen = getimagesize('./prueba.gd2');
 $im = imagecreatefromgd2part('./prueba.gd2', 4, 4, ($imagen[0] / 2) - 6, ($imagen[1] / 2) - 6);
 
 // Hacer una operación con la imagen, en este caso pondremos la imagen
-// en relieve si PHP5+
+// en relieve si PHP 5+
 if(function_exists('imagefilter'))
 {
     imagefilter($im, IMG_FILTER_EMBOSS);

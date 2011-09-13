@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297078 Maintainer: lduran Status: ready -->
+<!-- EN-Revision: 315005 Maintainer: andresdzphp Status: ready -->
 
 <reference xml:id="ref.lzf" xmlns="http://docbook.org/ns/docbook">
- <title>&Functions; de LZF</title>
+ <title>&Functions; LZF</title>
 
  &reference.lzf.entities.functions;
 
@@ -29,3 +29,4 @@ vim600: syn=xml fen fdm=syntax fdl=2 si
 vim: et tw=78 syn=sgml
 vi: ts=1 sw=1
 -->
+
