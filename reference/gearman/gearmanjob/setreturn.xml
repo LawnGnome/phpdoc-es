@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 294369 Maintainer: tatai Status: ready -->
+<!-- EN-Revision: 316682 Maintainer: andresdzphp Status: ready -->
 
 <refentry xml:id="gearmanjob.setreturn" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -12,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier> <type>bool</type><methodname>GearmanJob::setReturn</methodname>
-   <methodparam><type>string</type><parameter>gearman_return_t</parameter></methodparam>
+   <methodparam><type>int</type><parameter>gearman_return_t</parameter></methodparam>
   </methodsynopsis>
   <para>
    Establece el valor de retorno para este trabajo, indica cómo se ha completado
