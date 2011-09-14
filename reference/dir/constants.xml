@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: chuso Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 315465 Maintainer: yago Status: ready -->
 <appendix xml:id="dir.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
@@ -24,7 +23,7 @@
    </term>
    <listitem>
     <simpara>
-     Disponible desde PHP 4.3.0.
+     Disponible desde PHP 4.3.0. Punto y coma en Windows, en caso contrario dos puntos.
     </simpara>
    </listitem>
   </varlistentry>
