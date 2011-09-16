@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 316819 Maintainer: andresdzphp Status: ready -->
+
  <chapter xml:id="language.constants" xmlns="http://docbook.org/ns/docbook">
   <title>Constantes</title>
 
@@ -248,7 +249,8 @@ echo CONSTANT;
         <entry>
          Nombre de la clase. (Añadida en PHP 4.3.0) Desde PHP 5 esta constante
          devuelve el nombre de la clase donde fue declarada (sensible a mayúsculas).
-         En PHP 4 su valor siempre es en minúsculas.
+         En PHP 4 su valor siempre es en minúsculas. El nombre de la clase incluye 
+         el namespace declarado en (p.e.j. <literal>Foo\Bar</literal>).
         </entry>
        </row>
        <row>
