@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 316781 Maintainer: andresdzphp Status: ready -->
+
 <refentry xml:id="soapclient.dorequest" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SoapClient::__doRequest</refname>
@@ -127,7 +128,7 @@ class LocalSoapClient extends SoapClient {
     $this->server->addFunction('Add');
   }
 
-  function __doRequest($request, $location, $action, $version) {
+  function __doRequest($request, $location, $action, $version, $one_way = 0) {
     ob_start();
     $this->server->handle($request);
     $response = ob_get_contents();
