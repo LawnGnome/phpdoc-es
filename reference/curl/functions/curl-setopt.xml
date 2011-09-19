@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315512 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 316499 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no -->
 
 <refentry xml:id="function.curl-setopt" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -915,7 +916,7 @@
              <literal>multipart/form-data</literal>.
             </simpara>
             <simpara>
-             Desde PHP 5.2.0, <parameter>value</parameter> debe ser un array si archivos son 
+             Desde PHP 5.2.0, <parameter>value</parameter> debe ser un array si los archivos son 
              pasados a esta opción con el prefijo <literal>@</literal>.
             </simpara>            
            </entry>
