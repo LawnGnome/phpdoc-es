@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312846 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 315183 Maintainer: chuso Status: ready -->
 
 <chapter xml:id="install.pecl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Instalación de extensiones PECL</title>
@@ -126,7 +126,7 @@ $ svn checkout http://svn.php.net/repository/pecl/extname/trunk extname
    <title>¿Dónde encontrar una extensión?</title>
    <para>
     Las extensiones de PHP generalmente se llaman "php_*.dll" (donde el asterisco representa
-    el nombre de la extensión) y se localizan bajo la carpeta "PHP\ext" ("PHP\extensions" en PHP4).
+    el nombre de la extensión) y se localizan bajo la carpeta "PHP\ext" ("PHP\extensions" en PHP 4).
    </para>
    <para>
     PHP se distribuye con las extensiones más útiles para la mayoría de desarrolladores. Se les llama
