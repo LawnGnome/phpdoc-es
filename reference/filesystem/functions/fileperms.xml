@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306338 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 317254 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no -->
+
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fileperms">
  <refnamediv>
   <refname>fileperms</refname>
@@ -37,7 +39,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Devuelve los permisos de un archivo, &return.falseforfailure;.
+   Devuelve los permisos de un archivo como un modo numérico del mismo formato 
+   en el que se espera por <function>chmod</function>, &return.falseforfailure;.
   </para>
  </refsect1>
  
