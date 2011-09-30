@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ --> 
-<!-- EN-Revision: 317392 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 317434 Maintainer: jpberdejo Status: ready -->
 
 <section xml:id="mysqlnd-ms.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
 
  <note>
    <para>
-    El complemento de replicación y balanceo de carga de mysqlnd se encuentra en estado alfa.
+    El complemento de replicación y balanceo de carga de mysqlnd se encuentra en estado beta.
     No están completas sus funciones.
    </para>
   </note>
