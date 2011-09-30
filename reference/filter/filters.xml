@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312924 Maintainer: lehmer Status: in progress -->
+<!-- EN-Revision: 317502 Maintainer: chuso Status: in progress -->
 <chapter xml:id="filter.filters" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Tipos de filtros</title>
  <!--Validate filters: {{{-->
