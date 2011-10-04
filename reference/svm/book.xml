@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ --> 
-<!-- EN-Revision: 311951 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 317663 Maintainer: andresdzphp Status: ready -->
 
 <book xml:id="book.svm" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Soporte Vector Machine</title>
