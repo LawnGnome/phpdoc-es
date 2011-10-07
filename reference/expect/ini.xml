@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307294 Maintainer: agarzon Status: ready -->
+<!-- EN-Revision: 317827 Maintainer: agarzon Status: ready -->
 <section xml:id="expect.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
