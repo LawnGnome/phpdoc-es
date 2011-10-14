@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: x1v4nx Status: ready -->
+<!-- EN-Revision: 318102 Maintainer: andresdzphp Status: ready -->
 <!-- Reviewed: no -->
 
  <sect1 xml:id="language.oop5.paamayim-nekudotayim" xmlns="http://docbook.org/ns/docbook">
@@ -51,8 +51,9 @@ echo MyClass::CONST_VALUE;
   </example>
 
   <para>
-   Las palabras claves especiales <varname>self</varname> y <varname>parent</varname> son
-   utilizadas para acceder a propiedades y métodos desde el interior de la definición de la clase.
+   Las tres palabras claves especiales <varname>self</varname>, <varname>parent</varname> y 
+   <varname>static</varname> son utilizadas para acceder a propiedades y métodos desde el interior 
+   de la definición de la clase.
   </para>
 
   <example>
