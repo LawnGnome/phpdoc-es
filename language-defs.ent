@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298760 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 318280 Maintainer: yago Status: ready -->
 <!-- Part titles used mostly in manual.xml itself -->
 <!ENTITY PHPManual         "Manual de PHP">
 <!ENTITY Seealso           "Ver también">
