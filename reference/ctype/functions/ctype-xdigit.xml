@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300785 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 318662 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no -->
 <!-- splitted from ./en/functions/ctype.xml, last change in rev 1.1 -->
 <refentry xml:id="function.ctype-xdigit" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -77,6 +78,11 @@ La cadena ab12bc99 consiste completamente de dígitos hexadecimales.
     </screen>
    </example>
   </para>
+ </refsect1>
+ 
+  <refsect1 role="notes">
+  &reftitle.notes;
+  &note.ctype.parameter.integer;
  </refsect1>
 
  <refsect1 role="seealso">

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300785 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 318662 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no -->
 <!-- splitted from ./en/functions/ctype.xml, last change in rev 1.1 -->
 <refentry xml:id="function.ctype-lower" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -73,6 +74,11 @@ La cadena QASsdks no consiste completamente de letras minúsculas.
     </screen>
    </example>
   </para>
+ </refsect1>
+ 
+  <refsect1 role="notes">
+  &reftitle.notes;
+  &note.ctype.parameter.integer;
  </refsect1>
 
  <refsect1 role="seealso">
