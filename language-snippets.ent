@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318662 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 318756 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <!-- Keep 'em sorted -->
 
 <!ENTITY changelog.randomseed '<row xmlns="http://docbook.org/ns/docbook"><entry>4.2.0</entry><entry>El generador de 
@@ -190,7 +191,11 @@ xmlns="http://docbook.org/ns/docbook"><simpara>Esta función ha sido declarada
  está totalmente desaconsejado.</simpara></warning>'>
 
 <!ENTITY warn.deprecated.func-5-4-0 '<warning xmlns="http://docbook.org/ns/docbook">
-<simpara>Esta función ha sido declarada <emphasis>OBSOLETA</emphasis> desde PHP 5.4.0.Su uso
+<simpara>Esta función ha sido declarada <emphasis>OBSOLETA</emphasis> desde PHP 5.4.0. Su uso
+ está totalmente desaconsejado.</simpara></warning>'>
+
+<!ENTITY warn.deprecated.alias-5-4-0 '<warning xmlns="http://docbook.org/ns/docbook">
+<simpara>Este alias ha sido declarado <emphasis>OBSOLETO</emphasis> desde PHP 5.4.0. Su uso
  está totalmente desaconsejado.</simpara></warning>'>
 
 <!ENTITY warn.experimental.func '<warning xmlns="http://docbook.org/ns/docbook"><simpara>Esta función ha sido declarada
