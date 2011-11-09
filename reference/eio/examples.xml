@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318754 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 318955 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="eio.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -196,15 +196,15 @@ bool(true)
    <programlisting role="php"><![CDATA[
 <?php
 function mi_eio_poll($df, $eventos, $argumentos) {
- /* Algunas regulaciones de libevent podrían ir aquí .. */
- if (eio_nreqs()) {
-  eio_poll();
- }
- /* .. y aquí */
+    /* Algunas regulaciones de libevent podrían ir aquí .. */
+    if (eio_nreqs()) {
+        eio_poll();
+    }
+    /* .. y aquí */
 }
 
 function mi_llamada_retorno_nop($d, $r) {
- var_dump($r); var_dump($d);
+    var_dump($r); var_dump($d);
 }
 
 $base = event_base_new();
