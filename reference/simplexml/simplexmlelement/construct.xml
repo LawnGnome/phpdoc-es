@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312824 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 319682 Maintainer: chuso Status: ready -->
 <refentry xml:id="simplexmlelement.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SimpleXMLElement::__construct</refname>
@@ -88,7 +88,7 @@
   &reftitle.errors;
   <para>
    Produce un mensaje de error <constant>E_WARNING</constant> por cada error
-   encontrado en los datos XML y adicionalmente lanza una excepcion si no
+   encontrado en los datos XML y adicionalmente lanza una <classname>Exception</classname> si no
    se han podido analizar correctamente los datos XML.
   </para>
   <tip>
