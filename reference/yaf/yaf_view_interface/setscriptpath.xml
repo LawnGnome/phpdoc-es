@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 319951 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 320263 Maintainer: andresdzphp Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="yaf-view-interface.setscriptpath" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -32,8 +32,8 @@
     <listitem>
      <para>
       Una ruta absoluta al directorio de plantillas, por omisión,
-      <classname>Yaf_Dispatcher</classname> use
-      APPLICATION_PATH . "/views" como este parámetro.
+      <classname>Yaf_Dispatcher</classname> usa
+      <link linkend="configuration.yaf.directory">application.directory</link> . "/views" como este parámetro.
      </para>
     </listitem>
    </varlistentry>

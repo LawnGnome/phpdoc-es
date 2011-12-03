@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320216 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 320263 Maintainer: andresdzphp Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="yaf-router.getcurrentroute" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -86,7 +86,8 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
    </programlisting>
   </example>
   <example>
-   <title>Complemento Dummy.php (bajo APPLICATION_PATH/plugins)</title>
+   <title>Complemento Dummy.php (bajo <link 
+    linkend="configuration.yaf.directory">application.directory</link>/plugins)</title>
    <programlisting role="php">
 <![CDATA[
 <?php
