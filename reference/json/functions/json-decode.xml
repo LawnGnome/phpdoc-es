@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317827 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 320312 Maintainer: chuso Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.json-decode" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>json_decode</refname>
@@ -292,6 +293,12 @@ string(20) "12345678901234567890"
       <row>
        <entry>5.2.3</entry>
        <entry>La profundidad de recursión por defecto se incrementó de 20 a 128</entry>
+      </row>
+      <row>
+       <entry>5.2.1</entry>
+       <entry>
+        Se añadió el soporte para la codificación JSON de tipos básicos.
+       </entry>
       </row>
      </tbody>
     </tgroup>
