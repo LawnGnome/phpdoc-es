@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318142 Maintainer: gerardocdc Status: ready -->
+<!-- EN-Revision: 320469 Maintainer: gerardocdc Status: ready -->
 <sect1 xml:id="language.types.integer">
  <title>Enteros</title>
  
  <simpara>
   Un entero o <type>integer</type> es un número del conjunto
-  ℤ = {..., -2, -1, 0, 1, 2, ...}.
+  &#8484; = {..., -2, -1, 0, 1, 2, ...}.
  </simpara>
  
  <para>

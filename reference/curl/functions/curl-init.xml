@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298918 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 320462 Maintainer: yago Status: ready -->
 <refentry xml:id="function.curl-init" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>curl_init</refname>
@@ -32,6 +32,12 @@
        <constant>CURLOPT_URL</constant>. Se puede establecer manualmente
        esta opción usando la función <function>curl_setopt</function>.
       </para>
+      <note>
+       <para>
+        El protocolo <literal>file</literal> es desabilitado por cURL si
+        <link linkend="ini.open-basedir">open_basedir</link> está establecido.
+       </para>
+      </note>
      </listitem>
     </varlistentry>
    </variablelist>
