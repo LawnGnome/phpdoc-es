@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 316909 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 320681 Maintainer: jpberdejo Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.htmlentities">
  <refnamediv>
   <refname>htmlentities</refname>
@@ -72,8 +72,8 @@
            <entry><constant>ENT_IGNORE</constant></entry>
            <entry>
             Silenciosamente descarta unidades de secuencia de código no válidas en lugar de devolver
-            un string vacío. Agregado en PHP 5.3.0. Esto está previsto para la compatibilidad
-            hacia atrás; evitar su uso ya que puede tener implicaciones de seguridad.
+            un string vacío. Esto está previsto para la compatibilidad hacia atrás;
+            evitar su uso ya que puede tener implicaciones de seguridad.
            </entry>
           </row>
           <row>
