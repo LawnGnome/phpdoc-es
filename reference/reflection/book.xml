@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313268 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 321133 Maintainer: chuso Status: ready -->
+<!-- Reviewed: no -->
 <!-- Membership: core -->
 
 <book xml:id="book.reflection" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Reflection</title>
  <titleabbrev>Reflection</titleabbrev>
-
+ 
  <preface xml:id="intro.reflection">
   &reftitle.intro;
   <para>
@@ -23,13 +24,14 @@
    deben ser descubiertos y corregidos.
   </para>
  </preface>
-
+ 
  &reference.reflection.setup;
  &reference.reflection.constants;
  &reference.reflection.examples;
  &reference.reflection.extending;
  &reference.reflection.reflection;
  &reference.reflection.reflectionclass;
+ &reference.reflection.reflectionzendextension;
  &reference.reflection.reflectionextension;
  &reference.reflection.reflectionfunction;
  &reference.reflection.reflectionfunctionabstract;
@@ -39,7 +41,7 @@
  &reference.reflection.reflectionproperty;
  &reference.reflection.reflector;
  &reference.reflection.reflectionexception;
-
+ 
 </book>
 
 <!-- Keep this comment at the end of the file
