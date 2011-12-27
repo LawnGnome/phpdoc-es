@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: tatai Status: ready -->
+<!-- EN-Revision: 320450 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
 
 <refentry xml:id="gearmanclient.dojobhandle" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -16,8 +17,8 @@
   </methodsynopsis>
   <para>
    Retorna el manejador de trabajo para la tarea en ejecución. Debería usarse
-   entre llamadas a <methodname>GearmanClient::do</methodname>. El manejador
-   puede usarse para obtener información de la tarea.
+   entre llamadas repetidas a <methodname>GearmanClient::doNormal</methodname>. El manejador
+   puede ser usado para obtener información de la tarea.
   </para>
  </refsect1>
 
