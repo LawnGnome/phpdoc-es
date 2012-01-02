@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318292 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 321499 Maintainer: jpberdejo Status: ready -->
 <chapter xml:id="mysqlnd.install" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  
  <title>Instalación</title>
@@ -58,10 +58,14 @@
   siguiente comando:
  </para>
  
- <programlisting role="shell">./configure --with-mysql=mysqlnd \
-  --with-mysqli=mysqlnd \
-  --with-pdo-mysql=mysqlnd \
-  [other options]</programlisting>
+<programlisting role="shell">
+<![CDATA[
+ ./configure --with-mysql=mysqlnd \
+--with-mysqli=mysqlnd \
+--with-pdo-mysql=mysqlnd \
+[other options]
+]]>
+</programlisting>
  
  <para>
   <emphasis role="bold">Installation sobre Windows</emphasis>
