@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304545 Maintainer: marcogrossisas Status: ready -->
+<!-- EN-Revision: 321496 Maintainer: yago Status: ready -->
 <section xml:id="pdo-mysql.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
  <para>
   <table>
    <title>Opciones de configuración de PDO_MYSQL</title>
-   <tgroup cols="4">
+   <tgroup cols="3">
     <thead>
      <row>
       <entry>Nombre</entry>
