@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321132 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 321777 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <!-- Keep 'em sorted -->
 
@@ -1424,6 +1424,9 @@ de lo contrario se retornará &null;.'>
 
 <!ENTITY reflection.export.param.return 'Configurarlo a &true; devolverá la exportación,
 a diferencia de emitirla. Configurarlo a &false; (el valor por defecto) hará lo contrario.'>
+
+<!ENTITY reflection.invoke.reference 'Si la función tiene argumentos que necesitan
+ser referencias, éstos deben ser referencias en la lista de argumentos pasados.'>
 
 <!ENTITY reflection.export.param.name 'La reflexión a exportar.'>
 
