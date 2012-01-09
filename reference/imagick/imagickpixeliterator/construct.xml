@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 321903 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickpixeliterator-construct">
  <refnamediv>
   <refname>ImagickPixelIterator::__construct</refname>
   <refpurpose>El constructor ImagickPixelIterator</refpurpose>
  </refnamediv>
-
+ 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>ImagickPixelIterator</type><methodname>ImagickPixelIterator::__construct</methodname>
+   <methodname>ImagickPixelIterator::__construct</methodname>
    <methodparam><type>Imagick</type><parameter>wand</parameter></methodparam>
   </methodsynopsis>
   &warn.undocumented.func;
   <para>
-   El constructor ImagickPixelIterator
+   El constructor de ImagickPixelIterator
   </para>
  </refsect1>
-
+ 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
    &imagick.return.success;
   </para>
  </refsect1>
-
+ 
 </refentry>
 
 <!-- Keep this comment at the end of the file
