@@ -26,7 +26,7 @@
    archivo resultante es legible. Un parámetro opcional <parameter>context</parameter>
    especifica el número de líneas de contexto que hay que añadir alrededor de cada cambio.
    Establecer el parámetro <parameter>minimal</parameter> a true dará como resultado de salida el archivo
-   parche más corto posible (puede tomar mucho tiempo). 
+   parche más corto posible (puede tomar algo de tiempo). 
   </para>
  </refsect1>
 
