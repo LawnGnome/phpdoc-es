@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321092 Maintainer: andresdzphp Status: ready -->
-<!-- Reviewed: yes -->
+<!-- EN-Revision: 321825 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: yes Maintainer: andresdzphp -->
 
 <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
  <title>Funciones</title>
@@ -363,7 +363,7 @@ Hacer un tazón de yogur acidófilo de frambuensa.
    <title>Listas de argumentos de longitud variable</title>
    
    <simpara>
-    PHP 4 y superior tiene soporte para listas de argumentos de longitud variable en
+    PHP tiene soporte para listas de argumentos de longitud variable en
     funciones definidas por el usuario. Esto realmente es bastante fácil si se usan las funciones
     <function>func_num_args</function>,
     <function>func_get_arg</function>, y

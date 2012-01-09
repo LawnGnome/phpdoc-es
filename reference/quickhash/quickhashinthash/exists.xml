@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 321911 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
 
 <refentry xml:id="quickhashinthash.exists" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,8 +12,8 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>boolean</type><methodname>QuickHashIntHash::exists</methodname>
-   <methodparam><type>integer</type><parameter>key</parameter></methodparam>
+   <modifier>public</modifier> <type>bool</type><methodname>QuickHashIntHash::exists</methodname>
+   <methodparam><type>int</type><parameter>key</parameter></methodparam>
   </methodsynopsis>
   <para>
    Este método comprueba si una entrada con la clave proporcionada existe 

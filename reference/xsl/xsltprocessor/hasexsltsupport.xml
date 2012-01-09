@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: tatai Status: ready -->
+<!-- EN-Revision: 321898 Maintainer: tatai Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
+
 <refentry xml:id="xsltprocessor.hasexsltsupport" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>XSLTProcessor::hasExsltSupport</refname>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318236 Maintainer: andresdzphp Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 321886 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
 
  <appendix xml:id="reserved" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>Lista de Palabras Reservadas</title> 
@@ -316,7 +316,7 @@
       <term><classname>Directory</classname></term>
       <listitem>
        <simpara>
-        La clase desde la que se instancia <link linkend="class.dir">dir</link>.
+        Creado por <function>dir</function>.
        </simpara>
       </listitem>
      </varlistentry>
