@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313269 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 321906 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <!-- Membership: pecl -->
 
@@ -163,10 +163,10 @@
  &reference.phar.using;
  &reference.phar.creating;
  &reference.phar.fileformat;
- &reference.phar.Phar;
- &reference.phar.PharData;
- &reference.phar.PharFileInfo;
- &reference.phar.PharException;
+ &reference.phar.phar;
+ &reference.phar.phardata;
+ &reference.phar.pharfileinfo;
+ &reference.phar.pharexception;
  
 </book>
 

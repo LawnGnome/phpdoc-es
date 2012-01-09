@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 321919 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <!-- splitted from ./en/functions/ps.xml, last change in rev 1.12 -->
 <refentry xml:id="function.ps-show-boxed" xmlns="http://docbook.org/ns/docbook">
@@ -30,7 +30,7 @@
   </para>
   <para>
    El texto será particionado silábicamente si el parámetro
-   <parameter>hyphenation</parameter> es establecido a <literal>true</literal>
+   <parameter>hyphenation</parameter> es establecido a &true;
    y el parámetro <parameter>hyphendict</parameter> contiene un nombre de fichero
    válido para un fichero de patrones de partición silábica.
    La interlínea se toma del valor <literal>leading</literal>.
