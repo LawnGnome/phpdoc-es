@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321495 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 322007 Maintainer: yago Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
+
 <refentry xml:id="mysqli-result.current-field" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>mysqli_result::current_field</refname>
-  <refname>mysqli_field_tell</refname>
+ <refname>mysqli_result::$current_field</refname>
+ <refname>mysqli_field_tell</refname>
   <refpurpose>Obtener posición del campo actual de un puntero a un resultado</refpurpose>
  </refnamediv>
 
@@ -14,7 +16,7 @@
   <classsynopsis>
    <ooclass><classname>mysqli_result</classname></ooclass>
    <fieldsynopsis>
-    <type>int</type><varname>current_field</varname>
+   <type>int</type><varname linkend="mysqli-result.current-field">current_field</varname>
    </fieldsynopsis>
   </classsynopsis>
   <para>&style.procedural;</para>

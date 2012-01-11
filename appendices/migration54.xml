@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320713 Maintainer: edwincartagenah Status: ready -->
+<!-- EN-Revision: 321998 Maintainer: edwincartagenah Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
+
 <appendix xml:id="migration54" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Migrando de PHP 5.3.x hacia PHP 5.4.x</title>
  <simpara>
@@ -424,7 +426,7 @@
   <itemizedlist>
    <listitem>
     <simpara>
-     <classname>MySQLi_Result</classname> now implements
+     <classname>mysqli_result</classname> ahora implementa 
      <classname>Traversable</classname>.
     </simpara>
    </listitem>

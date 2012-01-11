@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320343 Maintainer: seros Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 321987 Maintainer: seros Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
 
 <refentry xml:id="yaf-route-regex.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -101,6 +101,7 @@
            )
         )
     );
+?>
 ]]>
    </programlisting>
   </example>
@@ -127,6 +128,7 @@
     );
     Yaf_Dispatcher::getInstance()->getRouter()->addConfig(
         new Yaf_Config_Simple($config));
+?>
 ]]>
    </programlisting>
   </example>
