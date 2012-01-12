@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320702 Maintainer: andresdzphp Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 322061 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
 
 <section xml:id="filesystem.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
@@ -12,10 +12,10 @@
    <tgroup cols="4">
     <thead>
      <row>
-      <entry>Nombre</entry>
-      <entry>Por defecto</entry>
-      <entry>Variable</entry>
-      <entry>Registro de cambios</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
+      <entry>&Changeable;</entry>
+      <entry>&Changelog;</entry>
      </row>
     </thead>
     <tbody>
