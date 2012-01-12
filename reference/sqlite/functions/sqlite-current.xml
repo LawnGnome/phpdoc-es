@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: carlos Status: ready -->
+<!-- EN-Revision: 322055 Maintainer: carlos Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
+
 <refentry xml:id="function.sqlite-current" xmlns="http://docbook.org/ns/docbook">
  <refnamediv> 
   <refname>sqlite_current</refname>
@@ -17,7 +19,7 @@
    <methodparam choice="opt"><type>int</type><parameter>result_type</parameter><initializer>SQLITE_BOTH</initializer></methodparam>
    <methodparam choice="opt"><type>bool</type><parameter>decode_binary</parameter><initializer>true</initializer></methodparam>
   </methodsynopsis>
-  <para>Object oriented style (method):</para>
+  <para>&style.oop; (método):</para>
   <classsynopsis>
    <ooclass><classname>SQLiteResult</classname></ooclass>
    <methodsynopsis>

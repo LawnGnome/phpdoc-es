@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: agarzon Status: ready -->
+<!-- EN-Revision: 322061 Maintainer: agarzon Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
+
 <section xml:id="nsapi.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  <para>
@@ -15,10 +17,10 @@
    <tgroup cols="4">
     <thead>
      <row>
-      <entry>Name</entry>
-      <entry>Default</entry>
-      <entry>Changeable</entry>
-      <entry>Changelog</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
+      <entry>&Changeable;</entry>
+      <entry>&Changelog;</entry>
      </row>
     </thead>
     <tbody>

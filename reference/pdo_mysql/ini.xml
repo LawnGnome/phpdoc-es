@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321496 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 322061 Maintainer: yago Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
+
 <section xml:id="pdo-mysql.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -10,9 +12,9 @@
    <tgroup cols="3">
     <thead>
      <row>
-      <entry>Nombre</entry>
-      <entry>Por defecto</entry>
-      <entry>Modificable</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
+      <entry>&Changeable;</entry>
      </row>
     </thead>
     <tbody>

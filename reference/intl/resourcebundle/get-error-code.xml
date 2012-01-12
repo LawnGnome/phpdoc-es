@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: seros Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 322055 Maintainer: seros Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
+
 <refentry xml:id="resourcebundle.geterrorcode" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>ResourceBundle::getErrorCode</refname>
@@ -12,7 +13,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <para>
-   Estilo orientado a objetos
+   &style.oop;
   </para>
   <methodsynopsis>
    <type>int</type>
@@ -20,7 +21,7 @@
    <void />
   </methodsynopsis>
   <para>
-   Estilo por procedimientos
+   &style.procedural;
   </para>
   <methodsynopsis>
    <type>int</type>
