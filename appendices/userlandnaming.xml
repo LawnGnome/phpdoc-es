@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- EN-Revision: 304887 Maintainer: hcrow Status: ready -->
+<!-- EN-Revision: 322134 Maintainer: jpberdejo Status: ready -->
 <appendix xml:id="userlandnaming" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Guia de Entorno de Usuario para Nombres</title>
  <para>
@@ -89,7 +89,7 @@
      magica documentada. Ejemplos:
     </para>
     <itemizedlist>
-     <listitem><para><function>__get</function></para></listitem>
+     <listitem><para><link linkend="object.get">__get()</link></para></listitem>
      <listitem><para><function>__autoload</function></para></listitem>
     </itemizedlist>
    </listitem>
