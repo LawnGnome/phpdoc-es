@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 316472 Maintainer: alejandrorodas Status: ready -->
-<!-- Reviewed: no -->
-
+<!-- EN-Revision: 322104 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="pdostatement.fetch" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>PDOStatement->fetch</refname>
+  <refname>PDOStatement::fetch</refname>
   <refpurpose>
    Obtiene la siguiente fila del conjunto de resultados
   </refpurpose>
