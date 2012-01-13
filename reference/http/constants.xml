@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: gerardocdc Status: ready -->
+<!-- EN-Revision: 322045 Maintainer: jpberdejo Status: ready -->
 <appendix xml:id="http.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;
@@ -129,7 +129,7 @@
    </term>
    <listitem>
     <simpara>
-     si &quot;secure&quot; se encuentra en la lista de parámetros de la cookie
+     si "secure" se encuentra en la lista de parámetros de la cookie
     </simpara>
    </listitem>
   </varlistentry>
@@ -140,7 +140,7 @@
    </term>
    <listitem>
     <simpara>
-     si &quot;httpOnly&quot; se encuentra en la lista de parámetros de la cookie
+     si "httpOnly" se encuentra en la lista de parámetros de la cookie
     </simpara>
    </listitem>
   </varlistentry>
@@ -565,7 +565,7 @@
    </term>
    <listitem>
     <simpara>
-     empleo de autentificación &quot;básica&quot;
+     empleo de autentificación "basic"
     </simpara>
    </listitem>
   </varlistentry>
@@ -576,7 +576,7 @@
    </term>
    <listitem>
     <simpara>
-     empleo de autentificación &quot;digest&quot;
+     empleo de autentificación "digest"
     </simpara>
    </listitem>
   </varlistentry>
@@ -587,7 +587,7 @@
    </term>
    <listitem>
     <simpara>
-     empleo de autentificación &quot;NTLM&quot;
+     empleo de autentificación "NTLM"
     </simpara>
    </listitem>
   </varlistentry>
@@ -598,7 +598,7 @@
    </term>
    <listitem>
     <simpara>
-     empleo de autentificación &quot;GSS-NEGOTIATE&quot;
+     empleo de autentificación "GSS-NEGOTIATE"
     </simpara>
    </listitem>
   </varlistentry>
