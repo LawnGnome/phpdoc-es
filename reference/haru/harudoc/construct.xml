@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321903 Maintainer: jesus_cova Status: ready -->
-<!-- Reviewed: no Maintainer: andresdzphp -->
+<!-- EN-Revision: 322115 Maintainer: jesus_cova Status: ready -->
+<!-- Reviewed: no Maintainer: jesus_cova -->
 
-<refentry xml:id="function.harudoc-construct" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="harudoc.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruDoc::__construct</refname>
   <refpurpose>Construye una nueva instancia de <classname>HaruDoc</classname></refpurpose>
