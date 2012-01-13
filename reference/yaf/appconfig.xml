@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321987 Maintainer: seros Status: ready -->
-<!-- Reviewed: no Maintainer: andresdzphp -->
+<!-- EN-Revision: 322138 Maintainer: seros Status: ready -->
+<!-- Reviewed: no Maintainer: seros -->
 
 <chapter xml:id="yaf.appconfig" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title xmlns="http://docbook.org/ns/docbook">Configuración de la Aplicación</title>
@@ -254,7 +254,7 @@ yaf.dispatcher.catchException = 0
      </para>
     </listitem>
    </varlistentry>
-   <varlistentry xml:id="configuration.yaf.baseUri">
+   <varlistentry xml:id="configuration.yaf.baseuri">
     <term>
      <parameter>application.baseUri</parameter>
      <type>string</type>
