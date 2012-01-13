@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: sabathorn Status: ready -->
+<!-- EN-Revision: 322122 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="domdocument.getelementbyid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMDocument::getElementById</refname>
@@ -23,7 +23,8 @@
    o un DTD que defina un atributo de tipo ID. 
    En el último caso necesitará validar el documento con
    <xref linkend="domdocument.validate" /> 
-   o <literal>DOMDocument->validateOnParse</literal> antes de utilizar esta función.
+   o <link
+      linkend="domdocument.props.validateonparse">DOMDocument::$validateOnParse</link> antes de utilizar esta función.
   </para>
  </refsect1>
  <refsect1 role="parameters">
@@ -50,7 +51,7 @@
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
-   <title>DOMDocument->getElementById() Example</title>
+   <title>Ejemplo de DOMDocument::getElementById()</title>
    <programlisting role="php">
 <![CDATA[
 <?php
