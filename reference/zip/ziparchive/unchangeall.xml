@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307780 Maintainer: edwincartagenah Status: ready -->
-<refentry xml:id="function.ziparchive-unchangeall" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: edwincartagenah Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
+
+<refentry xml:id="ziparchive.unchangeall" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::unchangeAll</refname>
   <refpurpose>Deshacer todos los cambios hechos en el archivo</refpurpose>

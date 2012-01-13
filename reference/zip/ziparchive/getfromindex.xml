@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307780 Maintainer: julionc Status: ready -->
-<refentry xml:id="function.ziparchive-getfromindex" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: julionc Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
+
+<refentry xml:id="ziparchive.getfromindex" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::getFromIndex</refname>
   <refpurpose>Devuelve el contenido de la entrada usando su índice</refpurpose>

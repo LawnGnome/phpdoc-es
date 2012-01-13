@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307793 Maintainer: julionc Status: ready -->
-<refentry xml:id="function.ziparchive-addfile" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: julionc Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
+
+<refentry xml:id="ziparchive.addfile" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::addFile</refname>
   <refpurpose>Añade un fichero al archivo ZIP para la ruta dada</refpurpose>

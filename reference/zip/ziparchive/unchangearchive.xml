@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301626 Maintainer: edwincartagenah Status: ready -->
-<refentry xml:id="function.ziparchive-unchangearchive" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: edwincartagenah Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
+
+<refentry xml:id="ziparchive.unchangearchive" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::unchangeArchive</refname>
   <refpurpose>Revertir todos los cambios globales hechos en el archivo</refpurpose>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320331 Maintainer: edwincartagenah Status: ready -->
-<!-- Reviewed: no -->
-<refentry xml:id="function.ziparchive-open" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: edwincartagenah Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
+
+<refentry xml:id="ziparchive.open" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ZipArchive::open</refname>
   <refpurpose>Abrir un fichero de archivo en formato ZIP</refpurpose>
