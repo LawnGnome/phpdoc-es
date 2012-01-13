@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: carlos Status: ready -->
-<!-- Reviewed: no Maintainer: andresdzphp -->
-
+<!-- EN-Revision: 322122 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="function.sqlite-current" xmlns="http://docbook.org/ns/docbook">
  <refnamediv> 
   <refname>sqlite_current</refname>
-  <refname>SQLiteResult->current</refname>
-  <refname>SQLiteUnbuffered->current</refname>
+  <refname>SQLiteResult::current</refname>
+  <refname>SQLiteUnbuffered::current</refname>
   <refpurpose>Obtiene la fila actual como un array de un conjunto de resultado</refpurpose>
  </refnamediv>
 

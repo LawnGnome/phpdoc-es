@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: carlos Status: ready -->
-<!-- Reviewed: no Maintainer: andresdzphp -->
-
+<!-- EN-Revision: 322122 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="function.sqlite-changes" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>sqlite_changes</refname> 
-  <refname>SQLiteDatabase->changes</refname>
+  <refname>SQLiteDatabase::changes</refname>
   <refpurpose> 
    Devuelve el número de filas que han sido cambiadas mediante la sentencia SQL más reciente.
   </refpurpose>
