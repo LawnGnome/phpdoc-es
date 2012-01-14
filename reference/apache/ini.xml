@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: dulasoft Status: ready -->
+<!-- EN-Revision: 322061 Maintainer: yago Status: ready -->
 <section xml:id="apache.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  <para>
@@ -19,10 +19,10 @@
    <tgroup cols="4">
     <thead>
      <row>
-      <entry>Nombre</entry>
-      <entry>Predeterminado</entry>
-      <entry>Modificador</entry>
-      <entry>Changelog</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
+      <entry>&Changeable;</entry>
+      <entry>&Changelog;</entry>
      </row>
     </thead>
     <tbody>
