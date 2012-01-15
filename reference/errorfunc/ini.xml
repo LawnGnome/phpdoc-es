@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 322061 Maintainer: chuso Status: ready -->
 <section xml:id="errorfunc.configuration" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.runtime;
  &extension.runtime;
@@ -10,10 +10,10 @@
    <tgroup cols="4">
     <thead>
      <row>
-      <entry>Nombre</entry>
-      <entry>Predeterminado</entry>
-      <entry>Variable</entry>
-      <entry>Registro de Cambios</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
+      <entry>&Changeable;</entry>
+      <entry>&Changelog;</entry>
      </row>
     </thead>
     <tbody>
