@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 322147 Maintainer: seros Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.hwapi-object-new">
  <refnamediv>
-  <refname>hw_api_object</refname>
-  <refpurpose>Crea una nueva instancia de la clase hw_api_object</refpurpose>
+  <refname>hwapi_object_new</refname>
+  <refpurpose>Crea una nueva instancia de la clase hwapi_object_new</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>hw_api_object</type><methodname>hw_api_object</methodname>
+   <type>hw_api_object</type><methodname>hwapi_object_new</methodname>
    <methodparam><type>array</type><parameter>parameter</parameter></methodparam>
   </methodsynopsis>
   <para>
@@ -44,7 +44,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.hwapi-lock" /></member>
+    <member><xref linkend="hwapi.lock" /></member>
    </simplelist>
   </para>
  </refsect1>

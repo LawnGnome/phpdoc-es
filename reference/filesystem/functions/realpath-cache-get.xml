@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: seros Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.realpath_cache_get">
+<!-- EN-Revision: 322131 Maintainer: seros Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.realpath-cache-get">
  <refnamediv>
   <refname>realpath_cache_get</refname>
   <refpurpose>Obtiene las entradas de la caché de la ruta real</refpurpose>
