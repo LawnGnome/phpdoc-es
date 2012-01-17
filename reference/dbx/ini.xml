@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 322061 Maintainer: seros Status: ready -->
 <section xml:id="dbx.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -10,10 +10,10 @@
    <tgroup cols="4">
     <thead>
      <row>
-      <entry>Nombre</entry>
-      <entry>Predeterminado</entry>
-      <entry>Variable</entry>
-      <entry>Registro de Cambios</entry>
+      <entry>&Name;</entry>
+      <entry>&Default;</entry>
+      <entry>&Changeable;</entry>
+      <entry>&Changelog;</entry>
      </row>
     </thead>
     <tbody>
@@ -27,26 +27,26 @@
    </tgroup>
   </table>
   &ini.php.constants;
-</para>
-
-&ini.descriptions.title;
-
-<para>
- <variablelist>
-   <varlistentry xml:id="ini.dbx.colnames-case">
-   <term>
-    <parameter>dbx.colnames_case</parameter>
-    <type>string</type>
-   </term>
-   <listitem>
-    <para>
-     Los nombres de las columnas pueden ser devueltas "unchanged" (sin cambios) o convertidas a
-     "uppercase" o "lowercase" (mayúsculas y minúsculas respectivamente). Esta directiva puede ser sobrescrita
-     con una bandera establecia en <function>dbx_query</function>.
-    </para>
-   </listitem>
-  </varlistentry>
+ </para>
  
+ &ini.descriptions.title;
+ 
+ <para>
+  <variablelist>
+   <varlistentry xml:id="ini.dbx.colnames-case">
+    <term>
+     <parameter>dbx.colnames_case</parameter>
+     <type>string</type>
+    </term>
+    <listitem>
+     <para>
+      Los nombres de las columnas pueden ser devueltas "unchanged" (sin cambios) o convertidas a
+      "uppercase" o "lowercase" (mayúsculas y minúsculas respectivamente). Esta directiva puede ser sobrescrita
+      con una bandera establecia en <function>dbx_query</function>.
+     </para>
+    </listitem>
+  </varlistentry>
+  
  </variablelist>
  </para>
 </section>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311382 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 322062 Maintainer: seros Status: ready -->
 <!--
 Remove me once you perform substitutions
 domnamednodemap
@@ -18,7 +18,7 @@ dom
   <section xml:id="domnamednodemap.intro">
   &reftitle.intro;
   <para>
-  Description of the class.
+  
  </para>
  </section>
   -->
