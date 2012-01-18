@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: andresdzphp Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 322381 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
+
 <refentry xml:id="arrayobject.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ArrayObject::__construct</refname>
@@ -11,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <constructorsynopsis>
-   <methodname>ArrayObject::__construct</methodname>
+   <modifier>public</modifier> <methodname>ArrayObject::__construct</methodname>
    <methodparam choice="opt"><type>mixed</type><parameter>input</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>flags</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>iterator_class</parameter></methodparam>
