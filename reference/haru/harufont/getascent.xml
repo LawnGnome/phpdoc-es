@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jesus_cova Status: ready -->
-<refentry xml:id="function.harufont-getascent" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: jpberdejo Status: ready -->
+<refentry xml:id="harufont.getascent" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruFont::getAscent</refname>
   <refpurpose>Obtiene el ascenso vertical de la fuente</refpurpose>
