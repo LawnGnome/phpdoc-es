@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322030 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 322134 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 
 <refentry xml:id="function.class-uses" xmlns="http://docbook.org/ns/docbook">
@@ -41,8 +41,7 @@
      <listitem>
       <para>
        Si permitir a esta función cargar la clase automáticamente a través
-       del método mágico
-       <link linkend="language.oop5.autoload">__autoload</link>.
+       del método mágico <function>__autoload</function>.
       </para>
      </listitem>
     </varlistentry>
