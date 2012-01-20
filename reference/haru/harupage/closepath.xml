@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jesus_cova Status: ready -->
-<refentry xml:id="function.harupage-closepath" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: jpberdejo Status: ready -->
+<refentry xml:id="harupage.closepath" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruPage::closePath</refname>
   <refpurpose>Anexa una línea recta del punto corriente al inicio del punto de la ruta</refpurpose>
