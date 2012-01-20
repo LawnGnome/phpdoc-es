@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: jvenegasperu Status: ready -->
+<!-- EN-Revision: 322140 Maintainer: jvenegasperu Status: ready -->
 <!-- Purpose: database.vendors -->
 <!-- Membership: bundled, external, pecl -->
 
@@ -120,7 +120,7 @@ pgsql:host=localhost;port=5432;dbname=testdb;user=bruce;password=mypass
    </refsect1>
   </refentry>
 
-  &reference.pdo-pgsql.entities.functions;
+  &reference.pdo-pgsql.entities.PDO;
 
  </reference>
 
