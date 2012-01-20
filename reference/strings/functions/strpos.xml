@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321865 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 322459 Maintainer: jpberdejo Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strpos">
