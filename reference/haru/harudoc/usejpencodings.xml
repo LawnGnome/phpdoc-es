@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jesus_cova Status: ready -->
-<refentry xml:id="function.harudoc-usejpencodings" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322115 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no -->
+
+<refentry xml:id="harudoc.usejpencodings" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruDoc::useJPEncodings</refname>
   <refpurpose>Habilita las codificaciones Japonesas</refpurpose>
@@ -26,7 +28,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Devuelve &true; en éxito.
+   Devuelve &true; en caso de éxito.
   </para>
  </refsect1>
 
