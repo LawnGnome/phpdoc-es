@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jesus_cova Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: jpberdejo Status: ready -->
 <!-- Reviewed: no -->
-<refentry xml:id="function.harupage-getlinecap" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="harupage.getlinecap" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruPage::getLineCap</refname>
   <refpurpose>Obtiene el estilo actual del extremo de línea</refpurpose>
