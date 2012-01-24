@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 322055 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="locale.getdisplaylanguage">
  <refnamediv>
@@ -12,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <para>
-   Estilo orientado a objetos
+   &style.oop;
   </para>
   <methodsynopsis>
    <modifier>static</modifier>
@@ -22,7 +22,7 @@
    <methodparam choice="opt"><type>string</type><parameter>in_locale</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Estilo por procedimientos
+   &style.procedural;
   </para>
   <methodsynopsis>
    <type>string</type>
