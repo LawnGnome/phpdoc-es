@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
-<refentry xml:id="function.swfmorph.getshape1" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: seros Status: ready -->
+<refentry xml:id="swfmorph.getshape1" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SWFMorph->getShape1</refname>
+  <refname>SWFMorph::getShape1</refname>
   <refpurpose>Obtiene un gestor para la forma inicial</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>SWFMorph</classname></ooclass>
-   <methodsynopsis>
-    <type>SWFShape</type><methodname>getShape1</methodname>
-    <void/>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>SWFShape</type><methodname>SWFMorph::getShape1</methodname>
+   <void/>
+  </methodsynopsis>
   &warn.experimental.func;
   <para>
    Obtiene la forma inicial del morph.
@@ -32,7 +29,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><xref linkend="function.swfmorph.getshape2" /></member>
+    <member><function>SWFMorph::getShape2</function></member>
    </simplelist>
   </para>
  </refsect1>
