@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 315005 Maintainer: alejandrorodas Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: yes -->
 
 <refentry xml:id="pdo.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -31,7 +31,7 @@
     <varlistentry><term>dsn</term>
      <listitem>
       <para>
-       EL nombre de origen de datos (DSN), contiene la información requerida para
+       EL nombre de origen de datos (DSN, Data Source Name en inglés), contiene la información requerida para
        conectarse a la base de datos.
       </para>
       <para>
