@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005  Maintainer: jorgeolaya Status: ready -->
+<!-- EN-Revision: 322381 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no -->
+
 <refentry xml:id="recursivedirectoryiterator.getchildren" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>RecursiveDirectoryIterator::getChildren</refname>
@@ -10,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>object</type><methodname>RecursiveDirectoryIterator::getChildren</methodname>
+   <modifier>public</modifier> <type>mixed</type><methodname>RecursiveDirectoryIterator::getChildren</methodname>
    <void/>
   </methodsynopsis>
   
@@ -26,7 +28,8 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Un iterador de la entrada actual, si se trata de un directorio.    
+   El nombre de fichero, información de fichero o $this dependiendo de las banderas establecidas.
+   Véase las <link linkend="filesystemiterator.constants">constantes FilesystemIterator</link>.
   </para>
  </refsect1>
  
