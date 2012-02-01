@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304887 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 322138 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no -->
+
 <chapter xml:id="faq.obtaining" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Consiguiendo PHP</title>
   <titleabbrev>Consiguiendo PHP</titleabbrev>
@@ -186,7 +188,7 @@
      </para>
     </answer>
    </qandaentry>
-   <qandaentry xml:id="faq.obtaining.compileNT">
+   <qandaentry xml:id="faq.obtaining.compilent">
     <question>
      <para>
       He conseguido la última versión del código fuente de PHP desde el
