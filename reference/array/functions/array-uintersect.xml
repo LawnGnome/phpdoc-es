@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 323049 Maintainer: seros Status: ready -->
 <refentry xml:id="function.array-uintersect" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>array_uintersect</refname>
@@ -43,14 +43,9 @@
      <term><parameter>data_compare_func</parameter></term>
      <listitem>
       <para>
-       La función de llamada de retorno de comparación.
+       &return.callbacksort;
       </para>
-      <para>
-       La función de llamada de retorno proporcionada por el usuario se usa para la comparación.
-       Debe devolver un valor de tipo integer menor que, igual, o mayor que cero si
-       el primer argumento es considerado, respectivamente, menor que, igual,
-       o mayor que el segundo.
-      </para>
+      &callback.cmp;
      </listitem>
     </varlistentry>
    </variablelist>
