@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 295610 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 322122 Maintainer: yago Status: ready -->
 <refentry xml:id="soapclient.getlastresponse" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SoapClient::__getLastResponse</refname>
@@ -41,7 +41,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Ejemplo de SoapClient->__getLastResponse()</title>
+    <title>Ejemplo de SoapClient::__getLastResponse()</title>
     <programlisting role="php">
 <![CDATA[
 <?php

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 311814 Maintainer: yago Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-evaluateimage">
- <refnamediv>
+<!-- EN-Revision: 322115 Maintainer: yago Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.evaluateimage">
+<refnamediv>
   <refname>Imagick::evaluateImage</refname>
   <refpurpose>Aplica una expresión a una imagen</refpurpose>
  </refnamediv>
