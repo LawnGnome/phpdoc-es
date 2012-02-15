@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 314909 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 323235 Maintainer: yago Status: ready -->
 <refentry xml:id="function.mysql-close" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_close</refname>
@@ -11,7 +11,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>bool</type><methodname>mysql_close</methodname>
-   <methodparam choice="opt"><type>resource</type><parameter>link_identifier</parameter></methodparam>
+   <methodparam choice="opt"><type>resource</type><parameter>link_identifier</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>mysql_close</function> cierra la conexión no continua

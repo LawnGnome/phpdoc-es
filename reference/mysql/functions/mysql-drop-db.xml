@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 300101 Maintainer: jesus_cova Status: ready -->
+<!-- EN-Revision: 323235 Maintainer: jesus_cova Status: ready -->
 <refentry xml:id="function.mysql-drop-db" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_drop_db</refname>
@@ -12,7 +12,7 @@
   <methodsynopsis>
    <type>bool</type><methodname>mysql_drop_db</methodname>
    <methodparam><type>string</type><parameter>database_name</parameter></methodparam>
-   <methodparam choice="opt"><type>resource</type><parameter>link_identifier</parameter></methodparam>
+   <methodparam choice="opt"><type>resource</type><parameter>link_identifier</parameter><initializer>&null;</initializer></methodparam>
   </methodsynopsis>
   <para>
    <function>mysql_drop_db</function> intenta omitir (remover) una 
