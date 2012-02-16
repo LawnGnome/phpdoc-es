@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320465 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 323235 Maintainer: andresdzphp Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.mysql-unbuffered-query" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
