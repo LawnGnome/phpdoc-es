@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: seros Status: ready -->
 <!-- splitted from ./en/functions/ming.xml, last change in rev 1.24 -->
-<refentry xml:id="function.swfmovie.setdimension" xmlns="http://docbook.org/ns/docbook">
+<refentry xml:id="swfmovie.setdimension" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SWFMovie->setDimension</refname>
+  <refname>SWFMovie::setDimension</refname>
   <refpurpose>Establece el ancho y alto de la película</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>SWFMovie</classname></ooclass>
-   <methodsynopsis>
-    <type>void</type><methodname>setDimension</methodname>
-    <methodparam><type>float</type><parameter>width</parameter></methodparam>
-    <methodparam><type>float</type><parameter>height</parameter></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>void</type><methodname>SWFMovie::setDimension</methodname>
+   <methodparam><type>float</type><parameter>width</parameter></methodparam>
+   <methodparam><type>float</type><parameter>height</parameter></methodparam>
+  </methodsynopsis>
   &warn.experimental.func;
   <para>
    Establece las dimensiones de la película al ancho y alto especificados por <parameter>width</parameter>

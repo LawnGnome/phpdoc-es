@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 323169 Maintainer: seros Status: ready -->
 
 <refentry xml:id="function.cubrid-error" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -27,7 +27,7 @@
    <variablelist>
     <varlistentry>
      <term><parameter>connection</parameter></term>
-     <listitem><para></para></listitem>
+     <listitem><para>La conexión CUBRID</para></listitem>
     </varlistentry>
    </variablelist>
   </para>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 323169 Maintainer: seros Status: ready -->
 
 <refentry xml:id="function.cubrid-data-seek" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -43,13 +43,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   CUBRID_CURSOR_SUCCESS en caso de éxito.
-  </para>
-  <para>
-   CUBRID_NO_MORE_DATA cuando no es una ubicación de cursor válida.
-  </para>
-  <para>
-   &false; en caso de error CAS, la cuenta de filas es 0, o índice no válido.
+   Devuelve &true; en caso de éxito o &false; en caso de error.
   </para>
  </refsect1>
  
