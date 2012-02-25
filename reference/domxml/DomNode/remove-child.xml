@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322140 Maintainer: JuanFrancisco Maureira Status: ready -->
+<!-- EN-Revision: 322140 Maintainer: juanframaureira Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id='function.domnode-remove-child' xmlns="http://docbook.org/ns/docbook">
