@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323264 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 323438 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <!-- Keep 'em sorted -->
 
@@ -244,6 +244,8 @@ no está documentada actualmente, solamente se encuentra disponible la lista de 
 
 
 <!-- Misc -->
+
+<!ENTITY version.exists.asof 'Existe a partir de PHP '>
 
 <!ENTITY version.trunk.after.53 '<emphasis xmlns="http://docbook.org/ns/docbook">Este cambio
 existe en la <link linkend="about.phpversions">versión de desarrollo</link> de PHP, y 
