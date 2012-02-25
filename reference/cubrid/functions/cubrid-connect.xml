@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321058 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 323169 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.cubrid-connect" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -47,11 +47,12 @@
     </varlistentry>
     <varlistentry>
      <term><parameter>userid</parameter></term>
-     <listitem><para>Nombre de usuario para la base de datos.</para></listitem>
+     <listitem><para>Nombre de usuario para la base de datos. Si no se da, el valor
+      por omisión es "public".</para></listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>passwd</parameter></term>
-     <listitem><para>Contraseña del usuario.</para></listitem>
+     <listitem><para>Contraseña del usuario. Si no se da, el valor por omisión es "".</para></listitem>
     </varlistentry>
     <varlistentry>
      <term><parameter>new_link</parameter></term>
