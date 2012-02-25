@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
-<refentry xml:id="function.swfbutton.addshape" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 322205 Maintainer: seros Status: ready -->
+<refentry xml:id="swfbutton.addshape" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>SWFButton->addShape</refname>
+  <refname>SWFButton::addShape</refname>
   <refpurpose>Añade una forma a un botón</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
-  <classsynopsis>
-   <ooclass><classname>SWFButton</classname></ooclass>
-   <methodsynopsis>
-    <type>void</type><methodname>addShape</methodname>
-    <methodparam><type>SWFShape</type><parameter>shape</parameter></methodparam>
-    <methodparam><type>int</type><parameter>flags</parameter></methodparam>
-   </methodsynopsis>
-  </classsynopsis>
+  <methodsynopsis>
+   <type>void</type><methodname>SWFButton::addShape</methodname>
+   <methodparam><type>SWFShape</type><parameter>shape</parameter></methodparam>
+   <methodparam><type>int</type><parameter>flags</parameter></methodparam>
+  </methodsynopsis>
   &warn.experimental.func;
   <para>
    Añade la forma dada por <parameter>shape</parameter> a un botón.
