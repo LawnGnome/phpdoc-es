@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: seros Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-getimagetotalinkdensity">
+<!-- EN-Revision: 322115 Maintainer: seros Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.getimagetotalinkdensity">
  <refnamediv>
   <refname>Imagick::getImageTotalInkDensity</refname>
   <refpurpose>Obtiene la densidad de tinta total de la imagen</refpurpose>
