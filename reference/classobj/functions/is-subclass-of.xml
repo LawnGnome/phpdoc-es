@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: XX Maintainer: yago Status: ready -->
+<!-- EN-Revision: 322047 Maintainer: yago Status: ready -->
 <!-- Reviewed: no Maintainer: yago -->
+
 <refentry xml:id="function.is-subclass-of" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>is_subclass_of</refname>
