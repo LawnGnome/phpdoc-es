@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320204 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 323519 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <chapter xml:id="datetime.formats" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Formatos de Fecha y Hora soportados</title>
@@ -613,6 +613,9 @@
    <para>
     La "T" en los formatos SOAP, XMRPC y WDDX es sensible a mayúsculas-minúsculas,
     sólo se puede usar la "T" mayúscula.
+   </para>
+   <para>
+    El formato "Unix Timestamp" establece la zona horaria a UTC.
    </para>
   </note>
  </section>
