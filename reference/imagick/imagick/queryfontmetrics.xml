@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320524 Maintainer: seros Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-queryfontmetrics">
+<!-- EN-Revision: 322115 Maintainer: seros Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.queryfontmetrics">
  <refnamediv>
   <refname>Imagick::queryFontMetrics</refname>
   <refpurpose>Devuelve una matriz que representa las métricas de la fuente</refpurpose>
@@ -16,7 +16,7 @@
    <methodparam choice="opt"><type>bool</type><parameter>multiline</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Devuelve una matriz multidimensional que representa las métricas de la fuente.
+   Devuelve un array multidimensional que representa las métricas de la fuente.
   </para>
  </refsect1>
 
@@ -56,7 +56,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Devuelve una matriz multidimensional que representa las métricas de la fuente.
+   Devuelve un array multidimensional que representa las métricas de la fuente.
   </para>
  </refsect1>
  
