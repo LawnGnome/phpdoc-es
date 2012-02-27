@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320460 Maintainer: seros Status: ready -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagick-removeimage">
+<!-- EN-Revision: 322115 Maintainer: seros Status: ready -->
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagick.removeimage">
  <refnamediv>
   <refname>Imagick::removeImage</refname>
-  <refpurpose>Elimina una imagen de la lista de imágenes</refpurpose>
+  <refpurpose>Quita una imagen de la lista de imágenes</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
@@ -14,7 +14,7 @@
    <void/>
   </methodsynopsis>
   <para>
-   Elimina una imagen de la lista de imágenes.
+   Quita una imagen de la lista de imágenes.
   </para>
  </refsect1>
 
