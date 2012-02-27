@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321903 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 322115 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.imagickdraw-construct">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="imagickdraw.construct">
  <refnamediv>
   <refname>ImagickDraw::__construct</refname>
   <refpurpose>El constructor ImagickDraw</refpurpose>
