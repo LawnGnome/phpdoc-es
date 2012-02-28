@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303753 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 322055 Maintainer: seros Status: ready -->
 
 <refentry xml:id="cairocontext.glyphpath" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -45,7 +45,7 @@
      <term><parameter>glyphs</parameter></term>
      <listitem>
       <para>
-       Matriz de glifos
+       Array de glifos
       </para>
      </listitem>
     </varlistentry>
@@ -64,7 +64,7 @@
   &reftitle.examples;
   <para>
    <example>
-    <title>Estilo orientado a objetos</title>
+    <title>&style.oop;</title>
     <programlisting role="php">
 <![CDATA[
 <?php
@@ -82,7 +82,7 @@
   </para>
   <para>
    <example>
-    <title>Estilo procedural</title>
+    <title>&style.procedural;</title>
     <programlisting role="php">
 <![CDATA[
 <?php
