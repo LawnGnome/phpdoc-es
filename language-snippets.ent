@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323438 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 323638 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <!-- Keep 'em sorted -->
 
@@ -831,7 +831,7 @@ El comportamiento de estas funciones se ve afectado por la configuración de &ph
 </simpara>'>
 
 <!ENTITY ini.php.constants 'Para más detalles y definiciones de los modos de
-PHP_INI_*, vea <xref xmlns="http://docbook.org/ns/docbook" linkend="configuration.changes.modes"/>.'>
+INI_*, vea <xref xmlns="http://docbook.org/ns/docbook" linkend="configuration.changes.modes"/>.'>
 
 <!-- Used in reference/$extname/constants.xml -->
 <!ENTITY extension.constants '<simpara xmlns="http://docbook.org/ns/docbook">
