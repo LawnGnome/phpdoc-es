@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 319725 Maintainer: chuso Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 323806 Maintainer: chuso Status: ready -->
+<!-- Reviewed: no Maintainer: chuso -->
+
 <sect1 xml:id="language.oop5.traits" xmlns="http://docbook.org/ns/docbook">
  <title>Traits</title>
  <para>
@@ -147,7 +148,7 @@ trait Hola {
 
 trait Mundo {
     public function decirMundo() {
-        echo ' Mundo';
+        echo 'Mundo';
     }
 }
 
