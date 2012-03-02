@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322061 Maintainer: seros Status: ready -->
-<!-- Reviewed: no Maintainer: andresdzphp -->
+<!-- EN-Revision: 323642 Maintainer: seros Status: ready -->
+<!-- Reviewed: no Maintainer: seros -->
 
 <section xml:id="sem.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
