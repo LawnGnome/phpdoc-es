@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: edwincartagenah Status: ready -->
+<!-- EN-Revision: 323624 Maintainer: edwincartagenah Status: ready -->
+<!-- Reviewed: no Maintainer: edwincartagenah -->
+
 <section xml:id="spl-types.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
  &extension.constants;
  <para>
   <variablelist>
-   <varlistentry>
+   <varlistentry xml:id="constant.--default">
     <term>
      <constant>__default</constant> 
      (A cada objeto SPL_Types le pertenece una constante __default donde se almacena el valor del objeto. <type>int/float/bool/enum</type>)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323806 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 323957 Maintainer: chuso Status: ready -->
 <!-- Reviewed: no Maintainer: chuso -->
 
 <sect1 xml:id="language.oop5.traits" xmlns="http://docbook.org/ns/docbook">
@@ -162,7 +162,7 @@ class MiHolaMundo {
 $o = new MiHolaMundo();
 $o->decirHola();
 $o->decirMundo();
-$o->decirAdmiración();>
+$o->decirAdmiración();
 ?>
 ]]>
    </programlisting>
