@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: andresdzphp Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 324122 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
 
 <refentry xml:id="recursivecallbackfilteriterator.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -44,7 +44,7 @@
       Véase los <link linkend="recursivecallbackfilteriterator.examples">Ejemplos</link>.
      </para>
      <para>
-      Puede ser cualquier valor válido de <type>callback</type> (llamada de retorno).
+      Puede ser cualquier valor válido de <type>callable</type>.
      </para>
     </listitem>
    </varlistentry>
