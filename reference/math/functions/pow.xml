@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315057 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 323895 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="function.pow" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>pow</refname>
@@ -44,10 +44,10 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   <parameter>base</parameter> elevada a la potencia de
-   <parameter>exp</parameter>. Si el resultado puede ser representado como
-   entero, éste será devuelto como <type>integer</type>, de lo contrario
-   será devuelto como <type>float</type>.
+   <parameter>base</parameter> elevada a la potencia de <parameter>exp</parameter>.
+   Si ambos argumentos son números enteros no negativos y el resultado puede ser representado
+   como un entero, el resultado será devuelto con tipo <type>integer</type>,
+   de lo contrario se devuelve como un <type>float</type>.
   </para>
  </refsect1>
  <refsect1 role="changelog">
