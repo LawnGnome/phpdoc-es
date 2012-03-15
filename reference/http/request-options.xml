@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322045 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 324122 Maintainer: jpberdejo Status: ready -->
 <appendix xml:id="http.request.options" xmlns="http://docbook.org/ns/docbook">
  <title>Opción que pueden ser utilizadas con la clase HttpRequest y las funciones para peticiones</title>
  <titleabbrev>Opciones de las peticiones</titleabbrev>
@@ -357,7 +357,7 @@
  <variablelist xml:id="http.request.options.callback">
   <title>Opciones de llamada de retorno</title>
   <varlistentry>
-   <term>onprogress (<type>callback</type>)</term>
+   <term>onprogress (<type>callable</type>)</term>
    <listitem><simpara>estado del progreso de la llamada de retorno</simpara></listitem>
   </varlistentry>
  </variablelist>
