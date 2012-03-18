@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- Membership: pecl, bundled -->
-<!-- EN-Revision: 317663 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 324190 Maintainer: chuso Status: ready -->
+<!-- Reviewed: no Maintainer: chuso -->
 
 <book xml:id="book.yaml" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>YAML Serialización de datos</title>
@@ -21,6 +22,7 @@
  &reference.yaml.setup;
  &reference.yaml.constants;
  &reference.yaml.examples;
+ &reference.yaml.callbacks;
  &reference.yaml.reference;
  
 </book>
