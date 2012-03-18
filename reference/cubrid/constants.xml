@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 324293 Maintainer: seros Status: ready -->
 
 <appendix xml:id="cubrid.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.constants;
@@ -100,15 +100,18 @@
      </row>
      <row>
       <entry>CUBRID_CURSOR_SUCCESS</entry>
-      <entry>Valor devuelto de la función <function>cubrid_move_cursor</function> en caso de éxito.</entry>
+      <entry>Valor devuelto de la función <function>cubrid_move_cursor</function>
+       en caso de éxito. Esta bandera ha sido eliminada desde 8.4.1</entry>
      </row>
      <row>
       <entry>CUBRID_NO_MORE_DATA</entry>
-      <entry>Valor devuelto de la función <function>cubrid_move_cursor</function> en caso de fallo.</entry>
+      <entry>Valor devuelto de la función <function>cubrid_move_cursor</function>
+       en caso de fallo. Esta bandera ha sido eliminada desde 8.4.1</entry>
      </row>
      <row>
       <entry>CUBRID_CURSOR_ERROR</entry>
-      <entry>Valor devuelto de la función <function>cubrid_move_cursor</function> en caso de fallo.</entry>
+      <entry>Valor devuelto de la función <function>cubrid_move_cursor</function>
+       en caso de fallo. Esta bandera ha sido eliminada desde 8.4.1</entry>
      </row>
     </tbody>
    </tgroup>

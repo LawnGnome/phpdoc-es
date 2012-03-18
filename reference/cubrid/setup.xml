@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322131 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 324293 Maintainer: seros Status: ready -->
 
 <chapter xml:id="cubrid.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
@@ -29,7 +29,10 @@
   <section xml:id="cubrid.resources.connection-identifier">
    <title>connection identifier</title>
    <para>
-    Un identificador de conexión devuelto por <function>cubrid_connect</function> y <function>cubrid_connect_with_url</function>.
+    Un identificador de conexión devuelto por <function>cubrid_connect</function>,
+    <function>cubrid_connect_with_url</function>,
+    <function>cubrid_pconnect</function> y
+    <function>cubrid_pconnect_with_url</function>.
    </para>
   </section>
   <section xml:id="cubrid.resources.request-identifier">
