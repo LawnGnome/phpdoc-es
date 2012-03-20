@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 324347 Maintainer: seros Status: ready -->
 <refentry xml:id="function.uniqid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>uniqid</refname>
@@ -45,7 +45,8 @@
       <para>
        Si está establecido a &true;, <function>uniqid</function> añadirá entropía
        adicional (usando el generador congruente lineal combinado) al final
-       del valor retornado, lo que podría hacer los resultados más únicos.
+       del valor retornado, lo que incrementará la posibilidad de que el resultado
+       sea único.
       </para>
      </listitem>
     </varlistentry>
