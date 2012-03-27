@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 324459 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.spl-autoload" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -18,7 +18,7 @@
    Esta función pretende usarse como una implementación predeterminada para
    <function>__autoload</function>. Si no se especifica nada más y
    <function>spl_autoload_register</function> es
-   llamada sin ningún parámetro, estas funciones serán usadas para cualquier
+   llamada sin ningún parámetro, esta función será usada para cualquier
    llamada posterior a <function>__autoload</function>. 
   </para>
  </refsect1>

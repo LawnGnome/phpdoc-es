@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: seros Status: ready -->
 <refentry xml:id="function.die" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>die</refname>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <para>
-   Este constructor de lenguaje es equivalente a <function>exit</function>.
+   Este constructor de lenguaje es equivalente a <link linkend="function.exit"><literal>exit</literal></link>.
   </para>
  </refsect1>
 
