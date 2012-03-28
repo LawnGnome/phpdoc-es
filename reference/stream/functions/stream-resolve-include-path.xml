@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309859 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: seros Status: ready -->
 <refentry xml:id="function.stream-resolve-include-path" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>stream_resolve_include_path</refname>
@@ -17,7 +17,7 @@
    <!--  <methodparam  choice="opt"><type>resource</type><parameter>context</parameter></methodparam>  -->
   </methodsynopsis>
   <para>
-   Resuelve <parameter>filename</parameter> en la ruta incluida según las mismas reglas que en <function>fopen</function>/<function>include</function>.
+   Resuelve <parameter>filename</parameter> en la ruta incluida según las mismas reglas que en <function>fopen</function>/<link linkend="function.include"><literal>include</literal></link>.
   </para>
  </refsect1>
  
