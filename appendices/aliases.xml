@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 303248 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: yago Status: ready -->
+<!-- Reviewed: no Maintainer: yago -->
 <appendix xml:id="aliases" xmlns="http://docbook.org/ns/docbook">
  <title>Listado de funciones alias</title>
  <para>
@@ -124,7 +125,7 @@
      </row>
      <row>
       <entry>die</entry>
-      <entry><function>exit</function></entry>
+      <entry><link linkend="function.exit"><literal>exit</literal></link></entry>
       <entry><link linkend="ref.misc">Funciones misceláneas</link></entry>
      </row>
      <row>
