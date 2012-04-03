@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 324741 Maintainer: seros Status: ready -->
 <refentry xml:id="function.com-print-typeinfo" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>com_print_typeinfo</refname>
@@ -39,7 +39,7 @@
      <term><parameter>dispinterface</parameter></term>
      <listitem>
       <para>
-       El nombre de una interfaz descendiente de IDispatch  que se quiere mostrar.
+       El nombre de una interfaz descendiente de <literal>IDispatch</literal> que se quiere mostrar.
       </para>
      </listitem>
     </varlistentry>

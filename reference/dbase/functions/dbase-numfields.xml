@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 324735 Maintainer: seros Status: ready -->
 <refentry xml:id="function.dbase-numfields" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>dbase_numfields</refname>
@@ -17,8 +17,8 @@
   </para>
   <note>
    <para>
-    El número de campos está entre 0 y dbase_numfields($db)-1,
-    mientras que el número de registro está entre 1 y dbase_numrecords($db).
+    El número de campos está entre 0 y <literal>dbase_numfields($db)-1</literal>,
+    mientras que el número de registro está entre 1 y <literal>dbase_numrecords($db)</literal>.
    </para>
   </note>
  </refsect1>
