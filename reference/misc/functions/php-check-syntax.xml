@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 324522 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="function.php-check-syntax" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>php_check_syntax</refname>
@@ -98,7 +98,7 @@
       <row>
        <entry>5.0.3</entry>
        <entry>
-        Llamar <function>exit</function> después de
+        Llamar <link linkend="function.exit"><literal>exit</literal></link> después de
         <function>php_check_syntax</function> resultaba en un fallo de
         segmentación.
        </entry>
@@ -138,7 +138,7 @@ PHP Parse error: unexpected T_STRING in /tmp/algun_archivo.php on line 81
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><function>include</function></member>
+    <member><link linkend="function.include"><literal>include</literal></link></member>
     <member><function>is_readable</function></member>
    </simplelist>
   </para>
