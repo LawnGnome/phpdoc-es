@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 324714 Maintainer: yago Status: ready -->
 <refentry xml:id="function.array-walk-recursive" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>array_walk_recursive</refname>
@@ -102,7 +102,7 @@ acido contiene limón
 ]]>
     </screen>
     <para>
-     Notará que la clave 'dulce' nunca es mostrada. Cualquier clave que
+     Notará que la clave '<literal>dulce</literal>' nunca es mostrada. Cualquier clave que
      contenga un valor <type>array</type> no será pasada a la función.
     </para>
    </example>
