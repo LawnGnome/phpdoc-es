@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323449 Maintainer: jesus_cova Status: ready -->
+<!-- EN-Revision: 324829 Maintainer: jesus_cova Status: ready -->
 <refentry xml:id="function.mysql-drop-db" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_drop_db</refname>
@@ -75,10 +75,19 @@ if (mysql_query($sql, $link)) {
 
  <refsect1 role="notes">
   &reftitle.notes;
+  <note>
+   &mysql.alternative.note;
+   <para>
+    &mysql.alternative.include;
+    <simplelist>
+     <member>Ejecutar una consulta <literal>DROP DATABASE</literal></member>
+    </simplelist>
+   </para>
+  </note>
   <warning>
    <para>
-    Ésta función no va a estar disponible si la extensión MySQL fue creada  
-    en contra de una biblioteca MySQL 4.x del cliente.
+    Ésta función no estará disponible si la extensión MySQL fue construida  
+    con una biblioteca MySQL 4.x del cliente.
    </para>
   </warning>
   <note>

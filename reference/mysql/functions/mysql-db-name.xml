@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323449 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 324829 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="function.mysql-db-name" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysql_db_name</refname>
@@ -90,6 +90,15 @@ while ($i < $cnt) {
  
  <refsect1 role="notes">
   &reftitle.notes;
+  <note>
+   &mysql.alternative.note;
+   <para>
+    &mysql.alternative.include;
+    <simplelist>
+     <member>Consulta: <literal>SELECT DATABASE()</literal></member>
+    </simplelist>
+   </para>
+  </note>
   <note>
    <para>
     &info.deprecated.alias;
