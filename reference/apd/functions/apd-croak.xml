@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 324741 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="function.apd-croak" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>apd_croak</refname>
@@ -14,7 +14,7 @@
    <methodparam choice="opt"><type>string</type><parameter>delimiter</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Se comporta como el Carp::croak de perl. Lanza un error, una pila de lamado y entonces sale.
+   Se comporta como el <literal>Carp::croak</literal> de perl. Lanza un error, una pila de lamado y entonces sale.
   </para>
  </refsect1>
 
