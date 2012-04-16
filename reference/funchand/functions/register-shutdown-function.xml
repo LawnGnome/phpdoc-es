@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324522 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 325214 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.register-shutdown-function" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -41,7 +41,7 @@
       </para>
       <para>
        Las llamadas de retorno de cierre se ejecutan como parte de una petición, por lo que
-       es posible enviar salidas desde ellas y acceder a los buffer de salida.
+       es posible enviar salidas desde ellas y acceder a los buffers de salida.
       </para>
      </listitem>
     </varlistentry>
