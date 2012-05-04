@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325214 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 325523 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.readfile">
  <refnamediv>
@@ -103,10 +103,19 @@ if (file_exists($fichero)) {
  </refsect1>
  
  <refsect1 role="notes">
+  <note>
+   <para>
+    <function>readfile</function> no expondrá cuestiones de memoria,
+    incluso al enviar ficheros grandes, por sí sola. Si se encuentra un
+    error de memoria insuficiente asegúrese que el buffer de salida está desactivado con
+    <function>ob_get_level</function>.
+   </para>
+  </note>
   &reftitle.notes;
   
   &tip.fopen-wrapper;
   &note.context-support;
+  
  </refsect1>
  
  <refsect1 role="seealso">
