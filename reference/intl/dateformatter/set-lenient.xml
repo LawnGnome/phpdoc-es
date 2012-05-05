@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 325509 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="intldateformatter.setlenient" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -49,7 +49,7 @@
      <term><parameter>lenient</parameter></term>
      <listitem>
       <para>
-       Establecer si el analizador es tolerante o no, por defecto es &false; (estricto).
+       Establecer si el analizador es tolerante o no, por defecto es &false; (tolerante).
       </para>
      </listitem>
     </varlistentry>
