@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 325917 Maintainer: seros Status: ready -->
 <refentry xml:id="function.imagecolortransparent" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagecolortransparent</refname>
@@ -38,7 +38,9 @@
   &reftitle.returnvalues;
   <para>
    El identificador del nuevo (o actual, si no se especificó nada)
-   color transparente es devuelto.
+   color transparente es devuelto. Si <parameter>color</parameter>
+   no se especifica y la imagen no tiene color transparente, el
+   identificador devuelto será -1.
   </para>
  </refsect1>
  <refsect1 role="examples">
