@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 326024 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mysqli.real-escape-string" xmlns="http://docbook.org/ns/docbook">
@@ -32,6 +32,16 @@
    sentencia SQL. La cadena dada es codificada a una cadena SQL escapada,
    tomando en cuenta el conjunto de caracters actual de la conexión.
   </para>
+  <caution>
+   <title>Seguridad: el conjunto de caracteres predeterminado</title>
+   <para>
+    El conjunto de caracteres debe ser establecido a nivel del servidor, o con
+    la función <function>mysqli_set_charset</function> de la API para que afecte a
+    <function>mysqli_real_escape_string</function>. Véase la sección de conceptos
+    sobre <link linkend="mysqlinfo.concepts.charset">conjuntos de caracteres</link> para
+    más información.
+   </para>
+  </caution>
  </refsect1>
 
  <refsect1 role="parameters">
@@ -158,6 +168,7 @@ Error: 42000
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><function>mysqli_set_charset</function></member>
     <member><function>mysqli_character_set_name</function></member>
    </simplelist>
   </para>
