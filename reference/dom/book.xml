@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317683 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 326064 Maintainer: seros Status: ready -->
+<!-- Reviewed: yes Maintainer: seros -->
 <!-- Membership: bundled, external -->
 
 <book xml:id="book.dom" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Document Object Model</title>
+ <title>Modelo de Objetos de Documento</title>
  <titleabbrev>DOM</titleabbrev>
  
  <preface xml:id="intro.dom">
   &reftitle.intro;
   <para>
-   La Extension DOM le perte manipular documentos XML mediante el API DOM
-   con PHP 5.
+   La extension DOM (siglas en inglés de Document Object Model)
+   permite manipular documentos XML mediante la API DOM, con PHP 5.
   </para>
   <para>
    Para PHP 4, use <link linkend="ref.domxml">DOM XML</link>.
