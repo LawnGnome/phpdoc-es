@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326064 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 326480 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <!-- Membership: bundled, external -->
 
@@ -15,7 +15,7 @@
    permite manipular documentos XML mediante la API DOM, con PHP 5.
   </para>
   <para>
-   Para PHP 4, use <link linkend="ref.domxml">DOM XML</link>.
+   Nota: PHP 4 ofrece una extensión más antigua <literal>domxml</literal>.
   </para>
   <note>
    <para>
