@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325214 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 326293 Maintainer: jpberdejo Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 
  <chapter xml:id="language.operators" xmlns="http://docbook.org/ns/docbook">
@@ -28,8 +28,8 @@
   <para>
    Una lista completa de operadores de PHP sigue en la sección
    <link linkend="language.operators.precedence">Precedencia de Operadores</link>.
-   Está también explica la precedencia y asociatividad, las cuales gobiernan
-   exactamente como son evaluadas expresiones que contienen varios diferentes
+   La sección también explica la precedencia y asociatividad de los operadores, las cuales gobiernan
+   exactamente cómo son evaluadas expresiones que contienen varios diferentes
    operadores.
   </para>
 
