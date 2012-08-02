@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308302 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 326897 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.file-get-contents">
  <refnamediv>
@@ -162,7 +162,7 @@
   &reftitle.errors;
   <para>
    Se genera un error de nivel <constant>E_WARNING</constant> si <parameter>maxlength</parameter>
-   es menor de cero o si <parameter>offset</parameter> excede la longitud del flujo.
+   es menor de cero o si falla la búsqueda del <parameter>offset</parameter> especificado en el flujo.
   </para>
  </refsect1>
  
