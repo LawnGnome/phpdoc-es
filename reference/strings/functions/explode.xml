@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315540 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 326752 Maintainer: jpberdejo Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.explode">
  <refnamediv>
   <refname>explode</refname>
@@ -141,6 +141,37 @@ echo $pass; // *
 ?>
 ]]>
     </programlisting>
+   </example>
+  </para>
+  <para>
+   <example>
+    <title>Ejemplos del retorno de <function>explode</function></title>
+    <programlisting role="php">
+<![CDATA[
+<?php
+/* Un string que no contiene el delimitador simplemente devolverá un array de un elemento con el string original. */
+$input1 = "hello";
+$input2 = "hello,there";
+var_dump( explode( ',', $input1 ) );
+var_dump( explode( ',', $input2 ) );
+
+?>
+]]>
+    </programlisting>
+    &example.outputs;
+    <screen>
+<![CDATA[
+array(1)
+(
+    [0] => string(5) "hello"
+)
+array(2)
+(
+    [0] => string(5) "hello"
+    [1] => string(5) "there"
+)
+]]>
+    </screen>
    </example>
   </para>
   <para>
