@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 326726 Maintainer: chuso Status: ready -->
+<!-- Reviewed: yes Maintainer: seros -->
 <refentry xml:id="function.mysqli-client-encoding" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli_client_encoding</refname>
   <refpurpose>Alias de <function>mysqli_character_set_name</function></refpurpose>
  </refnamediv>
-
+ 
  <refsect1 role="description">
   &reftitle.description;
   <para>
    Esta función es un alias de <function>mysqli_character_set_name</function>.
   </para>
+  &warn.deprecated.function-5-3-0.removed-5-4-0;
  </refsect1>
-
+ 
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
@@ -22,7 +24,7 @@
    </simplelist>
   </para>
  </refsect1>
-
+ 
 </refentry>
 
 <!-- Keep this comment at the end of the file
