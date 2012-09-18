@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320077 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 327672 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="yaf-view-simple.render" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_View_Simple::render</refname>
-  <refpurpose>Interpretar una plantilla</refpurpose>
+  <refpurpose>Interpreta una plantilla</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
@@ -19,9 +19,6 @@
   <para>
    Interpreta una plantilla y devuelve el resultado.
   </para>
-  
-  &warn.undocumented.func;
-  
  </refsect1>
  
  <refsect1 role="parameters">
