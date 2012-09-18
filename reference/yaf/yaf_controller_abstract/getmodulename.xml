@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327535 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 327672 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="yaf-controller-abstract.getmodulename" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Yaf_Controller_Abstract::getModuleName</refname>
-  <refpurpose>Obtiene el nombre de un módulo</refpurpose>
+  <refpurpose>Obtiene el nombre del módulo</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>final</modifier> <modifier>public</modifier> <type>string</type><methodname>Yaf_Controller_Abstract::getModuleName</methodname>
+   <modifier>public</modifier> <type>string</type><methodname>Yaf_Controller_Abstract::getModuleName</methodname>
    <void />
   </methodsynopsis>
   <para>
-   Obtiene el nombre del módulo del controlador
+   Obtiene el nombre del módulo del controlador.
   </para>
-  
-  &warn.undocumented.func;
-  
  </refsect1>
  
  <refsect1 role="parameters">
