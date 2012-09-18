@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320237 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 327525 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="yaf-dispatcher.dispatch" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -34,7 +34,7 @@
    <classname>Yaf_Dispatcher</classname> devuelve una respuesta.
   </para>
   
-  &warn.undocumented.func;
+  
   
  </refsect1>
  
