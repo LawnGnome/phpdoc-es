@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290982 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 327704 Maintainer: jpberdejo Status: ready -->
+<!-- Reviewed: no -->
 
 <chapter xml:id="array.sorting" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Ordenando Arrays</title>
+ <title>Ordenación de arrays</title>
  <para>
   PHP tiene varias funciones que se ocupan de ordenar arrays (matrices) y
   este documento existe para ayudar a aclararlo todo.
