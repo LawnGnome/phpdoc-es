@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325214 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 328094 Maintainer: yago Status: ready -->
+<!-- Reviewed: no -->
 <section xml:id="apc.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
@@ -740,7 +741,7 @@ Array
    <varlistentry xml:id="ini.apc.rfc1867-ttl">
     <term>
      <parameter>apc.rfc1867_ttl</parameter>
-     <type>bool</type>
+     <type>integer</type>
     </term>
     <listitem>
      <para>
