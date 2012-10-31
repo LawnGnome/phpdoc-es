@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326024 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 328175 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <chapter xml:id="mysqlinfo.concepts" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Conceptos</title>
@@ -83,7 +83,7 @@ $res_sin_buffer->close();
 <![CDATA[
 <?php
 $pdo = new PDO("mysql:host=localhost;dbname=world", 'mi_usuario', 'mi_contraseña');
-$pdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, TRUE);
+$pdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, false);
 
 $res_sin_buffer = $pdo->query("SELECT Name FROM City");
 if ($res_sin_buffer) {

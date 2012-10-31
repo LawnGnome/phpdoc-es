@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 328184 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.imagefontwidth" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagefontwidth</refname>
@@ -27,7 +28,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Devuelve el ancho del píxel.
+   Devuelve el ancho de píxel de la fuente.
   </para>
  </refsect1>
  <refsect1 role="examples">
