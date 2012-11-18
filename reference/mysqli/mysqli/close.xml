@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: juanmi Status: ready -->
-<!-- Reviewed: no Maintainer: andresdzphp -->
+<!-- EN-Revision: 328365 Maintainer: agarzon Status: ready -->
 
 <refentry xml:id="mysqli.close" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -54,7 +53,7 @@
   &reftitle.seealso;
   <para>
    <simplelist>
-    <member><function>mysqli_connect</function></member>
+    <member><function>mysqli::__construct</function></member>
     <member><function>mysqli_init</function></member>
     <member><function>mysqli_real_connect</function></member>
    </simplelist>
