@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320388 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 328430 Maintainer: aeoris Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.preg-replace" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -158,6 +158,13 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.5.0</entry>
+       <entry>
+        El modificador <literal>/e</literal> está obsoleto. Utilice
+        <function>preg_replace_callback</function> en su lugar.
+       </entry>
+      </row>
       <row>
        <entry>5.1.0</entry>
        <entry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323194 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 328365 Maintainer: aeoris Status: ready -->
 <refentry xml:id="function.gmmktime" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>gmmktime</refname>
@@ -150,7 +150,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-// Imprime: July 1, 2000 is on a Friday
+// Imprime: July 1, 2000 is on a Saturday
 echo "July 1, 2000 is on a " . date("l", gmmktime(0, 0, 0, 7, 1, 2000));
 ?>
 ]]>

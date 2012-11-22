@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328321 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 328365 Maintainer: aeoris Status: ready -->
 <!-- Reviewed: no -->
 <!-- splitted from ./en/functions/pcre.xml, last change in rev 1.2 -->
 <chapter xml:id="reference.pcre.pattern.syntax" xmlns="http://docbook.org/ns/docbook">
@@ -125,10 +125,6 @@
     <varlistentry>
      <term><emphasis>[</emphasis></term>
      <listitem><simpara>inicio de la definición de la clase carácter</simpara></listitem>
-    </varlistentry>
-    <varlistentry>
-     <term><emphasis>]</emphasis></term>
-     <listitem><simpara>fin de la definición de la clase carácter</simpara></listitem>
     </varlistentry>
     <varlistentry>
      <term><emphasis>|</emphasis></term>
