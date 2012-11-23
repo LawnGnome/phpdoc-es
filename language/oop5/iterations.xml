@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324593 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 328430 Maintainer: aeoris Status: ready -->
 <sect1 xml:id="language.oop5.iterations" xmlns="http://docbook.org/ns/docbook">
  <title>Iteración de objetos</title>
  <para>
@@ -244,7 +244,15 @@ valid:
     <link linkend="spl.iterators">extensión SPL</link>.
    </para>
   </note>
-  
+
+  <note>
+   <para>
+    Los usuarios de PHP 5.5 y posteriores pueden investigar los
+    <link linkend="language.generators">generadores</link>, que posibilitan una
+    forma alternativa de definir iteradores.
+   </para>
+  </note>
+
 </sect1>
 
 <!-- Keep this comment at the end of the file

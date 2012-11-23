@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 304722 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 304722 Maintainer: aeoris Status: ready -->
  <sect3 xml:id="configure.options.servers" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>opciones SAPI</title>
+  <title>Opciones SAPI</title>
   <para>
    La siguiente lista contiene los SAPI&amp;s disponibles (<literal>
    Server Application Programming Interface</literal>) para PHP.   
