@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327774 Maintainer: seros Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 328221 Maintainer: agarzon Status: ready -->
 
 <refentry xml:id="yaf-router.addroute" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -22,7 +21,7 @@
   </para>
   <para>
    La ruta más nueva será llamada antes que la más antigua (pila de rutas), y si la ruta más nueva devuelve
-   TRUE, el proceso de enrutamiento finalizará. De otro modo, será llamada la ruta más
+   &true;, el proceso de enrutamiento finalizará. De otro modo, será llamada la ruta más
    antigua.
   </para>
  </refsect1>

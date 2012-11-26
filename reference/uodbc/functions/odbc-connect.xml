@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328365 Maintainer: aeoris Status: ready -->
+<!-- EN-Revision: 328382 Maintainer: agarzon Status: ready -->
+
 <refentry xml:id="function.odbc-connect" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>odbc_connect</refname>
@@ -101,7 +102,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Devuelve un id de conexión ODBC o (&false;) si ocurrió un error.
+   Devuelve una conexión ODBC o (&false;) si ocurre un error.
   </para>
  </refsect1>
  
