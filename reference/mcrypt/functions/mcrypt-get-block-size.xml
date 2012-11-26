@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306414 Maintainer: x1v4nx Status: ready -->
+<!-- EN-Revision: 328278 Maintainer: aeoris Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mcrypt-get-block-size" xmlns="http://docbook.org/ns/docbook">
@@ -18,7 +18,7 @@
   <methodsynopsis>
    <type>int</type><methodname>mcrypt_get_block_size</methodname>
    <methodparam><type>string</type><parameter>cipher</parameter></methodparam>
-   <methodparam><type>string</type><parameter>module</parameter></methodparam>
+   <methodparam><type>string</type><parameter>mode</parameter></methodparam>
   </methodsynopsis>
   <para>
    El primer prototipo es cuando se enlaza con libmcrypt 2.2.x, el
@@ -43,18 +43,13 @@
     <varlistentry>
      <term><parameter>cipher</parameter></term>
      <listitem>
-      <para>
-       una de las constantes <literal>MCRYPT_ciphername</literal> o el
-       nombre del algoritmo como una string.
-      </para>
+      &mcrypt.parameter.cipher;
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>module</parameter></term>
+     <term><parameter>mode</parameter></term>
      <listitem>
-      <para>
-       El módulo.
-      </para>
+      &mcrypt.parameter.mode;
      </listitem>
     </varlistentry>
    </variablelist>

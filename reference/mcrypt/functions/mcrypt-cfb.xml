@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306414 Maintainer: x1v4nx Status: ready -->
+<!-- EN-Revision: 328430 Maintainer: aeoris Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mcrypt-cfb" xmlns="http://docbook.org/ns/docbook">
@@ -39,6 +39,7 @@
    <function>mcrypt_generic</function> y
    <function>mdecrypt_generic</function> para reemplazos.
   </para>
+  &warn.deprecated.func-5-5-0;
  </refsect1>
 </refentry>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306414 Maintainer: x1v4nx Status: ready -->
+<!-- EN-Revision: 328278 Maintainer: aeoris Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mcrypt-module-is-block-mode" xmlns="http://docbook.org/ns/docbook">
@@ -30,9 +30,7 @@
     <varlistentry>
      <term><parameter>mode</parameter></term>
      <listitem>
-      <para>
-       El modo a chequear.
-      </para>
+      &mcrypt.parameter.mode;
      </listitem>
     </varlistentry>
     <varlistentry>

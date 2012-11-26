@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 306414 Maintainer: x1v4nx Status: ready -->
+<!-- EN-Revision: 328278 Maintainer: aeoris Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mcrypt-module-self-test" xmlns="http://docbook.org/ns/docbook">
@@ -28,9 +28,7 @@
     <varlistentry>
      <term><parameter>algorithm</parameter></term>
      <listitem>
-      <para>
-       El algoritmo a testear.
-      </para>
+      &mcrypt.parameter.cipher;
      </listitem>
     </varlistentry>
     <varlistentry>
