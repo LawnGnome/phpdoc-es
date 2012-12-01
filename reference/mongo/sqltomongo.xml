@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322216 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 328517 Maintainer: chuso Status: ready -->
 <!-- Reviewed: no -->
 <chapter xml:id="mongo.sqltomongo" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Tabla de correlación de SQL a Mongo</title>
