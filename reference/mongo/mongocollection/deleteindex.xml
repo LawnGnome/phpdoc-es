@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321552 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 328496 Maintainer: andresdzphp Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 
 <refentry xml:id="mongocollection.deleteindex" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -8,7 +8,7 @@
   <refname>MongoCollection::deleteIndex</refname>
   <refpurpose>Elimina un índice de esta colección</refpurpose>
  </refnamediv>
-
+ 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
@@ -68,7 +68,7 @@ $db->command(array("deleteIndexes" => $collection->getName(), "index" => "superf
    <literal>name</literal> (nombre).
   </para>
  </refsect1>
-
+ 
  <refsect1 role="parameters">
   &reftitle.parameters;
   <para>
@@ -86,14 +86,14 @@ $db->command(array("deleteIndexes" => $collection->getName(), "index" => "superf
    </variablelist>
   </para>
  </refsect1>
-
+ 
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
    Devuelve el nombre de la clave generada en caso de éxito, o &null; en caso contrario.
   </para>
  </refsect1>
-
+ 
  <refsect1 role="examples">
   &reftitle.examples;
   <example>
@@ -104,7 +104,7 @@ $db->command(array("deleteIndexes" => $collection->getName(), "index" => "superf
    <programlisting role="php">
 <![CDATA[
 <?php
-$m = new Mongo();
+$m = new MongoClient();
 $c = $m->example->indices;
 
 // crea un índice

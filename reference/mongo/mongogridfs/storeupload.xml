@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315446 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 327889 Maintainer: andresdzphp Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongogridfs.storeupload" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -95,7 +95,7 @@ $grid->storeUpload("pic", array("username" => "joe"));
       <row>
        <entry>1.2.5</entry>
        <entry>
-        Cambiado el segundo parámetro a un array de metadatos.  Antes de la versión 1.2.5, 
+        Cambiado el segundo parámetro a un array de metadatos. Antes de la versión 1.2.5, 
         el segundo parámetro fue un string opcional reemplazando el nombre de archivo.
        </entry>
       </row>
