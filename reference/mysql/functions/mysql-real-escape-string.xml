@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326024 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 328734 Maintainer: jpberdejo Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xml:id="function.mysql-real-escape-string" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -8,14 +8,14 @@
   <refpurpose>Escapa caracteres especiales en un string para su uso en una sentencia SQL</refpurpose>
  </refnamediv>
  
- <refsynopsisdiv role="soft-deprecation-notice">
-  <sidebar>
+ <refsynopsisdiv>
+  <warning>
    &mysql.alternative.note;
    <simplelist role="alternatives">
     <member><function>mysqli_real_escape_string</function></member>
     <member><methodname>PDO::quote</methodname></member>
    </simplelist>
-  </sidebar>
+  </warning>
  </refsynopsisdiv>
  
  <refsect1 role="description">
