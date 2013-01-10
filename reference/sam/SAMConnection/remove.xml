@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322205 Maintainer: Marta C Status: ready -->
+<!-- EN-Revision: 322205 Maintainer: regiemix Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id='samconnection.remove' xmlns="http://docbook.org/ns/docbook">
@@ -90,8 +90,8 @@
 <![CDATA[
 <?php
 if (!$conn->remove('queue://receive/test', array(SAM_MESSAGEID => $messageId))) {
-  // The remove failed!
-  echo "Remove failed ($conn->errno) $conn->error";
+  // La eliminación falló!
+  echo "Eliminación fallida ($conn->errno) $conn->error";
 }
 ?>
 ]]>
