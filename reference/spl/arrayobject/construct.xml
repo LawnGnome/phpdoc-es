@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326112 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 329089 Maintainer: andresdzphp Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 
 <refentry xml:id="arrayobject.construct" xmlns="http://docbook.org/ns/docbook">
@@ -59,7 +59,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.void;
+   Devuelve un objeto ArrayObject en caso de éxito.
   </para>
  </refsect1>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325214 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 328669 Maintainer: andresdzphp Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
  
  <sect1 xml:id="language.oop5.magic" xmlns="http://docbook.org/ns/docbook">
@@ -131,6 +131,13 @@ class Connection
     lo que <literal>echo $obj;</literal> mostraría. Este método debe 
     devolver un string, si no se emitirá un nivel de error fatal <constant>E_RECOVERABLE_ERROR</constant>.
    </para>
+   <warning>
+    <simpara>
+     No se puede lanzar una excepción desde dentro un método
+     <link linkend="object.tostring">__toString()</link>. Hacerlo 
+     resultará en un error fatal.
+    </simpara>
+   </warning>
    <example>
     <title>Ejemplo simple</title>
     <programlisting role="php">
