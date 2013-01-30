@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323624 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 329325 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <appendix xmlns="http://docbook.org/ns/docbook" xml:id="imagick.constants">
  &reftitle.constants;
  &extension.constants;
