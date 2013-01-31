@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: andresdzphp Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 329366 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no Maintainer: andresdzphp -->
 
 <refentry xml:id="splfileobject.tostring" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,6 +11,10 @@
 
  <refsect1 role="description">
   &reftitle.description;
+   <methodsynopsis>
+   <modifier>public</modifier> <type>void</type><methodname>SplFileObject::__toString</methodname>
+   <void />
+  </methodsynopsis>
   <simpara>
    Este método es un alias de <methodname>SplFileObject::current</methodname>.
   </simpara>
