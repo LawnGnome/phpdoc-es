@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 329582 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="intldateformatter.setcalendar" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>IntlDateFormatter::setCalendar</refname>
   <refname>datefmt_set_calendar</refname>
-  <refpurpose>Establecer el calendario usado al calendario apropiado, el que debe ser</refpurpose>
+  <refpurpose>Establecer el calendario usado por el formateador</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;

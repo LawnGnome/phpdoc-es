@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329318 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 329540 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <!-- Keep 'em sorted -->
 
@@ -354,7 +354,7 @@ desde el directorio PHP al directorio del sistema de Windows también funciona
 
 <!ENTITY foreach '<link xmlns="http://docbook.org/ns/docbook" linkend="control-structures.foreach">foreach</link>'>
 
-<!ENTITY yield '<link xmlns="http://docbook.org/ns/docbook" linkend="language.generators.syntax.yield">yield</link>'>
+<!ENTITY yield '<link xmlns="http://docbook.org/ns/docbook" linkend="control-structures.yield">yield</link>'>
 
 <!ENTITY parameter.context 'Se refiere a <link xmlns="http://docbook.org/ns/docbook" linkend="context">context</link>
 sección del manual para una descripción de <literal xmlns="http://docbook.org/ns/docbook">contexts</literal>.'>
