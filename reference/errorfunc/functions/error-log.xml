@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 307520 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 329678 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.error-log" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>error_log</refname>
-  <refpurpose>Enviar un mensaje de error a algún lugar</refpurpose>
+  <refpurpose>Enviar un mensaje de error a las rutinas de manejo de errrores definidas</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
