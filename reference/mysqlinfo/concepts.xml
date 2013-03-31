@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328380 Maintainer: aeoris Status: ready -->
+<!-- EN-Revision: 329924 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <chapter xml:id="mysqlinfo.concepts" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Conceptos</title>
@@ -26,7 +26,7 @@
   
   <note>
    <para>
-    Cuando se usa libmysql como biblioteca, el límite de memoria de PHP no contará la memoria usada
+    Cuando se usa libmysqlclient como biblioteca, el límite de memoria de PHP no contará la memoria usada
     por los conjuntos de resultados a menos que los datos sean puestos en variables de PHP. Con mysqlnd,
     la memoria tenida en cuenta incluirá el conjunto de resultados completo.
    </para>
