@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323651 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330340 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
-<!-- Membership: bundled, external, pecl -->
 <!-- State: experimental -->
 
 <reference xml:id="ref.pdo-dblib" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="bundledexternal" ?>
  <title>Funciones de Microsoft SQL Server y Sybase (PDO_DBLIB)</title>
  <titleabbrev>MS SQL Server (PDO)</titleabbrev>
  <partintro>

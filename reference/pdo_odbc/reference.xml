@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323651 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330340 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
-<!-- Membership: bundled, external, pecl -->
 
 <reference xml:id="ref.pdo-odbc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?phpdoc extension-membership="bundledexternal" ?>
  <title>Funciones de ODBC y DB2 (PDO_ODBC)</title>
  <titleabbrev>ODBC y DB2 (PDO)</titleabbrev>
  <partintro>

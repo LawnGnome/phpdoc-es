@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327203 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330340 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
-<!-- Membership: bundled, external, pecl -->
 <!-- State: experimental -->
 
 <reference xml:id="ref.pdo-firebird" xmlns="http://docbook.org/ns/docbook">
+ <?phpdoc extension-membership="bundledexternal" ?>
  <title>Funciones de Firebird/Interbase (PDO_FIREBIRD)</title>
  <titleabbrev>Firebird/Interbase (PDO)</titleabbrev>
  <partintro>
