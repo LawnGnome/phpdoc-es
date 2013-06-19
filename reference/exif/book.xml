@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326064 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330340 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
-<!-- Membership: bundled -->
- 
+
 <book xml:id="book.exif" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <?phpdoc extension-membership="bundled" ?>
  <title>Información de imagen intercambiable</title>
  <titleabbrev>Exif</titleabbrev>
-
+ 
  <!-- {{{ preface -->
  <preface xml:id="intro.exif">
   &reftitle.intro;
@@ -24,7 +23,7 @@
  &reference.exif.setup;
  &reference.exif.constants;
  &reference.exif.reference;
-
+ 
 </book>
 
 <!-- Keep this comment at the end of the file
