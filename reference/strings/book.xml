@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326064 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 330340 Maintainer: jpberdejo Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
-<!-- Membership: core -->
 
 <book xml:id="book.strings" xmlns="http://docbook.org/ns/docbook">
  <?phpdoc extension-membership="core" ?>
@@ -29,10 +28,10 @@
  &reference.strings.reference;
  
  <appendix xmlns="http://docbook.org/ns/docbook" xml:id="changelog.strings">
- <title>&ChangelogListingTitle;</title>
- <para>&ChangelogListingDescription;</para>
- <?phpdoc generate-changelog-for="ref.strings"?>
-</appendix>
+  <title>&ChangelogListingTitle;</title>
+  <para>&ChangelogListingDescription;</para>
+  <?phpdoc generate-changelog-for="ref.strings"?>
+ </appendix>
  
 </book>
 
