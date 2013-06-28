@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330258 Maintainer: seros Status: ready -->
+<!-- Reviewed: yes Maintainer: seros -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.delete" role="noversion">
  <refnamediv>
   <refname>delete</refname>
@@ -9,12 +10,8 @@
  
  <refsect1 role="description">
   &reftitle.description;
-  <methodsynopsis>
-   <type>void</type><methodname>delete</methodname>
-   <void/>
-  </methodsynopsis>
   <para>
-   Esta es una entrada tonta del manual para satisfacer a aquéllos que están buscando
+   Esta es una entrada trivial del manual para satisfacer a aquéllos que están buscando
    <function>unlink</function> o <function>unset</function> en el lugar
    equivocado.
   </para>
