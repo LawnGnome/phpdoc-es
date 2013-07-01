@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324293 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330626 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 
 <refentry xml:id="function.cubrid-unbuffered-query" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -69,7 +70,7 @@
    <programlisting role="php">
 <![CDATA[
 <?php
-    $enlace = cubrid_connect("localhost", 30000, "demodb2", "dba", "");
+    $enlace = cubrid_connect("localhost", 30000, "demodb", "dba", "");
     if (!$enlace)
     {
         die('No se pudo conectar.');
