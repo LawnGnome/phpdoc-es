@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330593 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 
 <refentry xml:id="function.cubrid-error-code-facility" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -59,7 +60,8 @@ if (!$req) {
 <![CDATA[
 Dispositivo del error: 1
 Código de error: -493
-Mensaje de error: Syntax: syntax error, unexpected UNKNOWN 
+Mensaje de error: Syntax: In line 1, column 15 before END OF STATEMENT
+Syntax error: unexpected 'unknown'
 ]]>
    </screen>
    

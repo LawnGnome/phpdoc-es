@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330593 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 
 <refentry xml:id="function.cubrid-drop" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -17,7 +18,7 @@
   </methodsynopsis>
   <para>
    La función <function>cubrid_drop</function> se usa para borrar una
-   instancia de la base de datos usando el <parameter>oid</parameter>.
+   instancia de la base de datos usando el <parameter>oid</parameter> de la instancia.
   </para>
  </refsect1>
  
