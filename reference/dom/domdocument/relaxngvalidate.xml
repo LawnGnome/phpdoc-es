@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="domdocument.relaxngvalidate" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>DOMDocument::relaxNGValidate</refname>
@@ -11,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>DOMDocument::relaxNGValidate</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>DOMDocument::relaxNGValidate</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
   </methodsynopsis>
   <para>

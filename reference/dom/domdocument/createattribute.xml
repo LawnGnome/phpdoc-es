@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329325 Maintainer: sabathorn Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: sabathorn Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
-
 <refentry xml:id="domdocument.createattribute" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMDocument::createAttribute</refname>
@@ -11,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>DOMAttr</type><methodname>DOMDocument::createAttribute</methodname>
+   <modifier>public</modifier> <type>DOMAttr</type><methodname>DOMDocument::createAttribute</methodname>
    <methodparam><type>string</type><parameter>name</parameter></methodparam>
   </methodsynopsis>
   <para>
