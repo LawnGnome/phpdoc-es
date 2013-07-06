@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
-
 <refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="locale.setdefault">
  <refnamediv>
   <refname>Locale::setDefault</refname>
@@ -16,6 +15,7 @@
    &style.oop;
   </para>
   <methodsynopsis>
+   <modifier>public</modifier>
    <modifier>static</modifier>
    <type>bool</type>
    <methodname>Locale::setDefault</methodname>
