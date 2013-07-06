@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="intldateformatter.getdatetype" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -14,7 +14,7 @@
    &style.oop;
   </para>
   <methodsynopsis>
-   <type>int</type><methodname>IntlDateFormatter::getDateType</methodname>
+   <modifier>public</modifier> <type>int</type><methodname>IntlDateFormatter::getDateType</methodname>
    <void />
   </methodsynopsis>
   <para>
