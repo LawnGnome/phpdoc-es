@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: andresdzphp Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="splheap.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -11,7 +11,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <constructorsynopsis>
-   <methodname>SplHeap::__construct</methodname>
+   <modifier>public</modifier> <methodname>SplHeap::__construct</methodname>
    <void />
   </constructorsynopsis>
   <para>
