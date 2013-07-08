@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="phar.loadphar">
  <refnamediv>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>bool</type><methodname>Phar::loadPhar</methodname>
+   <modifier>final</modifier> <modifier>public</modifier> <modifier>static</modifier> <type>bool</type><methodname>Phar::loadPhar</methodname>
    <methodparam><type>string</type><parameter>filename</parameter></methodparam>
    <methodparam choice="opt"><type>string</type><parameter>alias</parameter></methodparam>
   </methodsynopsis>
