@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320965 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 330543 Maintainer: andresdzphp Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="spldoublylinkedlist.shift" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>SplDoublyLinkedList::shift</refname>
-  <refpurpose>Quita un nodo de el inicio de la lista doblemente enlazada</refpurpose>
+  <refpurpose>Quita un nodo del inicio de la lista doblemente enlazada</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>SplDoublyLinkedList::shift</methodname>
+   <modifier>public</modifier> <type>mixed</type><methodname>SplDoublyLinkedList::shift</methodname>
    <void />
   </methodsynopsis>
  </refsect1>
