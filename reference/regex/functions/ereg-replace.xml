@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329092 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330654 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.ereg-replace">
  <refnamediv>
@@ -157,6 +157,7 @@ $texto = ereg_replace("[[:alpha:]]+://[^<>[:space:]]+[[:alnum:]/]",
     <member><function>eregi_replace</function></member>
     <member><function>str_replace</function></member>
     <member><function>preg_replace</function></member>
+    <member><function>quotemeta</function></member>
    </simplelist>
   </para>
  </refsect1>
