@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330762 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 330916 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.cubrid-commit" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -23,8 +23,8 @@
   </para>
   <para>
    En CUBRID PHP, se deshabilita un modo de auto consigna por opmisión para la administración de transacciones.
-   Se puede establecer usando <function>cubrid_set_autocommit()</function>.
-   Se puede obtener su estado usando <function>cubrid_get_autocommit()</function>. Antes de comenzar una transacción,
+   Se puede establecer usando <function>cubrid_set_autocommit</function>.
+   Se puede obtener su estado usando <function>cubrid_get_autocommit</function>. Antes de comenzar una transacción,
    acuérdese de deshabilitar el modo de auto consigna.
   </para>
  </refsect1>
