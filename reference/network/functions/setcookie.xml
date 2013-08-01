@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 320317 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 330583 Maintainer: andresdzphp Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.setcookie" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -285,6 +285,13 @@ uno : cookieuno
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.5.0</entry>
+       <entry>
+        Ahora se incluye un atribugo Max-Age en la cabecera Set-Cookie enviada al
+        cliente.
+       </entry>
+      </row>
       <row>
        <entry>5.2.0</entry>
        <entry>
