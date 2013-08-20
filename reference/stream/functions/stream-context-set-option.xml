@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 331135 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.stream-context-set-option" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>stream_context_set_option</refname>
