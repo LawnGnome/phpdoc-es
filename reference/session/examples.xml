@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329296 Maintainer: agarzon Status: ready -->
+<!-- EN-Revision: 331135 Maintainer: agarzon Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 
 <appendix xml:id="session.examples" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -84,10 +84,10 @@ unset($_SESSION['count']);
     de restarurar una referencia a otra variable.
    </para>
   </warning>
-   <warning>
+  <warning>
    <para>
     register_globals sobreescribirá las variables en el ámbito global, cuyos nombres son compartidos con las variables de sesión. Por favor véase <link linkend="security.globals">Uso de Register Globals</link> para más detalles.
-   </para>
+    </para>
   </warning>
  </section>
  
