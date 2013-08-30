@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328430 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 330933 Maintainer: chuso Status: ready -->
 <!-- Reviewed: no -->
 <appendix xml:id="migration51" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Migración de PHP 5.0.x a PHP 5.1.x</title>
@@ -76,7 +76,7 @@
    <listitem>
     <para>
      <link linkend="migration51.references-didnotwork">Código que
-      <literal>debería haber funcionado</literal> en PHP 5.0.x</link>
+      debería haber funcionado en PHP 5.0.x</link>
     </para>
    </listitem>
    <listitem>
