@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328332 Maintainer: aeoris Status: ready -->
+<!-- EN-Revision: 331135 Maintainer: aeoris Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.count" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>count</refname>
@@ -68,8 +69,8 @@
   &reftitle.returnvalues;
   <para>
    Devuelve el número de elementos en <parameter>var</parameter>,
-   Si <parameter>var</parameter> no es un array o no es un objecto con el interfaz
-   <classname>Countable</classname> implementado,
+   Si <parameter>var</parameter> no es un array o no es un objecto con la interfaz
+   <classname>Countable</classname> implementada,
    devolverá <literal>1</literal>.
    Existe una excepción, si <parameter>var</parameter> es &null;,
    devolverá <literal>0</literal>.
