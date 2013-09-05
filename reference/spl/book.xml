@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 330788 Maintainer: chuso Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 
 <book xml:id="book.spl" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -11,8 +11,8 @@
  <preface xml:id="intro.spl">
   &reftitle.intro;
   <para>
-   SPL es una colección de interfaces y clases que están pensadas para solucionar
-   problemas comunes. 
+   La Biblioteca Estándar de PHP (SPL por sus siglas en inglés) es una colección de interfaces y clases que
+   están pensadas para solucionar problemas comunes. 
   </para>
   <note>
    <para>
