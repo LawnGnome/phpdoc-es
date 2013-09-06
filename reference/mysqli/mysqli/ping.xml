@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 331292 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xml:id="mysqli.ping" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
