@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329701 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 331331 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="mysqlnd-qc.constants" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -213,7 +213,7 @@ $pdo_mysql->query("SELECT id, title FROM news");
       <entry>10000</entry>
      </row>
     </tbody>
-    </tgroup>
+   </tgroup>
   </informaltable>
  </para>
  <para>
