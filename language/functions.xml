@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327189 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 331339 Maintainer: andresdzphp Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
  <title>Funciones</title>
@@ -352,7 +352,7 @@ Hacer un tazón de yogur acidófilo de frambuensa.
    </para>
    <note>
     <simpara>
-     A partir de PHP 5, los valores predeterminados se pueden pasar por referencia.
+     A partir de PHP 5, los argumentos que son pasados por referencia pueden tener un valor predeterminado.
     </simpara>
    </note>
    
