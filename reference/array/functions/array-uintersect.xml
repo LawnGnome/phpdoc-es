@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 331477 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.array-uintersect" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>array_uintersect</refname>
@@ -12,8 +13,8 @@
    <type>array</type><methodname>array_uintersect</methodname>
    <methodparam><type>array</type><parameter>array1</parameter></methodparam>
    <methodparam><type>array</type><parameter>array2</parameter></methodparam>
-   <methodparam choice="opt"><type>array</type><parameter> ...</parameter></methodparam>
-   <methodparam><type>callable</type><parameter>data_compare_func</parameter></methodparam>
+   <methodparam choice="opt"><type>array</type><parameter>...</parameter></methodparam>
+   <methodparam><type>callable</type><parameter>value_compare_func</parameter></methodparam>
   </methodsynopsis>
   <para>
    Computa una intersección de arrays, compara la información mediante una función de llamada de retorno.
@@ -40,7 +41,7 @@
      </listitem>
     </varlistentry>
     <varlistentry>
-     <term><parameter>data_compare_func</parameter></term>
+     <term><parameter>value_compare_func</parameter></term>
      <listitem>
       <para>
        &return.callbacksort;
