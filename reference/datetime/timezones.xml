@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330811 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 331548 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <!-- AUTO GENERATED, DO NOT TRANSLATE OR MODIFY BY HAND -->
 
@@ -10,8 +10,8 @@
  
  <note>
   <simpara>
-   &date.timezone.dbversion; 2013.4.
-  </simpara>
+   &date.timezone.dbversion; 2013.6.
+   </simpara>
  </note>
  
  <sect1 xml:id="timezones.africa">
