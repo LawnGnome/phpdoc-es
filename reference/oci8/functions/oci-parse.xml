@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318273 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 331842 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.oci-parse" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -149,12 +149,6 @@ oci_close($conn);
     <parameter>sql_text</parameter>. La única manera de averiguar si
     <parameter>sql_text</parameter> es una sentencia SQL o PL/SQL válida
     es ejecutarla.
-   </para>
-  </note>
-  <note>
-   <para>
-    En versiones de PHP anteriores a la 5.0.0 use <function>ociparse</function>
-    en su luagar. &oci.name.compat.note;
    </para>
   </note>
  </refsect1>
