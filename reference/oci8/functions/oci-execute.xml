@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329172 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 331842 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.oci-execute" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -271,12 +271,6 @@ for ($i = 1; $i <= oci_num_fields($stid); ++$i) {
     base de datos, <function>oci_execute</function> puede identificar algunos
     errores de sintaxis que no identifica la función ligera local
     <function>oci_parse</function>.
-   </para>
-  </note>
-  <note>
-   <para>
-    En versiones de PHP anteriores a la 5.0.0, use <function>ociexecute</function>
-    en su lugar.  &oci.name.compat.note;
    </para>
   </note>
  </refsect1>
