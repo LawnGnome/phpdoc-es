@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317827 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 331819 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <chapter xml:id="stream.examples">
  &reftitle.examples;
  <para>
@@ -53,8 +54,7 @@ fwrite($sock, "Content-type: application/x-www-form-urlencoded\r\n");
 fwrite($sock, "Content-length: " . strlen($data) . "\r\n");
 fwrite($sock, "Accept: */*\r\n");
 fwrite($sock, "\r\n");
-fwrite($sock, "$data\r\n");
-fwrite($sock, "\r\n");
+fwrite($sock, $data);
 
 $headers = "";
 while ($str = trim(fgets($sock, 4096)))
