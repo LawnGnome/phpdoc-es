@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322205 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 331735 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="oci-lob.read" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -33,7 +33,7 @@
      <term><parameter>length</parameter></term>
      <listitem>
       <para>
-       La longitud de los datos a leer, en bytes.
+       La longitud de los datos a leer, en bytes. Los valores grandes serán redondeados a 1 MB.
       </para>
      </listitem>
     </varlistentry>
