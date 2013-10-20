@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331182 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 331810 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 <section xml:id="session.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
