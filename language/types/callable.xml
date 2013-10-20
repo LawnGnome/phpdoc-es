@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325214 Maintainer: x1v4nx Status: ready -->
+<!-- EN-Revision: 331556 Maintainer: x1v4nx Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
-
 <sect1 xml:id="language.types.callable">
  <title>Llamadas de retorno</title>
  
@@ -46,10 +45,9 @@
   </para>
   
   <para>
-   Además de las funciones definidas por el usuario normales, también se puede utilizar
-   la función <function>create_function</function> para crear funciones de llamadas de
-   retorno anónimas. A partir de PHP 5.3.0 también es posible pasar una
-   <link linkend="functions.anonymous">clausura</link> a un parámetro de una llamada de retorno.
+   A parte de las funciones comunes definidas por el usuario,
+   las <link linkend="functions.anonymous">funciones anónimas</link> también se pueden
+   pasar a un parámetro de llamada de retorno.
   </para>
   
   <para>
