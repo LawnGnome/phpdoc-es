@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331331 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 332335 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.imagesetinterpolation" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -162,7 +162,7 @@
 // Cargar una image
 $im = imagecreate(500, 500);
 
-// Por omisión, la interpolación es IMG_BICUBIC_FIXED, se cambia 
+// Por omisión, la interpolación es IMG_BILINEAR_FIXED, se cambia 
 // para usar el filtro 'Mitchell':
 imagesetinterpolation($im, IMG_MITCHELL);
 
