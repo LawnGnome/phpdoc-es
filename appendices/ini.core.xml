@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332045 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 332292 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 
 <section xml:id="ini.core" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -14,7 +14,7 @@
  </para>
  <note>
   <para>
-   Las opciones predeterminadas enumeradas aquí se usan cuando &php.ini; no está cargado, los valores para el &php.ini; de producción y desarrollo podrían variar.
+   Las opciones predeterminadas enumeradas aquí se usan cuando &php.ini; no está cargado; los valores para el &php.ini; de producción y desarrollo podrían variar.
   </para>
  </note>
  <section xml:id="ini.sect.httpd-options">
