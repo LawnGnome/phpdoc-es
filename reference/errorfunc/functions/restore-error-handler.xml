@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: lboshell Status: ready -->
+<!-- EN-Revision: 332260 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="function.restore-error-handler" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>restore_error_handler</refname>
@@ -60,16 +60,6 @@ Valor seriado inválido.
     </screen>
    </example>
   </para>
- </refsect1>
-
- <refsect1 role="notes">
-  &reftitle.notes;
-  <note>
-   <para>
-    Llamar <function>restore_error_handler</function> desde la función
-    <literal>error_handler</literal> es ignorado.
-   </para>
-  </note>
  </refsect1>
 
  <refsect1 role="seealso">

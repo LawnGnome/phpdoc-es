@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 315005 Maintainer: jpberdejo Status: ready -->
-<!-- Reviewed: not --> 
+<!-- EN-Revision: 332199 Maintainer: jpberdejo Status: ready -->
+<!-- Reviewed: no --> 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.convert-uuencode">
  <refnamediv>
   <refname>convert_uuencode</refname>
@@ -34,7 +34,7 @@
      <term><parameter>data</parameter></term>
      <listitem>
       <para>
-        Los datos a ser codificados.
+        Los datos a ser codificados &return.falseforfailure;.
       </para>
      </listitem>
     </varlistentry>

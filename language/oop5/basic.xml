@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330569 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 332018 Maintainer: jpberdejo Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="language.oop5.basic" xmlns="http://docbook.org/ns/docbook">
@@ -20,7 +20,7 @@
    de clase comienza con una letra o un guión bajo, seguido de la cantidad de
    letras, números o guiones bajos que sea. Como una expresión regular, se
    expresaría de la siguiente forma:
-   <literal>[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*</literal>.
+   <literal>^[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*$</literal>.
   </para>
   <para>
    Una clase puede tener sus propias
