@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 332600 Maintainer: yago Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.bzopen" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>bzopen</refname>
@@ -26,7 +27,7 @@
      <term><parameter>filename</parameter></term>
      <listitem>
       <para>
-       El nombre del fichero a abrir.
+       El nombre del fichero a abrir, o un recurso de flujo existente.
       </para>
      </listitem>
     </varlistentry>
