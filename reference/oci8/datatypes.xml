@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 318756 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 332824 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <chapter xml:id="oci8.datatypes" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Tipos de datos admitidos</title>
@@ -54,6 +54,10 @@
      <entry><constant>SQLT_RSET</constant></entry>
      <entry>Hace referencia a un gestor de sentencias nativo, tales como a aquellos creados por
       <function>oci_parse</function> o aquellos recuperados desde otras consultas de OCI.</entry>
+    </row>
+    <row>
+     <entry><constant>SQLT_BOL</constant></entry>
+     <entry>Vincular el parámetro de PHP a un BOOLEAN de PL/SQL</entry>
     </row>
     <row>
      <entry><constant>SQLT_CHR</constant> y cualquier otro tipo</entry>
