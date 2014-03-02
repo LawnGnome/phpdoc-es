@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: argosback Status: ready -->
+<!-- EN-Revision: 332890 Maintainer: argosback Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 
-<refentry xmlns="http://docbook.org/ns/docbook" xml:id="mysqli-stmt.attr-set">
+<refentry xmlns="http://docbook.org/ns/docbook" xml:id="mysqli-stmt.attr-set" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>mysqli_stmt::attr_set</refname>
   <refname>mysqli_stmt_attr_set</refname>
