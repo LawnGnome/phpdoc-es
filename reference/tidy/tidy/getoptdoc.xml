@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322055 Maintainer: agarzon Status: ready -->
-<!-- Reviewed: no Maintainer: andresdzphp -->
+<!-- EN-Revision: 332132 Maintainer: agarzon Status: ready -->
 
 <refentry xml:id="tidy.getoptdoc" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>tidy::getoptdoc</refname>
+  <refname>tidy::getOptDoc</refname>
   <refname>tidy_get_opt_doc</refname>
   <refpurpose>
    Devuelve la documentación correspondiente a un nombre de opción dado

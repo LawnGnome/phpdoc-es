@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ --> 
-<!-- EN-Revision: 327173 Maintainer: agarzon Status: ready -->
+<!-- EN-Revision: 333100 Maintainer: agarzon Status: ready -->
 <!-- Reviewed: no -->
 <chapter xml:id="install.unix" xmlns="http://docbook.org/ns/docbook">
  <title>Instalación sobre sistemas Unix</title>
@@ -115,6 +115,7 @@
  <!-- web server specific nodes -->
  &install.unix.apache1;
  &install.unix.apache2;
+ &install.unix.nginx;
  &install.unix.lighttpd-14;
  &install.unix.sun;
  &install.unix.commandline;
