@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326063 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 333096 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.easter-days" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>easter_days</refname>
@@ -58,7 +59,7 @@
      <term><parameter>method</parameter></term>
      <listitem>
       <para>
-       Permite calcular las fechas de pascua basadas
+       Permite calcular las fechas de Pascua basadas
        en el calendario Gregoriano durante los años 1582 - 1752 cuando se establece a
        <constant>CAL_EASTER_ROMAN</constant>. Vea las <link
        linkend="calendar.constants">constantes de calendario</link> para más constantes

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312463 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 333215 Maintainer: seros Status: ready -->
+<!-- Reviewed: yes Maintainer: seros -->
 
 <refentry xml:id="datetime.settime" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -39,7 +40,7 @@
     <term><parameter>hour</parameter></term>
     <listitem>
      <para>
-      Hora del momento.
+      Hora del instante.
      </para>
     </listitem>
    </varlistentry>
@@ -47,7 +48,7 @@
     <term><parameter>minute</parameter></term>
     <listitem>
      <para>
-      Minuto del momento.
+      Minuto del instante.
      </para>
     </listitem>
    </varlistentry>
@@ -55,7 +56,7 @@
     <term><parameter>second</parameter></term>
     <listitem>
      <para>
-      Segundo del momento.
+      Segundo del instante.
      </para>
     </listitem>
    </varlistentry>
@@ -121,8 +122,8 @@ echo date_format($fecha, 'Y-m-d H:i:s') . "\n";
    &examples.outputs.similar;
    <screen>
 <![CDATA[
-2000-01-01 14:55:00
-2000-01-01 14:55:24
+2001-01-01 14:55:00
+2001-01-01 14:55:24
 ]]>
    </screen>
   </example>
