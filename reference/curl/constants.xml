@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330734 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 332896 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <appendix xml:id="curl.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
