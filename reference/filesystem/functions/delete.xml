@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330258 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 333664 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.delete" role="noversion">
  <refnamediv>
@@ -16,14 +16,7 @@
    equivocado.
   </para>
  </refsect1>
-
- <refsect1 role="returnvalues">
-  &reftitle.returnvalues;
-  <para>
-   &return.void;
-  </para>
- </refsect1>
-
+ 
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>
@@ -33,7 +26,7 @@
    </simplelist>
   </para>
  </refsect1>
-
+ 
 </refentry>
 
 <!-- Keep this comment at the end of the file
