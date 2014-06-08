@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331754 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 333175 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.set-exception-handler" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -32,9 +32,8 @@
      <listitem>
       <para>
        Nombre de la función a llamar cuando ocurra una excepción no capturada.
-       Esta función debe ser definida antes de llamar a
-       <function>set_exception_handler</function>. Esta función de gestión
-       necesita aceptar un parámetro, que será el objeto de excepción que
+       Es necesario que esta función de gestión
+       acepte un parámetro, que será el objeto de excepción que
        fue lanzado. Esta es la firma del gestor:
       </para>
       <para>
