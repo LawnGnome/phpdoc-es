@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328312 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 332262 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.sprintf">
  <refnamediv>
