@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328528 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 333393 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 
 <part xml:id="mongo.manual" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -19,6 +19,7 @@
  &reference.mongo.writeconcerns;
  &reference.mongo.sqltomongo;
  &reference.mongo.connecting;
+ &reference.mongo.context;
  &reference.mongo.writes;
  &reference.mongo.queries;
  &reference.mongo.updates;
