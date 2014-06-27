@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333386 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 333965 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="solrclient.adddocument" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -158,7 +158,7 @@ $doc->addField('cat', 'Software');
 $doc->addField('cat', 'Lucene');
 
 // No es necesario llamar a commit() ya que se proporciona $commitWithin, por lo que Solr Server autoconsignará en 10 segundos
-$respuestaActualización = $cliente->addDocument($doc, false, 1000);
+$respuestaActualización = $cliente->addDocument($doc, false, 10000);
 
 print_r($updateResponse->getResponse());
 
