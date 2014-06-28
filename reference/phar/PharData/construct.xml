@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321903 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334002 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook" xml:id="phardata.construct">
  <refnamediv>
@@ -82,7 +82,7 @@
 <![CDATA[
 <?php
 try {
-    $p = new PharData('/ruta/a/mi.tar', CURRENT_AS_FILEINFO | KEY_AS_FILENAME);
+    $p = new PharData('/ruta/a/mi.tar', Phar::CURRENT_AS_FILEINFO | Phar::KEY_AS_FILENAME);
 } catch (UnexpectedValueException $e) {
     die('No se pudo abrir mi.tar');
 } catch (BadMethodCallException $e) {
