@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 321326 Maintainer: aeoris Status: Ready -->
+<!-- EN-Revision: 331467 Maintainer: aeoris Status: Ready -->
 <!-- Reviewed: no -->
-
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fsockopen">
  <refnamediv>
   <refname>fsockopen</refname>
@@ -59,7 +58,9 @@
      <term><parameter>port</parameter></term>
      <listitem>
       <para>
-       El número de puerto.
+       El número de puerto. Se puede omitir con
+       <literal>-1</literal> para transportes que no empleen puertos, como
+       <literal>unix://</literal>.
       </para>
      </listitem>
     </varlistentry>
