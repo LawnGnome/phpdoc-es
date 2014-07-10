@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329774 Maintainer: regiemix Status: ready -->
+<!-- EN-Revision: 332833 Maintainer: regiemix Status: ready -->
 <!-- Reviewed: no -->
-
 <refentry xml:id="eventbuffer.lock" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>EventBuffer::lock</refname>
@@ -34,7 +33,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Devuelve &true; en caso de éxito. Devuelve &false; en el resto de casos.
+   &return.void;
   </para>
  </refsect1>
  <refsect1 role="seealso">

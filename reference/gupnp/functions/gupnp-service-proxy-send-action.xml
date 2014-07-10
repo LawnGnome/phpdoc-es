@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322131 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 333548 Maintainer: andresdzphp Status: ready -->
 <!-- Reviewed: yes Maintainer: andresdzphp -->
 
 <refentry xml:id="gupnp-service-proxy-send-action" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -19,7 +19,7 @@
    <methodparam><type>array</type><parameter>out_params</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Envía la acción con parámetros <parameter>in_params</parameter>  a través de un servicio proxy de forma sincronizada y devuelve <parameter>out_params</parameter> con valores o &false; en caso de error. 
+   Envía la acción con los parámetros <parameter>in_params</parameter>  a través de un servicio proxy de forma sincronizada y devuelve <parameter>out_params</parameter> con valores o &false; en caso de error. 
   </para>
  </refsect1>
  
