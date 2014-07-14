@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332018 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 333213 Maintainer: jpberdejo Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="language.oop5.basic" xmlns="http://docbook.org/ns/docbook">
@@ -15,7 +15,7 @@
    de las propiedades y métodos pertenecientes a la clase.
   </para>
   <para>
-   El nombre de clase puede ser cualquier etiqueta válida que no sea
+   El nombre de clase puede ser cualquier etiqueta válida, siempre que no sea
    una <link linkend="reserved">palabra reservada</link> de PHP. Un nombre válido
    de clase comienza con una letra o un guión bajo, seguido de la cantidad de
    letras, números o guiones bajos que sea. Como una expresión regular, se
