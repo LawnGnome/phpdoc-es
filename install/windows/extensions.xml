@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326480 Maintainer: jorgeolaya Status: ready -->
+<!-- EN-Revision: 334305 Maintainer: jorgeolaya Status: ready -->
 <!-- Reviewed: no Maintainer: seros -->
 <sect1 xml:id="install.windows.extensions" xmlns="http://docbook.org/ns/docbook">
  <title>Instalación de extensiones en Windows</title>
@@ -368,11 +368,6 @@ extension=php_bz2.dll
      <row>
       <entry>php_pgsql.dll</entry>
       <entry>Funciones <link linkend="book.pgsql">PostgreSQL</link></entry>
-      <entry>Nada</entry>
-     </row>
-     <row>
-      <entry>php_printer.dll</entry>
-      <entry>Funciones <link linkend="book.printer">Printer</link></entry>
       <entry>Nada</entry>
      </row>
      <row>
