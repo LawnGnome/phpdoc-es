@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333201 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334329 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="yaf.tutorials" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -34,7 +34,7 @@
  <section role="examples">
   <example>
    <title>Entrada</title>
-   <para>index.php en el directorio superior es el único punto de entrada a la aplicación, se deberían reescribir todas las peticiones a index.php (se puede usar .htaccess en Apache+php_mod)</para>
+   <para>index.php en el directorio superior es la única forma de entrada de la aplicación, se deberían reescribir todas las peticiones al mismo (se puede emplear .htaccess de Apache+php_mod) </para>
    <programlisting role="php">
 <![CDATA[
 <?php
