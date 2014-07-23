@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333393 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334357 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongoclient.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -657,6 +657,10 @@ $m = new MongoClient($uri, array('replicaSet' => 'rs'));
       <row>
        <entry>1.4.0</entry>
        <entry>
+        <para>
+         Se añadió la opción <literal>"ssl"</literal> y el soporte para
+         <link linkend="mongo.connecting.ssl">conexiones sobre SSL</link>.
+        </para>
         <para>
          Se añadió la opción <literal>"wTimeoutMS"</literal>, que remplaza a
          <literal>"wTimeout"</literal>.
