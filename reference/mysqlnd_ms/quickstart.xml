@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334062 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334372 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <chapter xml:id="mysqlnd-ms.quickstart" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Guía rápida y ejemplos</title>
@@ -831,10 +831,15 @@ $mysqli->close();
    </para>
   </note>
   <note>
-   <title>Experimental</title>
+   <title>Se buscan los primeros adaptadores</title>
    <para>
     Esta característica está actualmente bajo desarrollo. Podrían existir problemas y/o
-    limitaciones. No la use en entornos de producción.
+    limitaciones. No la use en entornos de producción, aunque
+    las primeras pruebas indican una calidad razonable.
+   </para>
+   <para>
+     Por favor, contacte con el equipo de desarrollo si está interesado en esta característica.
+     Estamos buscando comentarios de la vida real para completar esta característica.
    </para>
   </note>
   <para>
