@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332894 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334374 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <sect1 xml:id="language.types.string">
  <title>Cadenas de caracteres (Strings)</title>
  
- <!-- FIXME PHP_6 Likely unicode support will alter this -->
  <para>
   Un <type>string</type> es una serie de caracteres, donde cada carácter es
   lo mismo que un byte. Esto significa que PHP solo admite un conjunto de 256 caracteres,
