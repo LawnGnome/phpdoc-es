@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331340 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334422 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.mb-http-output" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -16,7 +16,7 @@
   </methodsynopsis>
   <para>
    Establece/obtiene la codificación de caracteres de salida HTTP.
-   La salida después de esta función será convertida a <parameter>encoding</parameter>.
+   La salida después de llamar a esta función será convertida de la codificación interna a <parameter>encoding</parameter>.
   </para>
  </refsect1>
  
