@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330543 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334404 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="phar.addfromstring">
  <refnamediv>
   <refname>Phar::addFromString</refname>
-  <refpurpose>Añadir un fichero desde el sistema de ficheros al archivo phar</refpurpose>
+  <refpurpose>Añadir un fichero desde un string al archivo phar</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
