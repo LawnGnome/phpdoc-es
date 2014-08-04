@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330636 Maintainer: jesus_cova Status: ready -->
+<!-- EN-Revision: 333674 Maintainer: jesus_cova Status: ready -->
+<!-- Reviewed: no Maintainer: seros -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.gmp-testbit">
  <refnamediv>
@@ -12,7 +13,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>bool</type><methodname>gmp_testbit</methodname>
-   <methodparam><type>resource</type><parameter>a</parameter></methodparam>
+   <methodparam><type>GMP</type><parameter>a</parameter></methodparam>
    <methodparam><type>int</type><parameter>index</parameter></methodparam>
   </methodsynopsis>
   <para>
