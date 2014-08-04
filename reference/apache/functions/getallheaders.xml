@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312668 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 332490 Maintainer: chuso Status: ready -->
 <!-- splitted from ./en/functions/apache.xml, last change in rev 1.2 -->
 <refentry xml:id="function.getallheaders" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -45,6 +45,12 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>5.5.7</entry>
+       <entry>
+        Está función ahora está disponible en el sevidor CLI.
+       </entry>
+      </row>
       <row>
        <entry>5.4.0</entry>
        <entry>
