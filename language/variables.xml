@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333549 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334473 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 <chapter xml:id="language.variables" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Variables</title>
@@ -1072,7 +1072,7 @@ $varname.ext;  /* nombre de variable inválido */
   </sect2>
   
   <sect2 xml:id="language.variables.external.changelog">
-   <title>Changelog</title>
+    &reftitle.changelog;
    
    <para>
     <informaltable>
