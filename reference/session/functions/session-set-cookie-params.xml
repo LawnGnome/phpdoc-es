@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 323447 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334592 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-set-cookie-params">
  <refnamediv>
   <refname>session_set_cookie_params</refname>
@@ -108,12 +109,6 @@
        <entry>5.2.0</entry>
        <entry>
         Se añadió el parámetro <parameter>httponly</parameter>.
-       </entry>
-      </row>
-      <row>
-       <entry>4.0.4</entry>
-       <entry>
-        Se añadió el parámetro <parameter>secure</parameter>.
        </entry>
       </row>
      </tbody>
