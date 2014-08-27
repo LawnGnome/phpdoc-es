@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326989 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334605 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.get-object-vars" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -58,13 +58,6 @@
        <entry>
         Esta función ahora devuelve <type>NULL</type> si
         <parameter>object</parameter> no es un objeto. Anteriormente devolvía &false;
-       </entry>
-      </row>
-      <row>
-       <entry>4.2.0</entry>
-       <entry>
-        Las propiedades que fueron declaradas en la clase de <parameter>object</parameter>
-        a las que no se les asignó un valor ahora también son devueltas (con el valor &null;).
        </entry>
       </row>
      </tbody>

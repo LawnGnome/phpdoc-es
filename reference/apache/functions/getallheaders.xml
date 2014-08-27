@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332490 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 334605 Maintainer: chuso Status: ready -->
+<!-- Reviewed: no -->
 <!-- splitted from ./en/functions/apache.xml, last change in rev 1.2 -->
 <refentry xml:id="function.getallheaders" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -62,14 +63,6 @@
        <entry>4.3.3</entry>
        <entry>
         &note.apache.nsapi-module;
-       </entry>
-      </row>
-      <row>
-       <entry>4.3.0</entry>
-       <entry>
-        Se convierte en un alias de
-        <function>apache_request_headers</function>. Básicamente, fue
-        renombrada. Esto se debe a que esta función solo trabaja con Apache.
        </entry>
       </row>
      </tbody>
