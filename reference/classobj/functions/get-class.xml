@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326063 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xml:id="function.get-class" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -71,19 +71,6 @@
         resultado que no pasar ningún valor.
        </entry>
       </row>      
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        El nombre de la clase es devuelto en su notación original.
-       </entry>
-      </row>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        El parámetro <parameter>object</parameter> es opcional si es llamado
-        desde el método del objeto.
-       </entry>
-      </row>
      </tbody>
     </tgroup>
    </informaltable>

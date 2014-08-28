@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334260 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.glob">
  <refnamediv>
@@ -121,13 +121,6 @@
        <entry>5.1.0</entry>
        <entry>
         Se añadió <constant>GLOB_ERR</constant>
-       </entry>
-      </row>
-      <row>
-       <entry>4.3.3</entry>
-       <entry>
-        <constant>GLOB_ONLYDIR</constant> ahora está disponible en Windows y
-        otros sistemas que no usan la biblioteca C GNU
        </entry>
       </row>
      </tbody>

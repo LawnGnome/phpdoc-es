@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id='function.imagefttext' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagefttext</refname>
@@ -233,29 +234,6 @@ imagedestroy($im);
   &reftitle.notes;
   &note.gd.2;
   &note.freetype;
- </refsect1>
- <refsect1 role="changelog">
-  &reftitle.changelog;
-  <para>
-   <informaltable>
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>&Version;</entry>
-       <entry>&Description;</entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>4.3.5</entry>
-       <entry>
-        Ahora <parameter>extrainfo</parameter> es opcional.
-       </entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </informaltable>
-  </para>
  </refsect1>
 </refentry>
 

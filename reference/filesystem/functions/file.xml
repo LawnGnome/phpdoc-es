@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334374 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.file">
  <refnamediv>
@@ -128,20 +128,6 @@
       </row>
      </thead>
      <tbody>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        Se añadió el parámetro <parameter>context</parameter>
-       </entry>
-      </row>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        Antes de PHP 5.0.0 el parámetro <parameter>flags</parameter> sólo
-        cubría <link linkend="ini.include-path">include_path</link> y estaba
-        habilitado con 1
-       </entry>
-      </row>
       <row>
        <entry>4.3.0</entry>
        <entry>
