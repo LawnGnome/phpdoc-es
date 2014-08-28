@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328689 Maintainer: aeoris Status: ready -->
+<!-- EN-Revision: 334605 Maintainer: aeoris Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xml:id="function.mt-rand" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -87,7 +87,6 @@
         <parameter>max</parameter> &lt; <parameter>min</parameter>.
        </entry>
       </row>
-      &changelog.randomseed;
      </tbody>
     </tgroup>
    </informaltable>
