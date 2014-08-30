@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333679 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334668 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 <chapter xml:id="language.operators" xmlns="http://docbook.org/ns/docbook">
  <title>Operadores</title>
@@ -93,7 +93,7 @@
        <entry><function>array</function></entry>
       </row>
       <row>
-       <entry>izquierda</entry>
+       <entry>derecha</entry>
        <entry><literal>**</literal></entry>
        <entry><link linkend="language.operators.arithmetic">aritmética</link></entry>
       </row>
@@ -231,20 +231,21 @@
       <row>
        <entry>derecha</entry>
        <entry>
-        <literal>=</literal> 
-        <literal>+=</literal> 
-        <literal>-=</literal> 
-        <literal>*=</literal> 
-        <literal>/=</literal> 
-        <literal>.=</literal> 
-        <literal>%=</literal> 
-        <literal>&amp;=</literal> 
-        <literal>|=</literal> 
-        <literal>^=</literal> 
-        <literal>&lt;&lt;=</literal> 
-        <literal>&gt;&gt;=</literal>
-        <literal>=&gt;</literal>
-       </entry>
+         <literal>=</literal> 
+         <literal>+=</literal> 
+         <literal>-=</literal> 
+         <literal>*=</literal> 
+         <literal>**=</literal> 
+         <literal>/=</literal> 
+         <literal>.=</literal> 
+         <literal>%=</literal> 
+         <literal>&amp;=</literal> 
+         <literal>|=</literal> 
+         <literal>^=</literal> 
+         <literal>&lt;&lt;=</literal> 
+         <literal>&gt;&gt;=</literal>
+         <literal>=&gt;</literal>
+        </entry>
        <entry>
         <link linkend="language.operators.assignment">asignación</link>
        </entry>
