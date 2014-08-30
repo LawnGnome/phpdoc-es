@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 334621 Maintainer: andresdzphp Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.checkdnsrr" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>checkdnsrr</refname>
@@ -75,13 +76,7 @@
       <row>
        <entry>5.2.4</entry>
        <entry>
-        Añadido TXT <parameter>type</parameter>.
-       </entry>
-      </row>
-      <row>
-       <entry>5.0.0</entry>
-       <entry>
-        Añadido AAAA <parameter>type</parameter>.
+        Se añadió el <parameter>type</parameter> TXT.
        </entry>
       </row>
      </tbody>
