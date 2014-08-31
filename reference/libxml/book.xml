@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 334662 Maintainer: chuso Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 
 <book xml:id="book.libxml" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -11,8 +11,8 @@
  <preface xml:id="intro.libxml">
   &reftitle.intro;
   <para>
-   Estas funciones/constantes están disponibles a partir de PHP 5.1.0, y
-   las siguientes extensiones del núcleo dependen de esta extensión libxml:
+   Estas funciones/constantes están disponibles a partir de PHP 5.1.0.
+   Las siguientes extensiones del núcleo dependen de esta extensión libxml:
    <link linkend="book.dom">DOM</link>,
    <link linkend="book.libxml">libxml</link>,
    <link linkend="book.simplexml">SimpleXML</link>,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: regiemix Status: ready -->
+<!-- EN-Revision: 334662 Maintainer: regiemix Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.yaz-record" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -248,9 +248,9 @@ Array
    </para>
   </example>
   <example>
-   <title>Trabajando con MARCXML</title>
+   <title>Trabajar con MARCXML</title>
    <para>
-    El siguiente fragmento PHP devuelve un registro MARC21/USMARC como MARCXML. 
+    El siguiente fragmento de PHP devuelve un registro MARC21/USMARC como MARCXML. 
     El registro original se devuelve en marc-8 (desconocido para muchos interpretadores XML),
     así que lo convertimos a UTF-8 (que todos los interpretadores XML deben soportar).
     <programlisting role="php">
