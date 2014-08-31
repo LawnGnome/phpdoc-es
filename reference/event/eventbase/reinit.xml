@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329774 Maintainer: regiemix Status: ready -->
+<!-- EN-Revision: 332806 Maintainer: regiemix Status: ready -->
 <!-- Reviewed: no -->
-
 <refentry xml:id="eventbase.reinit" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>EventBase::reInit</refname>
@@ -12,12 +11,9 @@
   &reftitle.description;
   <methodsynopsis>
    <modifier>public</modifier>
-   <type>void</type>
+   <type>bool</type>
    <methodname>EventBase::reInit</methodname>
-   <methodparam>
-    <type>string</type>
-    <parameter>base</parameter>
-   </methodparam>
+   <void />
   </methodsynopsis>
   <para>
    Reinicializa el evento base. Debe ser llamado después de un 'fork'.

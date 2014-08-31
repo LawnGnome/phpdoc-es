@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325214 Maintainer: lehmer Status: ready -->
+<!-- EN-Revision: 334626 Maintainer: lehmer Status: ready -->
 <!-- Reviewed: no Maintainer: lehmer -->
 <refentry xml:id="function.func-get-args" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -216,6 +216,7 @@ byRef($arg);
   &reftitle.seealso;
   <para>
    <simplelist>
+    <member><link linkend="functions.variable-arg-list.new">La sintaxis de <literal>...</literal> en PHP 5.6+</link></member>
     <member><function>func_get_arg</function></member>
     <member><function>func_num_args</function></member>
     <member><methodname>ReflectionFunctionAbstract::getParameters</methodname></member>
