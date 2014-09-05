@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334762 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <!-- splitted from ./en/functions/ps.xml, last change in rev 1.12 -->
 <refentry xml:id="function.ps-add-locallink" xmlns="http://docbook.org/ns/docbook">
