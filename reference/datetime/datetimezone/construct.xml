@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312463 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 334770 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 
 <refentry xml:id="datetimezone.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -34,7 +35,7 @@
      <term><parameter>timezone</parameter></term>
      <listitem>
       <para>
-       Una de las <link linkend="timezones">zonas horarias</link>.
+       Uno de los <link linkend="timezones">nombres de zonas horarias</link> admitidos.
       </para>
      </listitem>
     </varlistentry>
