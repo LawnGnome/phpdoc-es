@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 334758 Maintainer: chuso Status: ready -->
+<!-- Reviewed: no -->
 <section xml:id="ibm-db2.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.install;
  <para>
@@ -43,7 +44,7 @@ bash$ ./configure --with-IBM_DB2=/path/to/DB2
       Instalar DB2 con seguridad de sistema operativo extendidad
      </member>
      <member>
-      Añadir la ruta del binario PHP a la variable de entorno del sistema PATH (por omisión C:\php\).
+      Añadir la ruta del binario PHP a la variable de entorno del sistema <envar>PATH</envar> (por omisión C:\php\).
      </member>
      <member>
       Crear una nueva variable de entorno del sistema que contenga la ruta al fichero PHP.INI (por ejemplo: PHPRC = C:\php\).

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: lduran Status: ready -->
+<!-- EN-Revision: 334758 Maintainer: lduran Status: ready -->
+<!-- Reviewed: no -->
 
 <chapter xml:id="ifx.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
@@ -17,7 +18,7 @@
    </para>
    <para>
     Asegúrese de que la variable "INFORMIXDIR" ha sido fijada, y que
-    $INFORMIXDIR/bin esté en su PATH antes de ejecutar el script de
+    $INFORMIXDIR/bin esté en su <envar>PATH</envar> antes de ejecutar el script de
     "configure".
    </para>
   </note>

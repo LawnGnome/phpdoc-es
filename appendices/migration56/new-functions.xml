@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334643 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334794 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="migration56.new-functions">
@@ -157,18 +157,6 @@
   </itemizedlist>
  </sect2>
  
- <sect2 xml:id="migration56.new-functions.spl">
-  <title><link linkend="book.spl">SPL</link></title>
-  
-  <itemizedlist>
-   <listitem>
-    <simpara>
-     <methodname>SPLFileObject::fread</methodname>
-    </simpara>
-   </listitem>
-  </itemizedlist>
- </sect2>
- 
  <sect2 xml:id="migration56.new-functions.zip">
   <title><link linkend="book.zip">Zip</link></title>
   
@@ -180,8 +168,6 @@
    </listitem>
   </itemizedlist>
  </sect2>
- 
- <!-- TODO: anything since alpha 1 -->
 </sect1>
 
 <!-- Keep this comment at the end of the file
