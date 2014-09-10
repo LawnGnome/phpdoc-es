@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332753 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334826 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <section xml:id="mongo.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
@@ -156,7 +156,7 @@
       cualquier otro en su lugar. Escoja un carácter que no aparezca en sus
       nombres de clave, como por ejemplo ":":
      </para>
-     <programlisting>
+     <programlisting role="ini">
 <![CDATA[
 mongo.cmd = ":"
 ]]>
