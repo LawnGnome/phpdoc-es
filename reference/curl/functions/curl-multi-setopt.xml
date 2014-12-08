@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330733 Maintainer: regiemix Status: ready -->
+<!-- EN-Revision: 335160 Maintainer: aeoris Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.curl-multi-setopt" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -68,8 +68,7 @@
             gestor hará que intente realizar Pipelining HTTP siempre que sea
             posible para transferencias que utilicen ese gestor. Esto significa que si se añade
             una segunda petición que puede usar una conexión ya existente, la
-            segunda petición será canalizada en la misma conexión en vez de
-            ser ejecutada en paralelo.
+            segunda petición será canalizada en la misma conexión.
            </entry>
           </row>
           <row>
