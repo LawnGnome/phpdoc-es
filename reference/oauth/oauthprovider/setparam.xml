@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 299860 Maintainer: agarzon Status: ready -->
+<!-- EN-Revision: 335181 Maintainer: agarzon Status: ready -->
 
 <refentry xml:id="oauthprovider.setparam" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -39,6 +39,9 @@
     <listitem>
      <para>
       El valor opcional del parámetro.
+     </para>
+     <para>
+      Para excluir un parámetro de la verificación de firmas, colocar este valor a &null;.
      </para>
     </listitem>
    </varlistentry>
