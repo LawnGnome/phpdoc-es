@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 322136 Maintainer: seros Status: ready -->
+<!-- Reviewed: yes Maintainer: seros -->
 
 <refentry xml:id="datetime.set-state" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -26,7 +27,7 @@
     <term><parameter>array</parameter></term>
     <listitem>
      <para>
-      Matriz de inicialización.
+      Array de inicialización.
      </para>
     </listitem>
    </varlistentry>
