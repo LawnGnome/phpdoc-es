@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327505 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 336176 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.session-encode">
  <refnamediv>
@@ -35,7 +35,7 @@
   &reftitle.notes;
   <warning>
    <para>
-    Se debe llamar a <function>session_start</function> antes de usar <function>session_decode</function>.
+    Se debe llamar a <function>session_start</function> antes de usar <function>session_encode</function>.
    </para>
   </warning>
  </refsect1> 
