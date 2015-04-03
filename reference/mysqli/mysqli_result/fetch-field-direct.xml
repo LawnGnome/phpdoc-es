@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 336007 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
-
 <refentry xml:id="mysqli-result.fetch-field-direct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mysqli_result::fetch_field_direct</refname>
@@ -107,7 +106,7 @@
      </row>
      <row>
       <entry>decimals</entry>
-      <entry>El número de decimales usado (para campos integer)</entry>
+      <entry>El número de decimales empleados (para campos numéricos)</entry>
      </row>
     </tbody>
    </tgroup>

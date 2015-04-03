@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328734 Maintainer: lboshell Status: ready -->
+<!-- EN-Revision: 336003 Maintainer: lboshell Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xml:id="function.mysql-ping" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -32,7 +32,7 @@
   </para>
   <note>
    <para>
-    La reconexión automática está deshabilitada de forma predeterminada en versiones de MySQL >= 5.0.3..
+    La reconexión automática está deshabilitada de forma predeterminada en versiones de MySQL &gt;= 5.0.3.
    </para>
   </note>
  </refsect1>
