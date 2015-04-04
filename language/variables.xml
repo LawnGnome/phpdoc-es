@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 335484 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 <chapter xml:id="language.variables" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Variables</title>
@@ -833,7 +833,7 @@ echo $foo->{$arr}[1] . "\n";
    
    <para>
     A partir de PHP 5.4.0, solamente existen dos maneras de acceder a datos desde
-    formularios HTML. Los métodos disponibles actualemten se enumeran a continuación:
+    formularios HTML. Los métodos disponibles actualmente se enumeran a continuación:
    </para>
    
    <para>
