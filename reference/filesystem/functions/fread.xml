@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308472 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 335554 Maintainer: seros Status: ready -->
+<!-- Reviewed: no Maintainer: seros -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.fread">
  <refnamediv>
   <refname>fread</refname>
@@ -144,9 +145,13 @@ fclose($gestor);
 <![CDATA[
 <?php
 $gestor = fopen("http://www.example.com/", "rb");
+f (FALSE === $gestor) {
+    exit("Falló la apertura del flujo al URL");
+}
+
 $contenido = '';
 while (!feof($gestor)) {
-  $contenido .= fread($gestor, 8192);
+    $contenido .= fread($gestor, 8192);
 }
 fclose($gestor);
 ?>
