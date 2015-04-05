@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 309972 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 336340 Maintainer: seros Status: ready -->
+<!-- Reviewed: no Maintainer: seros -->
 <refentry xml:id="function.imagecreatefromxbm" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagecreatefromxbm</refname>
@@ -14,7 +15,7 @@
   </methodsynopsis>
   <para>
    <function>imagecreatefromxbm</function> devuelve un identificador de imagen
-   que representa la imagen obtenida desde el nombre de archivo dado.
+   que representa la imagen obtenida desde el nombre de fichero dado.
   </para>
   &tip.fopen-wrapper;
  </refsect1>
@@ -56,10 +57,6 @@ imagedestroy($xbm);
     </programlisting>
    </example>
   </para>
- </refsect1>
- <refsect1 role="notes">
-  &reftitle.notes;
-  &warn.no-win32-fopen-wrapper;
  </refsect1>
 </refentry>
 
