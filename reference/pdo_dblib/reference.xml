@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 335179 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <!-- State: experimental -->
 
@@ -13,7 +13,6 @@
   <section xml:id="pdo-dblib.intro">
    &reftitle.intro;
    <para>
-    &warn.experimental;
     PDO_DBLIB es un controlador que implementa la <link linkend="intro.pdo">interfaz
     de objetos de datos de PHP (PDO)</link> para habilitar el acceso desde PHP a
     bases de datos de Microsoft SQL Server y Sybase a través de la biblioteca FreeTDS.

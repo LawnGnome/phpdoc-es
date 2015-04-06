@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330635 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 335316 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.preg-quote" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -114,9 +114,9 @@ echo $claves; // devuelve \$40 por un g3\/400
 
 $texto = "Este libro es *muy* difícil de encontrar.";
 $palabra = "*muy*";
-$texto = preg_replace ("/" . preg_quote($palabra) . "/",
-                          "<i>" . $palabra . "</i>",
-                          $texto);
+$texto = preg_replace ("/" . preg_quote($palabra, '/') . "/",
+                       "<i>" . $palabra . "</i>",
+                       $texto);
 ?>
 ]]>
     </programlisting>

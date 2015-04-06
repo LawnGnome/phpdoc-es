@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 335484 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.imap-mailboxmsginfo" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imap_mailboxmsginfo</refname>
@@ -99,7 +100,7 @@ if ($comprobar) {
     echo "Eliminados: "  . $comprobar->Deleted . "<br />\n" ;
     echo "Tamaño: "      . $comprobar->Size    . "<br />\n" ;
 } else {
-    echo "imap_check() falló: " . imap_last_error() . "<br />\n";
+    echo "Falló imap_mailboxmsginfo(): " . imap_last_error() . "<br />\n";
 }
 
 imap_close($mbox);
