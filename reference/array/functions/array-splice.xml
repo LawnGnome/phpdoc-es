@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 333626 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 336201 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xml:id="function.array-splice" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -68,7 +68,9 @@
        se eliminarán tantos elementos como indique la longitud. Si
        se especifica <parameter>length</parameter> y es negativo,
        el final de la porción eliminada será de tantos elementos como indique la longitud desde
-       el final del array. Consejo: para eliminar todo desde
+       el final del array. Si se especifica <parameter>length</parameter>
+       y es cero, no se eliminará ningún elemento.
+       Consejo: para eliminar todo desde
        <parameter>offset</parameter> hasta el final del array cuando
        también se especifique <parameter>replacement</parameter>, use
        <literal>count($input)</literal> para
