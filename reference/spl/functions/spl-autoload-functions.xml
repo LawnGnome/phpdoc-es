@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 334980 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.spl-autoload-functions" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -27,7 +27,7 @@
   &reftitle.returnvalues;
   <para>
    Un <type>array</type> con todas las funciones __autoload registradas.
-   Si la pila de autocarga no está activada, el valor devuelto es &false;.
+   Si la cola de autocarga no está activada, el valor devuelto es &false;.
    Si no hay ninguna función registrada, el valor devuelto será un array vacío.
   </para>
  </refsect1>
