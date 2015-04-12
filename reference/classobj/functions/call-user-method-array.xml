@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 298514 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 336049 Maintainer: seros Status: ready -->
+<!-- Reviewed: no Maintainer: seros -->
 <refentry xml:id="function.call-user-method-array" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>call_user_method_array</refname>
-  <refpurpose>LLamar a un método de usuario dado con una matriz de parámetros [obsoleto]</refpurpose>
+  <refpurpose>LLamar a un método de usuario dado con un array de parámetros</refpurpose>
  </refnamediv>
  <refsect1 role="description">
   &reftitle.description;
@@ -50,7 +51,7 @@
      </term>
      <listitem>
       <para>
-       Una matriz de parámetros.
+       Un array de parámetros.
       </para>
      </listitem>
     </varlistentry>
@@ -67,7 +68,6 @@
 <![CDATA[
 <?php
 call_user_func_array(array($obj, $method_name), $params);
-call_user_func_array(array(&$obj, $method_name), $params); // PHP 4
 ?>
 ]]>
     </programlisting>
