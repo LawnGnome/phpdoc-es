@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: lboshell Status: ready -->
+<!-- EN-Revision: 335210 Maintainer: lboshell Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xml:id="function.ob-get-length" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -15,14 +15,14 @@
    <void/>
   </methodsynopsis>
   <para>
-   Esta función devolverá la longitud del contenido del búfer de salida.
+   Esta función devolverá la longitud del contenido del búfer de salida, en bytes.
   </para>
  </refsect1>
  
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Devuelve la longitud del contenido del búfer de salida, o &false; si
+   Devuelve la longitud del contenido del búfer de salida, en bytes, o &false; si
    no está activo el almacenamiento en búfer.
   </para>
  </refsect1>
