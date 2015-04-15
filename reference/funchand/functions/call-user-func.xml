@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 335189 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.call-user-func" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -59,7 +59,8 @@ $a = 0;
 call_user_func('incrementar', $a);
 echo $a."\n";
 
-call_user_func_array('incrementar', array(&$a)); // En su lugar se puede usar esto antes de PHP 5.3
+// En su lugar se puede usar esto
+call_user_func_array('incrementar', array(&$a));
 echo $a."\n";
 ?>
 ]]>
