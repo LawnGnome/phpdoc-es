@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 329077 Maintainer: andresdzphp Status: ready -->
-<!-- Reviewed: no Maintainer: andresdzphp -->
+<!-- Reviewed: no Maintainer: seros -->
 
 <chapter xml:id="pdo.error-handling" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Errores y su manejo</title>
