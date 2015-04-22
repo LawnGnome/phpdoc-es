@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336564 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 336602 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 
 <appendix xml:id="tokens" xmlns="http://docbook.org/ns/docbook">
@@ -476,7 +476,10 @@
     <row>
      <entry><constant>T_SPACESHIP</constant></entry>
      <entry>&lt;=&gt;</entry>
-     <entry><link linkend="language.operators.comparison">operadores de comparación</link>(available since PHP 7.0.0)</entry>
+     <entry>
+      <link linkend="language.operators.comparison">operadores de comparación</link>
+      (disponible desde PHP 7.0.0)
+     </entry>
     </row>
     <row>
      <entry><constant>T_LINE</constant></entry>
