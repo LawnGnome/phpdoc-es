@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322382 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 336566 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id='domnode.replacechild' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>DOMNode::replaceChild</refname>
@@ -17,7 +18,7 @@
   </methodsynopsis>
   <para>
    Esta función reemplaza el hijo <parameter>oldnode</parameter> 
-   con es nuevo nodo pasado. Si el nuevo nodo ya es un hijo
+   con es nuevo nodo <parameter>newnode</parameter> proporcionado. Si el nuevo nodo ya es un hijo
    no será añadido una segunda vez. Si el reemplazo tiene éxito
    se devuelve el nodo antiguo.
   </para>
