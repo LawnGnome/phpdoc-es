@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 336889 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.juliantojd" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>JulianToJD</refname> 
+  <refname>juliantojd</refname> 
   <refpurpose>Convierte una fecha del Calendario Juliano a una Fecha Juliana</refpurpose>
  </refnamediv>
  <refsect1 role="description">

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 336889 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.jdmonthname" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
-  <refname>JDMonthName</refname>
+  <refname>jdmonthname</refname>
   <refpurpose>Devuelve el nombre de un mes</refpurpose>
  </refnamediv>
 
