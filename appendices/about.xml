@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334580 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 336646 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: yago -->
 <appendix xml:id="about" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Acerca del manual</title>
@@ -254,7 +254,7 @@ Devuelve longitud de un string
    </screen>
   </para>
   <para>
-   En este ejemplo se puede vere que el tercer parámetro opcional <parameter>&amp;$matches</parameter> será
+   En este ejemplo se puede ver que el tercer parámetro opcional <parameter>&amp;$matches</parameter> será
    pasado por referencia. 
   </para>
   <para>

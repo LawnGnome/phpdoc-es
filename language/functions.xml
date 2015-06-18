@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335191 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 336952 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
  <title>Funciones</title>
@@ -161,6 +161,13 @@ function recursividad($a)
 ]]>
     </programlisting>
    </example>
+   <note>
+    <simpara>
+     Las llamadas a funciones/métodos recursivos con más de 100-200 niveles de recursividad pueden
+     agotar la pila y ocasionar la finalización del script actual. Especialmente,
+     las recurisvidades infinitas están consideradas un error de programación.
+    </simpara>
+   </note>
   </para>
   
  </sect1>
