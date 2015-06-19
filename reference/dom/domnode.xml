@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326126 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 336900 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <phpdoc:classref xmlns:phpdoc="http://php.net/ns/phpdoc" xml:id="class.domnode" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
  <title>La clase DOMNode</title>
@@ -161,7 +161,7 @@
     <varlistentry xml:id="domnode.props.parentnode">
      <term><varname>parentNode</varname></term>
      <listitem>
-      <para>El padre de este nodo</para>
+      <para>El padre de este nodo. Si no existe tal nodo, devuelve &null;.</para>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="domnode.props.childnodes">
