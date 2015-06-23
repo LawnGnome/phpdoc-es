@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 336722 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 
 <chapter xml:id="openssl.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
-
+ 
  <!-- {{{ Requirements -->
  <section xml:id="openssl.requirements">
   &reftitle.required;
@@ -23,25 +24,22 @@
   </warning>
  </section>
  <!-- }}} -->
-
+ 
  <!-- {{{ Installation -->
  &reference.openssl.configure;
  <!-- }}} -->
-
+ 
  <!-- {{{ Configuration -->
- <section xml:id="openssl.configuration">
-  &reftitle.runtime;
-  &no.config;
- </section>
+ &reference.openssl.ini;
  <!-- }}} -->
-
+ 
  <!-- {{{ Resources -->
  <section xml:id="openssl.resources">
   &reftitle.resources;
   &no.resource;
  </section>
  <!-- }}} -->
-
+ 
 </chapter>
 
 <!-- Keep this comment at the end of the file
