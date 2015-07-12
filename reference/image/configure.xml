@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336854 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 337140 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <section xml:id="image.installation" xmlns="http://docbook.org/ns/docbook">
  &reftitle.install;
@@ -59,6 +59,14 @@
        <option role="configure">--with-xpm-dir=DIR</option>. Si la configuración
        no es capaz de encontrar las bibliotecas requeridas, se puede añadir la ruta a
        las bibliotecas X11.
+      </entry>
+     </row>
+     <row>
+      <entry><literal>webp</literal></entry>
+      <entry>
+       Para habilitar el soorte para webp añada
+       <option role="configure">--with-vpx-dir=DIR</option>. Disponible a partri de PHP
+       5.5.
       </entry>
      </row>
     </tbody>
