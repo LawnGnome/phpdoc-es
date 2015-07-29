@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 337261 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="pdo.prepare" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -65,7 +65,7 @@
      <term><parameter>statement</parameter></term>
      <listitem>
       <para>
-       Debe ser una sentencia SQL válida para el servidor de base de datos destino.
+       Debe ser una plantilla de sentencia SQL válida para el servidor de base de datos destino.
       </para>
      </listitem>
     </varlistentry>
