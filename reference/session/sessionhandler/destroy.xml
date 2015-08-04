@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 325489 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 337282 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 
 <refentry xml:id="sessionhandler.destroy" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -16,8 +16,8 @@
    <methodparam><type>string</type><parameter>session_id</parameter></methodparam>
   </methodsynopsis>
   <para>
-   Destruye una sesión. Es llamado internamente por PHP con <function>session_regenerate_id</function> (se asume
-   que <parameter>$destory</parameter> está establecido a &true;, mediante <function>session_destroy</function> o cuando
+   Destruye una sesión. Llamado internamente por PHP con <function>session_regenerate_id</function> (se asume
+   que <parameter>$destroy</parameter> está establecido a &true;, mediante <function>session_destroy</function> o cuando
    <function>session_decode</function> falla.
   </para>
   <para>
