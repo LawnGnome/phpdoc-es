@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336672 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 337295 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.realpath">
  <refnamediv>
@@ -59,6 +59,12 @@
     El script en ejecución debe tener permisios de ejecución en todos los directorios de
     la jerarquía, de lo contrario <function>realpath</function> devolverá
     &false;.
+   </para>
+  </note>
+  <note>
+   <para>
+    Para sistema de ficheros que no tengan en cuenta las mayúsculas/minúsculas, <function>realpath</function> podría o
+    no normalizar las mayúsculas/minúsculas de cada carácter.
    </para>
   </note>
   &fs.file.32bit;

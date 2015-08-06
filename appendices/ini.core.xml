@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336886 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 337294 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: seros -->
 
 <section xml:id="ini.core" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -1000,9 +1000,7 @@
        que <link linkend="ini.upload-max-filesize">upload_max_filesize</link>.
       </simpara>
       <simpara>
-       Si el límite de memoria está activado por un script de configuración, <link
-       linkend="ini.memory-limit">memory_limit</link> también afecta 
-       la subida de ficheros. Por norma general,
+       Por norma general,
        <link linkend="ini.memory-limit">memory_limit</link> debe ser
        mayor que <parameter>post_max_size</parameter>.
       </simpara>
