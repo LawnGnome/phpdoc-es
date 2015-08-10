@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336856 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 337348 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.imagepsextendfont" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -19,6 +19,7 @@
    el valor del parámetro <parameter>extend</parameter> es menor
    que 1 se condensará la fuente.
   </para>
+  &warn.removed.function-7-0-0;
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
