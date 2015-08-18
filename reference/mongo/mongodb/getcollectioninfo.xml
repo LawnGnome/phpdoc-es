@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329340 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 337516 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongodb.getcollectioninfo" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -64,7 +64,7 @@
  <refsect1 role="errors">
   &reftitle.errors;
   <para>
-   Para MongoDB 2.6 y anteriores, se lanzará una <classname>MongoException</classname> 
+   En MongoDB 2.6 y anteriores, se lanzará una <classname>MongoException</classname> 
    si se especifica un valor distinto de un string para el criterio
    <literal>"name"</literal> de la opción <literal>"filter"</literal>.
   </para>
