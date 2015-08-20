@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317502 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 337552 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 
 <chapter xml:id="pdo.lobs" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Objetos grandes (LOBs)</title>
+ <title>Objetos grandes (LOB)</title>
  <para>
   En algún momento, una aplicación podría necesitar almacenar
   datos "grandes" en la base de datos. Grande típicamente significa "alrededor de 4kb o
@@ -106,7 +106,7 @@ $sentencia->bindParam(3, $fp, PDO::PARAM_LOB);
 
 $sentencia->beginTransaction();
 $sentencia->execute();
-$sentencia->commit();
+$bd->commit();
 ?>
 ]]>
    </programlisting>

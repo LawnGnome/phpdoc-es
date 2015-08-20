@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 301626 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 337556 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="phardata.decompress">
  <refnamediv>
@@ -79,10 +79,8 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-$p = new PharData('/ruta/a/mi.phar', 0, 'mi.phar.gz');
-$p['mifichero1.txt'] = 'hola';
-$p['mifichero12.txt'] = 'hola';
-$p3 = $p2->decompress(); // crea /ruta/a/mi.phar
+$p = new PharData('/ruta/a/mi.tar.gz');
+$p->decompress(); // crea /ruta/a/mi.tar
 ?>
 ]]>
     </programlisting>
