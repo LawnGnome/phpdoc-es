@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337602 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 337618 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: seros -->
 <chapter xml:id="language.namespaces" xmlns="http://docbook.org/ns/docbook"
 version="1.1">
@@ -121,7 +121,7 @@ namespace MiProyecto;
 
 const CONECTAR_OK = 1;
 class Conexión { /* ... */ }
-function conectar() { /* ... */  }
+function conectar() { /* ... */ }
 
 ?>
 ]]>
