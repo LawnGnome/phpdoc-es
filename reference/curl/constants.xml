@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337258 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 337751 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <appendix xml:id="curl.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
@@ -2950,6 +2950,39 @@
    <listitem>
     <simpara>
      Disponible desde PHP 5.5.0 y cURL 7.18.0.
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.curlpipe-nothing">
+   <term>
+    <constant>CURLPIPE_NOTHING</constant>
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     Disponible desde PHP 7.0.0 y cURL 7.43.0.
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.curlpipe-http1">
+   <term>
+    <constant>CURLPIPE_HTTP1</constant>
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     Disponible desde PHP 7.0.0 y cURL 7.43.0.
+    </simpara>
+   </listitem>
+  </varlistentry>
+  <varlistentry xml:id="constant.curlpipe-multiplex">
+   <term>
+    <constant>CURLPIPE_MULTIPLEX</constant>
+    (<type>integer</type>)
+   </term>
+   <listitem>
+    <simpara>
+     Disponible desde PHP 7.0.0 y cURL 7.43.0.
     </simpara>
    </listitem>
   </varlistentry>
