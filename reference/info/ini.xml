@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337501 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 337554 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <section xml:id="info.configuration" xmlns="http://docbook.org/ns/docbook">
  &reftitle.runtime;
  &extension.runtime;
  <para>
   <table>
-   <title>Opciones de PHP/Opciones de configuración Inf</title>
+   <title>Opciones de configuración de opciones/información de PHP</title>
    <tgroup cols="4">
     <thead>
      <row>
@@ -143,7 +143,7 @@
     </term>
     <listitem>
      <para>
-      Lanza un PHP warning for cada aserción que falle.
+      Lanzar un PHP warning for cada aserción que falle.
      </para>
     </listitem>
    </varlistentry>
@@ -268,7 +268,7 @@
      <para>
       Establece el máximo de profundidad de anidamiento para 
       <link linkend="language.variables.external">variables de entrada</link> (p.ej.
-      <varname>$_GET</varname>, <varname>$_POST</varname>..)
+      <varname>$_GET</varname>, <varname>$_POST</varname>.)
      </para>
     </listitem>
    </varlistentry>
