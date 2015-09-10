@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337112 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 337788 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <phpdoc:classref xmlns:phpdoc="http://php.net/ns/phpdoc" xml:id="class.domnode" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
  <title>La clase DOMNode</title>
@@ -148,7 +148,13 @@
     <varlistentry xml:id="domnode.props.nodevalue">
      <term><varname>nodeValue</varname></term>
      <listitem>
-      <para>El valor de este nodo, dependiendo de su tipo</para>
+      <para>
+       El valor de este nodo, dependiendo de su tipo.
+       A diferencia de al especificación del W3C, el valor de los nodos
+       <classname>DOMElement</classname> es igual a <link
+       linkend="domnode.props.textcontent">DOMNode::textContent</link> en lugar
+       de &null;.
+      </para>
      </listitem>
     </varlistentry>
     <varlistentry xml:id="domnode.props.nodetype">
