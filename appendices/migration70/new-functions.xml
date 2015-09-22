@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337841 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 337879 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="migration70.new-functions">
@@ -94,6 +94,24 @@
    </listitem>
   </itemizedlist>
  </sect2>
+ 
+ <sect2 xml:id="migration70.new-functions.info">
+  <title><link linkend="book.info">Opciones/Info de PHP</link></title>
+
+  <itemizedlist>
+   <listitem>
+    <simpara>
+     <function>gc_mem_caches</function>
+    </simpara>
+   </listitem>
+   <listitem>
+    <simpara>
+     <function>get_resources</function>
+    </simpara>
+   </listitem>
+  </itemizedlist>
+ </sect2>
+
  
  <sect2 xml:id="migration70.new-functions.posix">
   <title><link linkend="book.posix">POSIX</link></title>
