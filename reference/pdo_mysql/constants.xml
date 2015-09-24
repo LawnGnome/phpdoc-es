@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: marcogrossisas Status: ready -->
-<!-- Reviewed: yes Maintainer: seros -->
+<!-- EN-Revision: 337784 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <section xml:id="pdo-mysql.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &pdo.driver-constants;
@@ -149,8 +149,8 @@ if ($bs->getAttribute(PDO::ATTR_DRIVER_NAME) == 'mysql') {
    </term>
    <listitem>
     <para>
-     Activa la compresión de comunicación de red. Esta constante no está admitida cuando
-     se compila para mysqlnd.
+     Activa la compresión de comunicación de red. Esta también se admite cuando
+     se realizó la compilación con mysqlnd, a partir de PHP 5.3.11.
     </para>
    </listitem>
   </varlistentry>
