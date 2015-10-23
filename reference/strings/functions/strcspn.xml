@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337482 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338016 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strcspn">
  <refnamediv>
@@ -71,7 +71,7 @@
       </para>
       <para>
        Si se proporciona <parameter>start</parameter> y es negativo,
-       <function>strspn</function> comenzará a
+       <function>strcspn</function> comenzará a
        examinar <parameter>subject</parameter> en
        la <parameter>start</parameter>-ésima a partir del final
        de <parameter>subject</parameter>.
