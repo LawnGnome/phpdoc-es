@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- EN-Revision: 334186 Maintainer: santiagolizardo Status: ready -->
-<!-- Reviewed: no -->
+<!-- Reviewed: no Maintainer: seros -->
 <chapter xml:id="features.dtrace" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Rastreo Dinámico con DTrace</title>
  
