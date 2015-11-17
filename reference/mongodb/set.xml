@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338043 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338133 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <set xml:id="set.mongodb" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -37,7 +37,7 @@
  
  &reference.mongodb.setup;
  &reference.mongodb.tutorial;
- &reference.mongodb.persistence;
+ &reference.mongodb.architecture;
  
  &reference.mongodb.mongodb;
  &reference.mongodb.bson;
