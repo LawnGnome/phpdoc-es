@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337376 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338227 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <phpdoc:exceptionref xml:id="class.divisionbyzeroerror"
@@ -38,7 +38,7 @@ xmlns:phpdoc="http://php.net/ns/phpdoc">
      
      <ooclass>
       <modifier>extends</modifier>
-      <classname>Error</classname>
+      <classname>ArithmeticError</classname>
      </ooclass>
     </classsynopsisinfo>
     <!-- }}} -->
