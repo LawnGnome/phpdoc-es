@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338301 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.ignore-user-abort" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ignore_user_abort</refname>
@@ -11,7 +12,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>int</type><methodname>ignore_user_abort</methodname>
-   <methodparam choice="opt"><type>string</type><parameter>value</parameter></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>value</parameter></methodparam>
   </methodsynopsis>
   <para>
    Establece si la desconexión de un cliente deberia ocasionar que el script sea abortado.
