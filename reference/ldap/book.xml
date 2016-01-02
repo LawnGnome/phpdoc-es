@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338390 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 
 <book xml:id="book.ldap" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -77,6 +77,11 @@
    <listitem>
     <para>
      <link xlink:href="&url.ldap.openldap;">Proyecto OpenLDAP</link>
+    </para>
+   </listitem>
+   <listitem>
+    <para>
+     Las RFC de Internet Engineering Taskforce <link xlink:href="&url.rfc;rfc4510">4510</link> hasta <link xlink:href="&url.rfc;rfc4519">4519</link>.
     </para>
    </listitem>
   </itemizedlist>
