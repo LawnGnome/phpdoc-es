@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337879 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338439 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="migration70.new-functions">
@@ -136,7 +136,17 @@
    </listitem>
    <listitem>
     <simpara>
+     <function>ReflectionParameter::hasType</function>
+    </simpara>
+   </listitem>
+   <listitem>
+    <simpara>
      <function>ReflectionFunctionAbstract::getReturnType</function>
+    </simpara>
+   </listitem>
+   <listitem>
+    <simpara>
+     <function>ReflectionFunctionAbstract::hasReturnType</function>
     </simpara>
    </listitem>
   </itemizedlist>
