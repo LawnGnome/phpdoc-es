@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: regiemix Status: ready -->
+<!-- EN-Revision: 338426 Maintainer: regiemix Status: ready -->
 <!-- Reviewed: no -->
-
 <refentry xml:id='function.mssql-bind' xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mssql_bind</refname>
   <refpurpose>Añade un parámetro a un stored procedure (procedimiento almacenado) MSSQL (local o remoto)</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv>
+  <warning>
+   &warn.removed.function.7-0-0.alternatives;
+   <simplelist role="alternatives">
+    <member><function>PDOStatement::bindParam</function></member>
+    <member><function>PDOStatement::bindValue</function></member>
+    <member><function>sqlsrv_prepare</function></member>
+    <member><function>odbc_prepare</function></member>
+   </simplelist>
+  </warning>
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;

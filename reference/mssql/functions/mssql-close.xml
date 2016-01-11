@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: regiemix Status: ready -->
+<!-- EN-Revision: 338426 Maintainer: regiemix Status: ready -->
 <!-- Reviewed: no -->
-
 <refentry xml:id="function.mssql-close" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mssql_close</refname>
   <refpurpose>Cierra una conexión MS SQL Server</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv>
+  <warning>
+   &warn.removed.function.7-0-0.alternatives;
+   <simplelist role="alternatives">
+    <member><function>sqlsrv_close</function></member>
+    <member><function>odbc_close</function></member>
+    <member><function>odbc_close_all</function></member>
+   </simplelist>
+  </warning>
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;

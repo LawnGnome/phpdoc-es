@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334621 Maintainer: regiemix Status: ready -->
+<!-- EN-Revision: 338426 Maintainer: regiemix Status: ready -->
 <!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.mssql-connect">
  <refnamediv>
@@ -8,6 +8,17 @@
   <refpurpose>Establece una conexión a un servidor MS SQL</refpurpose>
  </refnamediv>
  
+ <refsynopsisdiv>
+  <warning>
+   &warn.removed.function.7-0-0.alternatives;
+   <simplelist role="alternatives">
+    <member><function>PDO::__construct</function></member>
+    <member><function>sqlsrv_connect</function></member>
+    <member><function>odbc_connect</function></member>
+   </simplelist>
+  </warning>
+ </refsynopsisdiv>
+
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
