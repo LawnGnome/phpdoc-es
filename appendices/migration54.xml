@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332745 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338477 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 <!-- Based on UPGRADING version 322438. Work in progess !-->
 
@@ -337,11 +337,6 @@
    Funciones obsoletas:
   </simpara>
   <itemizedlist>
-   <listitem>
-    <simpara>
-     <function>mcrypt_generic_end</function>
-    </simpara>
-   </listitem>
    <listitem>
     <simpara>
      <function>mysql_list_dbs</function>
