@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336196 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338501 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: seros -->
 
 <sect1 xml:id="control-structures.continue" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -35,7 +35,7 @@
 <![CDATA[
 <?php
 while (list($clave, $valor) = each($arr)) {
-    if (!($clave % 2)) { // saltar los miembros impares
+    if (!($clave % 2)) { // saltar los miembros pares
         continue;
     }
     hacer_algo($valor);
