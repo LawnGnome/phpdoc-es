@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 338502 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="arrayiterator.valid" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>ArrayIterator::valid</refname>
@@ -26,7 +27,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &return.void;
+   Devuelve &true; si el iterador es válido, &false; si no.
   </para>
  </refsect1>
 
@@ -47,7 +48,7 @@ var_dump($iterator->valid()); //bool(true)
 
 $iterator->next(); // avanza al siguiente ítem
 
-//bool(false) porque sólo hay un elemento array
+//bool(false) porque solo hay un elemento array
 var_dump($iterator->valid());
 ?>
 ]]>
