@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338579 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338615 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: seros -->
 <!-- Keep 'em sorted -->
 
@@ -2174,6 +2174,15 @@ usarse en su lugar la extensión
   un <classname>TypeError</classname>.
  </simpara>
 </listitem>
+'>
+<!ENTITY csprng.function.backport '
+ <note xmlns="http://docbook.org/ns/docbook">
+  <simpara>
+   Aunque esta función se añadió a PHP en PHP 7.0, hay disponible una
+   <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.csprng.compat;">implementación de espacio de usuario</link>
+   para PHP 5.2 hasta 5.6, inclusive.
+  </simpara>
+ </note>
 '>
 
 
