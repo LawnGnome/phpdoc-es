@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 338645 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 
 <refentry xml:id="mongoid.getinc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoId::getInc</refname>
   <refpurpose>Obtiene el valor incremental usado para crear este id</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv role="soft-deprecation-notice">
+  <sidebar>
+   &mongo.noalternative.method.note;
+  </sidebar>
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;

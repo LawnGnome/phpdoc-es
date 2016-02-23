@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 313232 Maintainer: chuso Status: ready -->
+<!-- EN-Revision: 338645 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 
 <refentry xml:id="mongodate.tostring" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>MongoDate::__toString</refname>
   <refpurpose>Devuelve una representación en forma de texto de esta fecha</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv role="soft-deprecation-notice">
+  <sidebar>
+   &mongo.alternative.method.note;
+   <simplelist role="alternatives">
+    <member><methodname>MongoDB\BSON\UTCDateTime::__toString</methodname></member>
+   </simplelist>
+  </sidebar>
+ </refsynopsisdiv>
  
  <refsect1 role="description">
   &reftitle.description;
