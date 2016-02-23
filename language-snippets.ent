@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338615 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338645 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: seros -->
 <!-- Keep 'em sorted -->
 
@@ -1901,6 +1901,10 @@ relativas</simpara></warning>
 xmlns="http://docbook.org/ns/docbook">Esta extensión que define esta clase
 está obsoleta. En su lugar debe usarse la extensión <link linkend="set.mongodb">MongoDB</link>.
 Las alternativas a esta clase son:</para>'>
+<!ENTITY mongo.noalternative.class.note '<para
+xmlns="http://docbook.org/ns/docbook">Esta extensión que define esta clase
+está obsoleta. En su lugar debe usarse la extensión <link linkend="set.mongodb">MongoDB</link>.
+No existe un equivalente para esta clase en la nueva extensión.</para>'>
 <!ENTITY mongo.alternative.method.note '<para
 xmlns="http://docbook.org/ns/docbook">Esta extenisón que define este método
 está obsoleta. En su lugar debe usarse la extensión <link linkend="set.mongodb">MongoDB</link>.
