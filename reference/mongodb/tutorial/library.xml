@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336263 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338698 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <chapter xml:id="mongodb.tutorial.library" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -108,7 +108,7 @@ require 'vendor/autoload.php';
 <?php
 require 'vendor/autoload.php'; // incluir lo bueno de Composer
 
-$cliente = new MongoDB\Driver\Client("mongodb://localhost:27017");
+$cliente = new MongoDB\Client("mongodb://localhost:27017");
 $colección = $cliente->demo->beers;
 
 $resultado = $colección->insertOne( [ 'name' => 'Hinterland', 'brewery' => 'BrewDog' ] );
@@ -134,7 +134,7 @@ echo "Inserted with Object ID '{$resultado->getInsertedId()}'";
 <?php
 require 'vendor/autoload.php'; // include Composer goodies
 
-$cliente = new MongoDB\Driver\Client("mongodb://localhost:27017");
+$cliente = new MongoDB\DriverMongoDB\Client("mongodb://localhost:27017");\Client("mongodb://localhost:27017");
 $colección = $cliente->demo->beers;
 
 $resultado = $colección->find( [ 'name' => 'Hinterland', 'brewery' => 'BrewDog' ] );
