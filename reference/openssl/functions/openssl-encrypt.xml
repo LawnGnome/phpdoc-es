@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329818 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338702 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.openssl-encrypt" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -44,7 +44,7 @@
      <term><parameter>method</parameter></term>
      <listitem>
       <para>
-       El método de cifrado.
+       El método de cifrado. Para una lista de los métodos de cifrado disponible, use <function>openssl_get_cipher_methods</function>.
       </para>
      </listitem>
     </varlistentry>
