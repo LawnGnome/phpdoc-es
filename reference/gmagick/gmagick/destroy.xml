@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 308252 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338751 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 
 <refentry xml:id="gmagick.destroy" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -11,7 +12,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>Gmagick</type><methodname>Gmagick::destroy</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>Gmagick::destroy</methodname>
    <void />
   </methodsynopsis>
   <para>
@@ -23,7 +24,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   &gmagick.return.success;
+   &return.success;
   </para>
  </refsect1>
 
