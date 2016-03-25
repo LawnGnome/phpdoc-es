@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338747 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338802 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <!-- AUTO GENERATED, DO NOT TRANSLATE OR MODIFY BY HAND -->
 
@@ -10,7 +10,7 @@
 
  <note>
   <simpara>
-   &date.timezone.dbversion; 2016.2.
+   &date.timezone.dbversion; 2016.3.
   </simpara>
  </note>
 
