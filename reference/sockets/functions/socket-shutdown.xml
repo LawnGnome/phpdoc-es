@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338908 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.socket-shutdown">
  <refnamediv>
   <refname>socket_shutdown</refname>
@@ -19,6 +20,11 @@
    la entrada y salida de toda la información (lo predeterminado) que está siendo enviada a través del
    <parameter>socket</parameter>
   </para>
+  <note>
+   <para>
+    El búfer o búferes podrían o no estar vaciados.
+   </para>
+  </note>
  </refsect1>
 
  <refsect1 role="parameters">

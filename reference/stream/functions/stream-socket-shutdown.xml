@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 338908 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.stream-socket-shutdown" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>stream_socket_shutdown</refname>
@@ -16,6 +17,11 @@
   <para>
    Cierra (parcialmente o no) una conexión full-duplex.
   </para>
+  <note>
+   <para>
+    El búfer o búferes podrían o no estar vaciados.
+   </para>
+  </note>
  </refsect1>
 
  <refsect1 role="parameters">
