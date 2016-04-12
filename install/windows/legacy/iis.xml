@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 289705 Maintainer: jorgeolaya Status: ready --> 
+<!-- EN-Revision: 338941 Maintainer: jorgeolaya Status: ready --> 
+<!-- Reviewed: no Maintainer: seros -->
 <sect1 xml:id="install.windows.iis" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Microsoft IIS</title>
  <para>
   Esta sección contiene instrucciones específicas de la instalación de PHP en Microsoft Internet Information Services (IIS).
-  </para>
+ </para>
  <itemizedlist>
   <listitem>
-  <simpara>
-  <link linkend="install.windows.iis6">Instalación manual de PHP en Microsoft IIS 5.1 y IIS 6.0</link>
-  </simpara>
+   <simpara>
+    <link linkend="install.windows.iis6">Instalación manual de PHP en Microsoft IIS 5.1 y IIS 6.0</link>
+   </simpara>
   </listitem>
   <listitem>
-  <simpara>
-  <link linkend="install.windows.iis7">Instalación manual de PHP en Microsoft IIS 7.0 y posteriores</link>
-  </simpara>
+   <simpara>
+    <link linkend="install.windows.iis7">Instalación manual de PHP en Microsoft IIS 7.0 y posteriores</link>
+   </simpara>
   </listitem>
  </itemizedlist>
 </sect1>
