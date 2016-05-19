@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339183 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="pdo.rollback" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -19,8 +19,7 @@
   
   <para>
    Revierte la transacción actual, que fue iniciada por
-   <function>PDO::beginTransaction</function>. Se lanzará una excepción de tipo
-   <classname>PDOException</classname> si no hay ninguna transacción activa.
+   <function>PDO::beginTransaction</function>.
   </para>
   <para>
    Si la base de datos se estableció al modo 'autocommit', esta función restablecerá
@@ -40,6 +39,14 @@
   <para>
    &return.success;
   </para>
+ </refsect1>
+ 
+ <refsect1 role="errors">
+  &reftitle.errors;
+  <para>
+   Lanza una <classname>PDOException</classname> si no hay ninguna transacción activa.
+  </para>
+  &pdo.errors.exception-not-errmode;
  </refsect1>
  
  <refsect1 role="examples">
