@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331332 Maintainer: andresdzphp Status: ready -->
+<!-- EN-Revision: 339251 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <chapter xml:id="faq.obtaining" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>Consiguiendo PHP</title>
@@ -193,9 +193,8 @@
    </question>
    <answer>
     <para>
-     Ver la sección del manual dedicada a la 
-     <link linkend="install.windows.building">compilación de PHP
-      desde el código fuente en Windows</link>.
+      Véase al wiki de PHP para las últimas instrucciones: <link xlink:href="https://wiki.php.net/internals/windows/stepbystepbuild">Instrucciones de construcción paso a paso</link>
+     
     </para>
    </answer>
   </qandaentry>
