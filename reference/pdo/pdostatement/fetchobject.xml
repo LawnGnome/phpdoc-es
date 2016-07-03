@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330543 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339520 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="pdostatement.fetchobject" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -20,6 +20,10 @@
    alternativa para <function>PDOStatement::fetch</function> con el estilo
    <constant>PDO::FETCH_CLASS</constant> o
    <constant>PDO::FETCH_OBJ</constant>.
+  </para>
+  <para>
+   Cuando se obtiene un objeto, sus propiedades son asignadas desde los valores de la
+   columna respectiva, y después se invoca a su constructor.
   </para>
   
  </refsect1>
