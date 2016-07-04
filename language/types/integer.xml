@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338443 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339405 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <sect1 xml:id="language.types.integer">
  <title>Números enteros (Integers)</title>
@@ -228,6 +228,13 @@ var_dump(round(25/7));  // float(4)
     la precisión suficiente para ofrecer el resultado como un <type>integer</type> exacto.
     No se mostrará ninguna advertencia, ni siquiera un aviso, cuando esto ocurra.
    </para>
+   
+   <note>
+    <para>
+     A partir de PHP 7.0.0,0, en lugar de ser indefinidos y dependientes de la plataforma, NaN e Infinity
+     siempre serán cero al amoldarlos a <type>integer</type>.
+    </para>
+   </note>
    
    <warning>
     <para>
