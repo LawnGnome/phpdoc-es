@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: yago Status: ready -->
+<!-- EN-Revision: 339490 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.arsort" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>arsort</refname>
@@ -21,6 +22,7 @@
    Es usado principalmente cuando se ordenan arrays asociativos cuando el orden de los
    elementos es importante.
   </para>
+  &note.sort-unstable;
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;
