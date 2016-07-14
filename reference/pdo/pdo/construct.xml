@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339618 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xml:id="pdo.construct" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -131,7 +131,7 @@
     <programlisting role="php">
 <![CDATA[
 <?php
-/* Conectar a una base de datos ODBC invocando al controlador */
+/* Conectar a una base de datos de MySQL invocando al controlador */
 $dsn = 'mysql:dbname=testdb;host=127.0.0.1';
 $usuario = 'usuario_bd';
 $contraseña = 'contraseña_bd';
