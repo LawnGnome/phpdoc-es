@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334605 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339490 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xml:id="function.shuffle" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -15,7 +15,10 @@
   </methodsynopsis>
   <para>
    Esta función mezcla un array (crea un orden aleatorio de sus elementos).
+   Utiliza un generador de números seudoaleatorios que no es apto para
+   fines criptográficos.
   </para>
+  &note.sort-unstable;
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;

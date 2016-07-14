@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339490 Maintainer: seros Status: ready -->
+<!-- Reviewed: no -->
 <refentry xml:id="function.natcasesort" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>natcasesort</refname>
@@ -21,6 +22,7 @@
    en la manera en que lo haría un humano mientras mantiene las asociaciones de clave/valor.
    Es descrito como "ordenación natural".
   </para>
+  &note.sort-unstable;
  </refsect1>
  <refsect1 role="parameters">
   &reftitle.parameters;

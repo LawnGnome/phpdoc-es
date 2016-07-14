@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331789 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339490 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.uasort" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -24,11 +24,7 @@
    Se usa pricipalmente cuando se ordenan arrays asociativos donde el orden del elemento
    mismo es significante.
   </para>
-  <note>
-   <para>
-    Si dos miembros se comparan como iguales, su orden relativo en el array ordenado será indefinido.
-   </para>
-  </note>
+  &note.sort-unstable;
  </refsect1>
  
  <refsect1 role="parameters">
