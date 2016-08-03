@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 336886 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339759 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <appendix xml:id="resource" xmlns="http://docbook.org/ns/docbook">
  <title>Lista de Tipos de Recurso</title>
@@ -2582,6 +2582,32 @@
        <function>gzclose</function>
       </entry>
       <entry>Fichero comprimido gz</entry>
+     </row>
+     <row>
+      <entry>zlib.deflate</entry>
+      <entry>
+       <function>deflate_init</function>
+      </entry>
+      <entry>
+       <function>deflate_add</function>
+      </entry>
+      <entry>
+       <function>Ninguna</function>
+      </entry>
+      <entry>contexto de desinflación incremental</entry>
+     </row>
+     <row>
+      <entry>zlib.inflate</entry>
+      <entry>
+       <function>inflate_init</function>
+      </entry>
+      <entry>
+       <function>inflate_add</function>
+      </entry>
+      <entry>
+       <function>Ninguna</function>
+      </entry>
+      <entry>contexto de inflación incremental</entry>
      </row>
     </tbody>
    </tgroup>
