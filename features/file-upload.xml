@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339679 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339750 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <chapter xml:id="features.file-upload" xmlns="http://docbook.org/ns/docbook">
  <title>Subida de ficheros</title>
@@ -19,7 +19,7 @@
   </simpara>
   
   <note>
-   <title>Configuraciones relacionadas</title>
+   <title>Nota sobre configuraciones relacionadas</title>
    <para>
     Véanse también las directivas <link linkend="ini.file-uploads">file_uploads</link>,
     <link linkend="ini.upload-max-filesize">upload_max_filesize</link>,
@@ -551,7 +551,7 @@ fclose($datosPUT);
   </para>
  </sect1>
  
- <sect1 role="seealso">
+ <sect1 xml:id="features.file-upload.errors.seealso">
   &reftitle.seealso;
   <para>
    <simplelist>
