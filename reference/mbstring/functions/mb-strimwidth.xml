@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 331340 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339703 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.mb-strimwidth" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
@@ -75,7 +75,7 @@
   &reftitle.returnvalues;
   <para>
    El <type>string</type> truncado. Si se establece <parameter>trimmarker</parameter>,
-   <parameter>trimmarker</parameter> se añade al final del valor devuelto.
+   <parameter>trimmarker</parameter> reemplaza los últimos caracters que coincidan con <parameter>width</parameter>.
   </para>
  </refsect1>
  
@@ -88,7 +88,7 @@
 <![CDATA[
 <?php
 echo mb_strimwidth("Hello World", 0, 10, "...");
-// imprime Hello W...
+// salida: "Hello W..."
 ?>
 ]]>
     </programlisting>

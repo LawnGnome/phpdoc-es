@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338497 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339532 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: seros -->
 <refentry xml:id="function.base-convert" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -44,7 +44,8 @@
      <term><parameter>number</parameter></term>
      <listitem>
       <para>
-       El número a convertir
+       El número a convertir. Cualquier carácter inválido en
+       <parameter>number</parameter> será ignorado silenciosamente.
       </para>
      </listitem>
     </varlistentry>
