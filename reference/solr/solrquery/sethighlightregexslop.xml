@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339627 Maintainer: seros Status: ready -->
+<!-- Reviewed: yes Maintainer: seros -->
 
 <refentry xml:id="solrquery.sethighlightregexslop" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>SolrQuery::setHighlightRegexSlop</refname>
-  <refpurpose>Establece el factor por el que el fragmentador de expresiones regulares puede desviarse del tamaño de fragmento ideal</refpurpose>
+  <refpurpose>Establece el factor por el cual el fragmentador de expresiones regulares puede desviarse del tamaño de fragmento ideal</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
@@ -15,7 +16,7 @@
    <methodparam><type>float</type><parameter>factor</parameter></methodparam>
   </methodsynopsis>
   <para>
-   El factor por el que el fragmentador de expresiones regulares puede desviarse del tamaño de fragmento ideal (especificado por SolrQuery::setHighlightFragsize) para acomodar la expresión regular
+   El factor por el cual el fragmentador de expresiones regulares puede desviarse del tamaño de fragmento ideal (especificado por SolrQuery::setHighlightFragsize) para acomodar la expresión regular
   </para>
   
  </refsect1>
@@ -28,7 +29,7 @@
      <term><parameter>factor</parameter></term>
      <listitem>
       <para>
-       El factor por el que el fragmentador de expresiones regulares puede desviarse del tamaño de fragmento ideal
+       El factor por el cual el fragmentador de expresiones regulares puede desviarse del tamaño de fragmento ideal
       </para>
      </listitem>
     </varlistentry>
@@ -39,7 +40,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Devuelve el objeto SolrQuery actual, si se usó el valor de retorno.
+   Devuelve el objeto SolrQuery actual si se usó el valor de retorno.
   </para>
  </refsect1>
  
