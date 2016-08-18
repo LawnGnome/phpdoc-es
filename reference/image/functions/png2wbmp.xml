@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339875 Maintainer: seros Status: ready -->
+<!-- Reviewed: no Maintainer: seros -->
 <refentry xml:id="function.png2wbmp" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>png2wbmp</refname>
@@ -95,10 +96,7 @@ png2wbmp($ruta, './prueba.wbmp', $imagen[1], $imagen[0], 7);
    </example>
   </para>
  </refsect1>
- <refsect1 role="notes">
-  &reftitle.notes;
-  &note.config.wbmp;
- </refsect1>
+ 
  <refsect1 role="seealso">
   &reftitle.seealso;
   <para>

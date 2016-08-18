@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339875 Maintainer: seros Status: ready -->
+<!-- Reviewed: no Maintainer: seros -->
 <refentry xml:id="function.imagefilledellipse" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagefilledellipse</refname>
@@ -117,7 +118,11 @@ imagepng($imagen);
  </refsect1>
  <refsect1 role="notes">
   &reftitle.notes;
-  &note.gd.2;
+  <note>
+   <para>
+    <function>imagefilledellipse</function> ignora <function>imagesetthickness</function>.
+   </para>
+  </note>
  </refsect1>
  <refsect1 role="seealso">
   &reftitle.seealso;
