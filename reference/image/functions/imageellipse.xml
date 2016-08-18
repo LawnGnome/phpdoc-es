@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339670 Maintainer: seros Status: ready -->
+<!-- Reviewed: no Maintainer: seros -->
 <refentry xml:id="function.imageellipse" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imageellipse</refname>
@@ -122,6 +123,11 @@ imagepng($imagen);
   <note>
    <para>
     Esta función requiere GD 2.0.2 o posterior.
+   </para>
+  </note>
+  <note>
+   <para>
+    <function>imageellipse</function> ignora <function>imagesetthickness</function>.
    </para>
   </note>
  </refsect1>
