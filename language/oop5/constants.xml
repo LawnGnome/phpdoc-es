@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339824 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 339962 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <sect1 xml:id="language.oop5.constants" xmlns="http://docbook.org/ns/docbook">
  <title>Constantes de clases</title>
@@ -111,12 +111,12 @@ class foo {
 <![CDATA[
 <?php
 class Foo {
-    // As of PHP 7.1.0
+    // A partir de PHP 7.1.0
     public const BAR = 'bar';
     private const BAZ = 'baz';
 }
 echo Foo::BAR, PHP_EOL;
-echo Foo::BAR, PHP_EOL;
+echo Foo::BAZ, PHP_EOL;
 ?>
 ]]>
   </programlisting>
