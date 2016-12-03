@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339240 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 340428 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="migration70.new-features" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -662,6 +662,18 @@ session_start([
    correctamente con objetos que implementasen <classname>ArrayAccess</classname>.
    Esto ha sido arreglado.
   </para>
+ </sect2>
+ 
+ <sect2 xml:id="migration70.new-features.others">
+  <title>Otras características</title>
+  <itemizedlist>
+   <listitem>
+    <simpara>
+     Se ha añadido el acceso a miembros de clase al clonar,
+     p.ej. <literal>(clone $foo)-&gt;bar()</literal>.
+    </simpara>
+   </listitem>
+  </itemizedlist>
  </sect2>
 </sect1>
 
