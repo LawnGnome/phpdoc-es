@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339759 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 340367 Maintainer: seros Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <appendix xml:id="resource" xmlns="http://docbook.org/ns/docbook">
  <title>Lista de Tipos de Recurso</title>
@@ -2272,7 +2272,7 @@
       <entry>
        <function>shmop_close</function>
       </entry>
-      <entry></entry>
+      <entry>Manejo de bloques de memoria compartida (a partir de PHP 7.0.0)</entry>
      </row>
      <row>
       <entry>sockets file descriptor set</entry>

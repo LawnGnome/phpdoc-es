@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339923 Maintainer: seros Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 340973 Maintainer: seros Status: ready -->
+<!-- Reviewed: yes Maintainer: seros -->
 
 <appendix xml:id="migration71" xmlns="http://docbook.org/ns/docbook" xmlns:phd="http://www.php.net/ns/phd">
  <title>Migración de PHP 7.0.x a PHP 7.1.x</title>
@@ -11,7 +11,9 @@
  &appendices.migration71.constants;
  &appendices.migration71.incompatible;
  &appendices.migration71.deprecated;
+ &appendices.migration71.changed-functions;
  &appendices.migration71.other-changes;
+ &appendices.migration71.windows-support;
  
  <sect1 phd:chunk="false" xml:id="migration71.intro">
   <para>
