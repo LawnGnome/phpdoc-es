@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 340367 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 341328 Maintainer: seros Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="migration70.changed-functions">
@@ -67,8 +67,8 @@
    </listitem>
    <listitem>
     <simpara>
-     <function>substr</function> ahora devuelve una cadena vacía si el número de caracteres
-     de la cadena de entrada es el mismo que el del parámetro 'start'.
+     <function>substr</function> y <function>iconv_substr</function> ahora devuelven una
+     cadena vacía si el número de caracteres de la cadena de entrada es el mismo que el del parámetro 'start'.
     </simpara>
    </listitem>
    <listitem>
