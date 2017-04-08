@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339301 Maintainer: seros Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 341282 Maintainer: seros Status: ready -->
+<!-- Reviewed: no Maintainer: seros -->
 <refentry xml:id="function.preg-replace" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>preg_replace</refname>
@@ -58,7 +58,7 @@
       </para>
       <para>
        <parameter>replacement</parameter> puede contener referencias de la forma
-       <literal>\\<replaceable>n</replaceable></literal> o (desde PHP 4.0.4)
+       <literal>\\<replaceable>n</replaceable></literal> o
        <literal>$<replaceable>n</replaceable></literal>, siendo preferida la
        última forma. Cada referencia de este tipo será sustituida por el texto
        capturado por el <replaceable>n</replaceable>-simo patrón entre paréntesis.
