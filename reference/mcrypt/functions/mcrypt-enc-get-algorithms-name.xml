@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: x1v4nx Status: ready -->
+<!-- EN-Revision: 341620 Maintainer: x1v4nx Status: ready -->
 <!-- Reviewed: no -->
-
 <refentry xml:id="function.mcrypt-enc-get-algorithms-name" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mcrypt_enc_get_algorithms_name</refname>
   <refpurpose>Devuelve el nombre del algoritmo abierto</refpurpose>
  </refnamediv>
+ 
+ <refsynopsisdiv>
+  &warn.deprecated.function-7-1-0;
+ </refsynopsisdiv>
  
  <refsect1 role="description">
   &reftitle.description;

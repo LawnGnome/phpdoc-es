@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 328278 Maintainer: aeoris Status: ready -->
+<!-- EN-Revision: 341620 Maintainer: aeoris Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.mcrypt-module-open" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>mcrypt_module_open</refname>
   <refpurpose>Abre el módulo del algoritmo y el modo a ser utilizados</refpurpose>
  </refnamediv>
- 
+ <refsynopsisdiv>
+  &warn.deprecated.function-7-1-0;
+ </refsynopsisdiv>
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
