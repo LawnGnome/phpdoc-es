@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 340960 Maintainer: seros Status: ready -->
+<!-- EN-Revision: 342208 Maintainer: seros Status: ready -->
 <!-- Reviewed: no Maintainer: seros -->
 <chapter xml:id="language.functions" xmlns="http://docbook.org/ns/docbook">
  <title>Funciones</title>
@@ -1175,8 +1175,7 @@ $foo->$nombrefunc();  // Esto llama a $foo->Variable()
    </example>
   </para>
   <para>
-   Cuando se llaman a métodos estáticos, la llamada a la función es más fuerte que el operador de
-   propiedad static:
+   Cuando se llaman a métodos estáticos, la llamada a la función es más fuerte que el operador de propiedad estática:
    <example>
     <title>Ejemplo de método variable con propiedades estáticas</title>
     <programlisting role="php">
