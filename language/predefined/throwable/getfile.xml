@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337516 Maintainer: seros Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 341756 Maintainer: seros Status: ready -->
+<!-- Reviewed: yes Maintainer: seros -->
 
 <refentry xml:id="throwable.getfile" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Throwable::getFile</refname>
-  <refpurpose></refpurpose>
+  <refpurpose>Obtiene el fichero en el que se creó la excepción</refpurpose>
  </refnamediv>
  
  <refsect1 role="description">
@@ -16,7 +16,7 @@
    <void />
   </methodsynopsis>
   <para>
-   Devuelve el nobre del fichero desde el que se lanzó el objeto.
+   Obtiene el nombre del fichero en el que se creó la excepción.
   </para>
  </refsect1>
  
@@ -28,7 +28,7 @@
  <refsect1 role="returnvalues">
   &reftitle.returnvalues;
   <para>
-   Devuelve el nobre del fichero desde el que se lanzó el objeto.
+   Devuelve el nombre del fichero en el que se creó la excepción.
   </para>
  </refsect1>
  
