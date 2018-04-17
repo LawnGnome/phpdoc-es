@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339773 Maintainer: seros Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 343295 Maintainer: seros Status: ready -->
+<!-- Reviewed: yes Maintainer: seros -->
 <refentry xml:id="function.imagewebp" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>imagewebp</refname>
@@ -13,7 +13,7 @@
   <methodsynopsis>
    <type>bool</type><methodname>imagewebp</methodname>
    <methodparam><type>resource</type><parameter>image</parameter></methodparam>
-   <methodparam><type>mixed</type><parameter>to</parameter></methodparam>
+   <methodparam choice="opt"><type>mixed</type><parameter>to</parameter><initializer>&null;</initializer></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>quality</parameter><initializer>80</initializer></methodparam>
   </methodsynopsis>
   <para>
