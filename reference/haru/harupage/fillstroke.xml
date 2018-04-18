@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="harupage.fillstroke" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruPage::fillStroke</refname>
@@ -11,7 +11,7 @@
   &reftitle.description;
   <methodsynopsis>
    <type>bool</type><methodname>HaruPage::fillStroke</methodname>
-   <methodparam choice="opt"><type>bool</type><parameter>close_path</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>close_path</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Rellena la ruta actual utilizando la regla de zigzagueo de número distinto de cero, luego colorea la ruta.

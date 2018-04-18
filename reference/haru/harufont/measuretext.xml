@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="harufont.measuretext" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruFont::measureText</refname>
@@ -16,7 +16,7 @@
    <methodparam><type>float</type><parameter>font_size</parameter></methodparam>
    <methodparam><type>float</type><parameter>char_space</parameter></methodparam>
    <methodparam><type>float</type><parameter>word_space</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>word_wrap</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>word_wrap</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Calcula el número de caracteres los cuales puede ser incluidos dentro de un 

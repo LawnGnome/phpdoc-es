@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322115 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: jpberdejo Status: ready -->
 <refentry xml:id="harudoc.loadttc" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>HaruDoc::loadTTC</refname>
@@ -13,7 +13,7 @@
    <type>string</type><methodname>HaruDoc::loadTTC</methodname>
    <methodparam><type>string</type><parameter>fontfile</parameter></methodparam>
    <methodparam><type>int</type><parameter>index</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>embed</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>embed</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
   <para>
    Carga la fuente TruType con el indice especificado de un archivo de colección 
