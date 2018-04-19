@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 338886 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 343825 Maintainer: jpberdejo Status: ready -->
 <!-- Reviewed: no -->
 <refentry xml:id="function.get-included-files" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -74,17 +74,6 @@ foreach ($archivos_incluidos as $nombre_archivo) {
     </screen>
    </example>
   </para>
- </refsect1>
-
- <refsect1 role="notes">
-  &reftitle.notes;
-  <note>
-   <para>
-    Los archivos incluidos usando la directiva de configuración
-    <literal>auto_prepend_file</literal> no son incluidos en el array
-    devuelta.
-   </para>
-  </note>
  </refsect1>
 
  <refsect1 role="seealso">
