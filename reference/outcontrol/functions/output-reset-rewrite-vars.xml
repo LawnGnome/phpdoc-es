@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 339964 Maintainer: jpberdejo Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xml:id="function.output-reset-rewrite-vars" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -17,8 +17,7 @@
   <para>
    Esta función restablece el mecanismo de reescritura de URLs y elimina todas las
    variables de reescritura establecidas previamente por la función
-   <function>output_add_rewrite_var</function> o por el mecanismo de sesiones (si
-   <literal>session.use_trans_sid</literal> se estableció en <function>session_start</function>).
+   <function>output_add_rewrite_var</function>.
   </para>
  </refsect1>
  

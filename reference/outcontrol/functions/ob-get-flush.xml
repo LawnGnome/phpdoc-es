@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334762 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 342897 Maintainer: jpberdejo Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <refentry xml:id="function.ob-get-flush" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -27,7 +27,7 @@
   <note>
    <simpara>
     Esta función es similar a <function>ob_end_flush</function>, excepto
-    que esta función devuelve el búfer como una cadena de caracteres.
+    que esta función además devuelve el búfer como una cadena de caracteres.
    </simpara>
   </note>
  </refsect1>

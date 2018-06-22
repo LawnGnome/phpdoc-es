@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322005 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 343941 Maintainer: jpberdejo Status: ready -->
 <!-- Reviewed: no Maintainer: andresdzphp -->
 
 <refentry xml:id="mysqli-result.free" xmlns="http://docbook.org/ns/docbook">
