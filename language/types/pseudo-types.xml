@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342445 Maintainer: jpberdejo Status: ready -->
+<!-- EN-Revision: 345238 Maintainer: jpberdejo Status: ready -->
 <!-- Reviewed: yes Maintainer: seros -->
 <sect1 xml:id="language.pseudo-types">
  <title>Seudotipos y variables usadas en esta documentación</title> 
@@ -60,7 +60,7 @@
   <para>
    <literal>void</literal>, como tipo de retorno, significa que el valor de
    retorno no es útil. <literal>void</literal>, en una lista de parámetros, significa que la
-   función no acepta ningún parámetro.
+   función no acepta ningún parámetro. Desde PHP 7.1 <literal>void</literal> se acepta como pista del tipo retornado por la función.
   </para>
   
  </sect2>
